@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 
-export default function FinancialRow(props) {
+export default function FinancialRow({ data }) {
   return (
     <div className="data-row">
-        <div>{props.fi.FIName}</div>
-        <div>{props.fi.FIType}</div>
-        <div>{props.fi.CVFIStatus}</div>
-        <div>xxxx-{props.fi.Last4}</div>
-        
+      <div>{data.FIName}</div>
+      <div>{data.FIType}</div>
+      <div>{data.CVFIStatus}</div>
+      <div>xxxx-{data.Last4}</div>
     </div>
   );
 }

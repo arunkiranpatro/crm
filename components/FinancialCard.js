@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import FinancialRow from "./PureComponents/FinancialRow";
 import axios from "axios";
 import Loading from "./PureComponents/Loading";
-import {BASEURL,FIDETAILS} from "../constants";
+import { BASEURL, FIDETAILS } from "../constants";
 import financials from "../mockdata/financials.json";
 
 export default class FinancialCard extends Component {
@@ -11,7 +11,7 @@ export default class FinancialCard extends Component {
     this.state = {
       financials: [],
       loading: false,
-      errors:""
+      errors: ""
     };
   }
   componentWillMount() {
@@ -21,25 +21,27 @@ export default class FinancialCard extends Component {
     if (fpti) {
       AccountNumber = fpti.account_number;
     }
-    const url = BASEURL + FIDETAILS +"?AccountNumber="+AccountNumber;
-    axios.get(url).then(response => {
-      this.setState({ financials: response.data.pxResults });
-      this.setState({ loading: false });
-    }).catch(err => {
-      this.setState({ financials: financials.pxResults });
-      this.setState({ loading: false });
-    });
+    const url = BASEURL + FIDETAILS + "?AccountNumber=" + AccountNumber;
+    axios
+      .get(url)
+      .then(response => {
+        this.setState({ financials: response.data.pxResults });
+        this.setState({ loading: false });
+      })
+      .catch(err => {
+        this.setState({ financials: financials.pxResults });
+        this.setState({ loading: false });
+      });
   }
   render() {
     let fis = this.state.financials;
-    let fiBody ="No results found";
-    if(fis.length>0){
-      fiBody = ( 
-          fis.map((fi, index) => {
-            return <FinancialRow fi={fi} key={index} />;
-          }));
-    }else if(this.state.loading){
-      fiBody=<Loading/>;
+    let fiBody = "No results found";
+    if (fis.length > 0) {
+      fiBody = fis.map((fi, index) => {
+        return <FinancialRow data={fi} key={index} />;
+      });
+    } else if (this.state.loading) {
+      fiBody = <Loading />;
     }
     return (
       <div className="financial-card widget-card">
