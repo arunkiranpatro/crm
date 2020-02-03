@@ -459,6 +459,6358 @@ module.exports = JSON.parse("{\"pxObjClass\":\"Code-Pega-List\",\"pxResultCount\
 
 /***/ }),
 
+/***/ "./mockdata/TxnsLog.json":
+/*!*******************************!*\
+  !*** ./mockdata/TxnsLog.json ***!
+  \*******************************/
+/*! default exports */
+/*! export default [provided] [no usage info] [no name, virtual] */
+/*!   export pxMore [provided] [no usage info] [missing usage info prevents renaming] */
+/*!   export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!   export pxPageCount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!   export pxResultCount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!   export pxResults [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 10 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 11 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 12 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 13 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 14 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 15 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 16 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 17 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 18 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 19 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 20 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 21 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 22 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 23 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 24 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 25 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 26 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 27 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 28 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 29 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 3 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export DisputeIndicator [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 3 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 30 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 31 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 5 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export DisputeIndicator [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 3 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 6 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 7 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 8 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export 9 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!         other exports [not provided] [no usage info] */
+/*!       export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export pxTotalResultCount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!   export pyDESC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!   export pyPageIndex [provided] [no usage info] [missing usage info prevents renaming] */
+/*!   export pyPageSize [provided] [no usage info] [missing usage info prevents renaming] */
+/*!   other exports [not provided] [no usage info] */
+/*! export pxMore [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export pxPageCount [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export pxResultCount [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export pxResults [provided] [no usage info] [missing usage info prevents renaming] */
+/*!   export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 10 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 11 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 12 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 13 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 14 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 15 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 16 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 17 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 18 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 19 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 20 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 21 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 22 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 23 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 24 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 25 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 26 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 27 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 28 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 29 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 3 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export DisputeIndicator [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 3 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 30 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 31 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export BackupFundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Subject [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 5 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export DisputeIndicator [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 1 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 2 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 3 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 6 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 7 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 8 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   export 9 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Balance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export ButtonType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CardLast4 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterPartyAccountNumber [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyAccountType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyEmail [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export CounterpartyTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EmailAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncodedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptTransIdWParent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedCounterpartyTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedParentTxnID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export EncryptedTransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Fee [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export FinancialInstrument [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export FundingSource [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export GrossAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export HistorySubType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export HistoryType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPAddress [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IPRFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAccountLevelHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsAdaptivePayment [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsBuyerCreditFunded [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsCoupledTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDCC [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDebitCard [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsDisputed [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsEbayItemHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsFPMMInvoked [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsNewSellerHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsParentTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsPayUponInvoice [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsReversible [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsS2FHold [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsSinglePartyTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsThirdPartyFulfilled [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export IsTokenizedTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Memo [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export NetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Amount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export AmountCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export Currency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export FormattedAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export LocalizedCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export PACMANFlag [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export PositiveTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SFTransAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export Status [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export StoreCheckOut [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export SubID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export ToFrom [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransAmountRange [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogBalanceCurrency [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransLogNetBalance [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransSubtype [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionDate [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionFlagList [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export 0 [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export TransactionID [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionNetAmount [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TransactionType [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export TypeOfTransaction [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export UsdEquivalent [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!       other exports [not provided] [no usage info] */
+/*!     export pxInsName [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pxObjClass [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyCaption [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pyRowSelected [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export pzInsKey [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     export wTransactionStatus [provided] [no usage info] [missing usage info prevents renaming] */
+/*!     other exports [not provided] [no usage info] */
+/*!   other exports [not provided] [no usage info] */
+/*! export pxTotalResultCount [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export pyDESC [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export pyPageIndex [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export pyPageSize [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+"use strict";
+module.exports = JSON.parse("{\"pxMore\":\"false\",\"pxObjClass\":\"Code-Pega-List\",\"pxPageCount\":\"1\",\"pxResultCount\":\"32\",\"pxTotalResultCount\":\"32\",\"pyDESC\":\"false\",\"pyPageIndex\":\"1\",\"pyPageSize\":\"100\",\"pxResults\":[{\"ButtonType\":\"pending_reversal\",\"CounterPartyAccountNumber\":\"2062763970225309879\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1519805058616437@paypal.com\",\"CounterpartyName\":\"The Artisan\",\"CounterpartyStatus\":\"open\",\"EmailAddress\":\"dottool-seller-1519805058616437@paypal.com\",\"EncodedTransactionID\":\"A35RE4EWT52BY\",\"EncryptedParentTxnID\":\"3JV04495RN5660342\",\"EncryptedTransactionID\":\"6WV594419R913645W\",\"EncryptTransIdWParent\":\"6WV594419R913645W\",\"FinancialInstrument\":\"Null\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$11.35 USD\",\"pxInsName\":\"20114507003642015\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114507003642015\",\"SFTransAmount\":\"$11.35 USD\",\"Status\":\"Placed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"From The Artisan\",\"TransactionDate\":\"20200203T071858.000 GMT\",\"TransactionID\":\"20114507003642015\",\"TransactionNetAmount\":\"11.35\",\"TransactionType\":\"Temporary Hold\",\"TransAmountRange\":\"$11.35 USD\",\"TransLogBalance\":\"11.35\",\"TransLogBalanceCurrency\":\"$11.35 USD\",\"TransLogNetAmount\":\"11.35\",\"TransLogNetBalance\":\"$11.35 USD\",\"TransSubtype\":\"U\",\"TypeOfTransaction\":\"V\",\"wTransactionStatus\":\"P\",\"Balance\":{\"Amount\":\"11.35\",\"AmountCurrency\":\"11.35 USD\",\"FormattedAmount\":\"$11.35 USD\",\"LocalizedCurrency\":\"$11.35 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"11.35\",\"AmountCurrency\":\"11.35 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$11.35 USD\",\"LocalizedCurrency\":\"$11.35 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"11.35\",\"AmountCurrency\":\"11.35 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$11.35 USD\",\"LocalizedCurrency\":\"$11.35 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"pending_reversal\",\"CounterPartyAccountNumber\":\"2062763970225309879\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1519805058616437@paypal.com\",\"CounterpartyName\":\"The Artisan\",\"CounterpartyStatus\":\"open\",\"EmailAddress\":\"dottool-seller-1519805058616437@paypal.com\",\"EncodedTransactionID\":\"A35RE4EWT4N4L\",\"EncryptedParentTxnID\":\"2VV4041517260171T\",\"EncryptedTransactionID\":\"55606718J40508506\",\"EncryptTransIdWParent\":\"55606718J40508506\",\"FinancialInstrument\":\"Null\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$11.35 USD\",\"pxInsName\":\"20114507003635753\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114507003635753\",\"SFTransAmount\":\"$11.35 USD\",\"Status\":\"Placed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"From The Artisan\",\"TransactionDate\":\"20200203T071747.000 GMT\",\"TransactionID\":\"20114507003635753\",\"TransactionNetAmount\":\"11.35\",\"TransactionType\":\"Temporary Hold\",\"TransAmountRange\":\"$11.35 USD\",\"TransLogBalance\":\"11.35\",\"TransLogBalanceCurrency\":\"$11.35 USD\",\"TransLogNetAmount\":\"11.35\",\"TransLogNetBalance\":\"$11.35 USD\",\"TransSubtype\":\"U\",\"TypeOfTransaction\":\"V\",\"wTransactionStatus\":\"P\",\"Balance\":{\"Amount\":\"11.35\",\"AmountCurrency\":\"11.35 USD\",\"FormattedAmount\":\"$11.35 USD\",\"LocalizedCurrency\":\"$11.35 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"11.35\",\"AmountCurrency\":\"11.35 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$11.35 USD\",\"LocalizedCurrency\":\"$11.35 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"11.35\",\"AmountCurrency\":\"11.35 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$11.35 USD\",\"LocalizedCurrency\":\"$11.35 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"7186\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"...\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE8C42JW82\",\"EncryptedParentTxnID\":\"2VV4041517260171T\",\"EncryptedTransactionID\":\"1FM6052775815271J\",\"EncryptTransIdWParent\":\"1FM6052775815271J\",\"FinancialInstrument\":\"Null\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114574200289376\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114574200289376\",\"SFTransAmount\":\"$12.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"From ...\",\"TransactionDate\":\"20200202T175028.000 GMT\",\"TransactionID\":\"20114574200289376\",\"TransactionNetAmount\":\"12.00\",\"TransactionType\":\"Charge From Credit Card\",\"TransAmountRange\":\"$12.00 USD\",\"TransLogBalance\":\"14.00\",\"TransLogBalanceCurrency\":\"$14.00 USD\",\"TransLogNetAmount\":\"12.00\",\"TransLogNetBalance\":\"$12.00 USD\",\"TypeOfTransaction\":\"R\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"14.00\",\"AmountCurrency\":\"14.0 USD\",\"FormattedAmount\":\"$14.00 USD\",\"LocalizedCurrency\":\"$14.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"7186\",\"CounterPartyAccountNumber\":\"2062763970225309879\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1519805058616437@paypal.com\",\"CounterpartyName\":\"The Artisan\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114507000019274\",\"DisputeIndicator\":\"pi pi-circle-filled DisputeIcon-1x\",\"EmailAddress\":\"dottool-seller-1519805058616437@paypal.com\",\"EncodedTransactionID\":\"A35RE4EWL7WNL\",\"EncryptedCounterpartyTxnID\":\"15U28381WD2361204\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"2VV4041517260171T\",\"EncryptTransIdWParent\":\"2VV4041517260171T (Parent)\",\"FinancialInstrument\":\"Card\",\"FundingSource\":\"Credit Card MasterCard Credit Card XXXX-XXXX-XXXX-7186\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"true\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114507000019273\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114507000019273\",\"SFTransAmount\":\"-$12.00 USD\",\"Status\":\"Held\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"To The Artisan\",\"TransactionDate\":\"20200202T175028.000 GMT\",\"TransactionID\":\"20114507000019273\",\"TransactionNetAmount\":\"-12.00\",\"TransactionType\":\"Credit Card Payment Sent\",\"TransAmountRange\":\"-$12.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-12.00\",\"TransLogNetBalance\":\"-$12.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"V\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"11\",\"12\",\"24\",\"39\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"7186\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"...\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE8C42JV4Y\",\"EncryptedParentTxnID\":\"3JV04495RN5660342\",\"EncryptedTransactionID\":\"4JB75496XN320311K\",\"EncryptTransIdWParent\":\"4JB75496XN320311K\",\"FinancialInstrument\":\"Null\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114574200288815\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114574200288815\",\"SFTransAmount\":\"$12.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"From ...\",\"TransactionDate\":\"20200202T174949.000 GMT\",\"TransactionID\":\"20114574200288815\",\"TransactionNetAmount\":\"12.00\",\"TransactionType\":\"Charge From Credit Card\",\"TransAmountRange\":\"$12.00 USD\",\"TransLogBalance\":\"14.00\",\"TransLogBalanceCurrency\":\"$14.00 USD\",\"TransLogNetAmount\":\"12.00\",\"TransLogNetBalance\":\"$12.00 USD\",\"TypeOfTransaction\":\"R\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"14.00\",\"AmountCurrency\":\"14.0 USD\",\"FormattedAmount\":\"$14.00 USD\",\"LocalizedCurrency\":\"$14.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"7186\",\"CounterPartyAccountNumber\":\"2062763970225309879\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1519805058616437@paypal.com\",\"CounterpartyName\":\"The Artisan\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114511313268042\",\"DisputeIndicator\":\"pi pi-circle-filled DisputeIcon-1x\",\"EmailAddress\":\"dottool-seller-1519805058616437@paypal.com\",\"EncodedTransactionID\":\"A35RE4NXP3QNL\",\"EncryptedCounterpartyTxnID\":\"5RE24267RY871701N\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"3JV04495RN5660342\",\"EncryptTransIdWParent\":\"3JV04495RN5660342 (Parent)\",\"FinancialInstrument\":\"Card\",\"FundingSource\":\"Credit Card MasterCard Credit Card XXXX-XXXX-XXXX-7186\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"true\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114511313268041\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114511313268041\",\"SFTransAmount\":\"-$12.00 USD\",\"Status\":\"Held\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"To The Artisan\",\"TransactionDate\":\"20200202T174949.000 GMT\",\"TransactionID\":\"20114511313268041\",\"TransactionNetAmount\":\"-12.00\",\"TransactionType\":\"Credit Card Payment Sent\",\"TransAmountRange\":\"-$12.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-12.00\",\"TransLogNetBalance\":\"-$12.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"V\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"11\",\"12\",\"24\",\"39\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"7186\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"...\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE8C42JU7Q\",\"EncryptedParentTxnID\":\"73C271429G4371704\",\"EncryptedTransactionID\":\"434753745K697850C\",\"EncryptTransIdWParent\":\"434753745K697850C\",\"FinancialInstrument\":\"Null\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114574200288347\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114574200288347\",\"SFTransAmount\":\"$12.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"From ...\",\"TransactionDate\":\"20200202T174926.000 GMT\",\"TransactionID\":\"20114574200288347\",\"TransactionNetAmount\":\"12.00\",\"TransactionType\":\"Charge From Credit Card\",\"TransAmountRange\":\"$12.00 USD\",\"TransLogBalance\":\"14.00\",\"TransLogBalanceCurrency\":\"$14.00 USD\",\"TransLogNetAmount\":\"12.00\",\"TransLogNetBalance\":\"$12.00 USD\",\"TypeOfTransaction\":\"R\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"14.00\",\"AmountCurrency\":\"14.0 USD\",\"FormattedAmount\":\"$14.00 USD\",\"LocalizedCurrency\":\"$14.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"7186\",\"CounterPartyAccountNumber\":\"2062763970225309879\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1519805058616437@paypal.com\",\"CounterpartyName\":\"The Artisan\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114511313267686\",\"EmailAddress\":\"dottool-seller-1519805058616437@paypal.com\",\"EncodedTransactionID\":\"A35RE4NXP3PYC\",\"EncryptedCounterpartyTxnID\":\"06C58359U9798462T\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"73C271429G4371704\",\"EncryptTransIdWParent\":\"73C271429G4371704 (Parent)\",\"FinancialInstrument\":\"Card\",\"FundingSource\":\"Credit Card MasterCard Credit Card XXXX-XXXX-XXXX-7186\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114511313267685\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114511313267685\",\"SFTransAmount\":\"-$12.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"To The Artisan\",\"TransactionDate\":\"20200202T174926.000 GMT\",\"TransactionID\":\"20114511313267685\",\"TransactionNetAmount\":\"-12.00\",\"TransactionType\":\"Credit Card Payment Sent\",\"TransAmountRange\":\"-$12.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-12.00\",\"TransLogNetBalance\":\"-$12.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"7186\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"...\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE8C42JSQU\",\"EncryptedParentTxnID\":\"7AG053855D8866229\",\"EncryptedTransactionID\":\"1G307170S46463816\",\"EncryptTransIdWParent\":\"1G307170S46463816\",\"FinancialInstrument\":\"Null\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114574200287597\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114574200287597\",\"SFTransAmount\":\"$12.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"From ...\",\"TransactionDate\":\"20200202T174853.000 GMT\",\"TransactionID\":\"20114574200287597\",\"TransactionNetAmount\":\"12.00\",\"TransactionType\":\"Charge From Credit Card\",\"TransAmountRange\":\"$12.00 USD\",\"TransLogBalance\":\"14.00\",\"TransLogBalanceCurrency\":\"$14.00 USD\",\"TransLogNetAmount\":\"12.00\",\"TransLogNetBalance\":\"$12.00 USD\",\"TypeOfTransaction\":\"R\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"14.00\",\"AmountCurrency\":\"14.0 USD\",\"FormattedAmount\":\"$14.00 USD\",\"LocalizedCurrency\":\"$14.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"7186\",\"CounterPartyAccountNumber\":\"2062763970225309879\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1519805058616437@paypal.com\",\"CounterpartyName\":\"The Artisan\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114511313266767\",\"EmailAddress\":\"dottool-seller-1519805058616437@paypal.com\",\"EncodedTransactionID\":\"A35RE4NXP3N6W\",\"EncryptedCounterpartyTxnID\":\"13H66866K2929481D\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"7AG053855D8866229\",\"EncryptTransIdWParent\":\"7AG053855D8866229 (Parent)\",\"FinancialInstrument\":\"Card\",\"FundingSource\":\"Credit Card MasterCard Credit Card XXXX-XXXX-XXXX-7186\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114511313266766\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114511313266766\",\"SFTransAmount\":\"-$12.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"To The Artisan\",\"TransactionDate\":\"20200202T174853.000 GMT\",\"TransactionID\":\"20114511313266766\",\"TransactionNetAmount\":\"-12.00\",\"TransactionType\":\"Credit Card Payment Sent\",\"TransAmountRange\":\"-$12.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-12.00\",\"TransLogNetBalance\":\"-$12.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"7186\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"...\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE8C42JRN4\",\"EncryptedParentTxnID\":\"2C664865EV980801F\",\"EncryptedTransactionID\":\"8RC82418531756509\",\"EncryptTransIdWParent\":\"8RC82418531756509\",\"FinancialInstrument\":\"Null\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114574200287041\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114574200287041\",\"SFTransAmount\":\"$12.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"From ...\",\"TransactionDate\":\"20200202T174805.000 GMT\",\"TransactionID\":\"20114574200287041\",\"TransactionNetAmount\":\"12.00\",\"TransactionType\":\"Charge From Credit Card\",\"TransAmountRange\":\"$12.00 USD\",\"TransLogBalance\":\"14.00\",\"TransLogBalanceCurrency\":\"$14.00 USD\",\"TransLogNetAmount\":\"12.00\",\"TransLogNetBalance\":\"$12.00 USD\",\"TypeOfTransaction\":\"R\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"14.00\",\"AmountCurrency\":\"14.0 USD\",\"FormattedAmount\":\"$14.00 USD\",\"LocalizedCurrency\":\"$14.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"7186\",\"CounterPartyAccountNumber\":\"2062763970225309879\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1519805058616437@paypal.com\",\"CounterpartyName\":\"The Artisan\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114511313265778\",\"EmailAddress\":\"dottool-seller-1519805058616437@paypal.com\",\"EncodedTransactionID\":\"A35RE4NXP3L94\",\"EncryptedCounterpartyTxnID\":\"4T334843GK369841B\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"2C664865EV980801F\",\"EncryptTransIdWParent\":\"2C664865EV980801F (Parent)\",\"FinancialInstrument\":\"Card\",\"FundingSource\":\"Credit Card MasterCard Credit Card XXXX-XXXX-XXXX-7186\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114511313265777\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114511313265777\",\"SFTransAmount\":\"-$12.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"To The Artisan\",\"TransactionDate\":\"20200202T174805.000 GMT\",\"TransactionID\":\"20114511313265777\",\"TransactionNetAmount\":\"-12.00\",\"TransactionType\":\"Credit Card Payment Sent\",\"TransAmountRange\":\"-$12.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-12.00\",\"TransLogNetBalance\":\"-$12.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"Bank Account\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE4EWKP4C4\",\"EncryptedParentTxnID\":\"1NV46896D3703380B\",\"EncryptedTransactionID\":\"5AJ0333642291002B\",\"EncryptTransIdWParent\":\"5AJ0333642291002B\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$21.00 USD\",\"pxInsName\":\"20114506999743649\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999743649\",\"SFTransAmount\":\"$21.00 USD\",\"Status\":\"Processing\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"From Bank Account\",\"TransactionDate\":\"20200202T161428.000 GMT\",\"TransactionID\":\"20114506999743649\",\"TransactionNetAmount\":\"21.00\",\"TransactionType\":\"Inst. Tran. Add Funds from a Bank Account\",\"TransAmountRange\":\"$21.00 USD\",\"TransLogBalance\":\"23.00\",\"TransLogBalanceCurrency\":\"$23.00 USD\",\"TransLogNetAmount\":\"21.00\",\"TransLogNetBalance\":\"$21.00 USD\",\"TypeOfTransaction\":\"H\",\"wTransactionStatus\":\"R\",\"Balance\":{\"Amount\":\"23.00\",\"AmountCurrency\":\"23.0 USD\",\"FormattedAmount\":\"$23.00 USD\",\"LocalizedCurrency\":\"$23.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"21.00\",\"AmountCurrency\":\"21.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$21.00 USD\",\"LocalizedCurrency\":\"$21.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"21.00\",\"AmountCurrency\":\"21.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$21.00 USD\",\"LocalizedCurrency\":\"$21.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"BackupFundingSource\":\"Visa Credit Card XXXX-XXXX-XXXX-3382\",\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterPartyAccountNumber\":\"1799949951300477773\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1513916611197873@paypal.com\",\"CounterpartyName\":\"Concepcion Web Design\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114506999743646\",\"EmailAddress\":\"dottool-seller-1513916611197873@paypal.com\",\"EncodedTransactionID\":\"A35RE4EWKP4BU\",\"EncryptedCounterpartyTxnID\":\"8EX49303F63371823\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"1NV46896D3703380B\",\"EncryptTransIdWParent\":\"1NV46896D3703380B (Parent)\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"Instant Transfer BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$21.00 USD\",\"pxInsName\":\"20114506999743645\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999743645\",\"SFTransAmount\":\"-$21.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"ToFrom\":\"To Concepcion Web Design\",\"TransactionDate\":\"20200202T161428.000 GMT\",\"TransactionID\":\"20114506999743645\",\"TransactionNetAmount\":\"-21.00\",\"TransactionType\":\"Instant Transfer Sent\",\"TransAmountRange\":\"-$21.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-21.00\",\"TransLogNetBalance\":\"-$21.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-21.00\",\"AmountCurrency\":\"-21.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$21.00 USD\",\"LocalizedCurrency\":\"-$21.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-21.00\",\"AmountCurrency\":\"-21.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$21.00 USD\",\"LocalizedCurrency\":\"-$21.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\",\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"Bank Account\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE4EWKNXTJ\",\"EncryptedParentTxnID\":\"70U65122CX687715V\",\"EncryptedTransactionID\":\"3Y954243XM371144B\",\"EncryptTransIdWParent\":\"3Y954243XM371144B\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$20.00 USD\",\"pxInsName\":\"20114506999741336\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999741336\",\"SFTransAmount\":\"$20.00 USD\",\"Status\":\"Processing\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"From Bank Account\",\"TransactionDate\":\"20200202T161402.000 GMT\",\"TransactionID\":\"20114506999741336\",\"TransactionNetAmount\":\"20.00\",\"TransactionType\":\"Inst. Tran. Add Funds from a Bank Account\",\"TransAmountRange\":\"$20.00 USD\",\"TransLogBalance\":\"22.00\",\"TransLogBalanceCurrency\":\"$22.00 USD\",\"TransLogNetAmount\":\"20.00\",\"TransLogNetBalance\":\"$20.00 USD\",\"TypeOfTransaction\":\"H\",\"wTransactionStatus\":\"R\",\"Balance\":{\"Amount\":\"22.00\",\"AmountCurrency\":\"22.0 USD\",\"FormattedAmount\":\"$22.00 USD\",\"LocalizedCurrency\":\"$22.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"20.00\",\"AmountCurrency\":\"20.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$20.00 USD\",\"LocalizedCurrency\":\"$20.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"20.00\",\"AmountCurrency\":\"20.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$20.00 USD\",\"LocalizedCurrency\":\"$20.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"BackupFundingSource\":\"Visa Credit Card XXXX-XXXX-XXXX-3382\",\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterPartyAccountNumber\":\"1799949951300477773\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1513916611197873@paypal.com\",\"CounterpartyName\":\"Concepcion Web Design\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114506999741333\",\"EmailAddress\":\"dottool-seller-1513916611197873@paypal.com\",\"EncodedTransactionID\":\"A35RE4EWKNXTA\",\"EncryptedCounterpartyTxnID\":\"3NN5490698862604Y\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"70U65122CX687715V\",\"EncryptTransIdWParent\":\"70U65122CX687715V (Parent)\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"Instant Transfer BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$20.00 USD\",\"pxInsName\":\"20114506999741332\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999741332\",\"SFTransAmount\":\"-$20.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"To Concepcion Web Design\",\"TransactionDate\":\"20200202T161402.000 GMT\",\"TransactionID\":\"20114506999741332\",\"TransactionNetAmount\":\"-20.00\",\"TransactionType\":\"Instant Transfer Sent\",\"TransAmountRange\":\"-$20.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-20.00\",\"TransLogNetBalance\":\"-$20.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-20.00\",\"AmountCurrency\":\"-20.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$20.00 USD\",\"LocalizedCurrency\":\"-$20.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-20.00\",\"AmountCurrency\":\"-20.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$20.00 USD\",\"LocalizedCurrency\":\"-$20.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\",\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"Bank Account\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE4EWKNUK8\",\"EncryptedParentTxnID\":\"5WA2708120553812P\",\"EncryptedTransactionID\":\"161932727T950842R\",\"EncryptTransIdWParent\":\"161932727T950842R\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$19.00 USD\",\"pxInsName\":\"20114506999739667\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999739667\",\"SFTransAmount\":\"$19.00 USD\",\"Status\":\"Processing\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"From Bank Account\",\"TransactionDate\":\"20200202T161340.000 GMT\",\"TransactionID\":\"20114506999739667\",\"TransactionNetAmount\":\"19.00\",\"TransactionType\":\"Inst. Tran. Add Funds from a Bank Account\",\"TransAmountRange\":\"$19.00 USD\",\"TransLogBalance\":\"21.00\",\"TransLogBalanceCurrency\":\"$21.00 USD\",\"TransLogNetAmount\":\"19.00\",\"TransLogNetBalance\":\"$19.00 USD\",\"TypeOfTransaction\":\"H\",\"wTransactionStatus\":\"R\",\"Balance\":{\"Amount\":\"21.00\",\"AmountCurrency\":\"21.0 USD\",\"FormattedAmount\":\"$21.00 USD\",\"LocalizedCurrency\":\"$21.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"19.00\",\"AmountCurrency\":\"19.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$19.00 USD\",\"LocalizedCurrency\":\"$19.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"19.00\",\"AmountCurrency\":\"19.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$19.00 USD\",\"LocalizedCurrency\":\"$19.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"BackupFundingSource\":\"Visa Credit Card XXXX-XXXX-XXXX-3382\",\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterPartyAccountNumber\":\"1799949951300477773\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1513916611197873@paypal.com\",\"CounterpartyName\":\"Concepcion Web Design\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114506999739664\",\"EmailAddress\":\"dottool-seller-1513916611197873@paypal.com\",\"EncodedTransactionID\":\"A35RE4EWKNUJY\",\"EncryptedCounterpartyTxnID\":\"7RX71056L01911440\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"5WA2708120553812P\",\"EncryptTransIdWParent\":\"5WA2708120553812P (Parent)\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"Instant Transfer BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$19.00 USD\",\"pxInsName\":\"20114506999739663\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999739663\",\"SFTransAmount\":\"-$19.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"To Concepcion Web Design\",\"TransactionDate\":\"20200202T161340.000 GMT\",\"TransactionID\":\"20114506999739663\",\"TransactionNetAmount\":\"-19.00\",\"TransactionType\":\"Instant Transfer Sent\",\"TransAmountRange\":\"-$19.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-19.00\",\"TransLogNetBalance\":\"-$19.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-19.00\",\"AmountCurrency\":\"-19.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$19.00 USD\",\"LocalizedCurrency\":\"-$19.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-19.00\",\"AmountCurrency\":\"-19.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$19.00 USD\",\"LocalizedCurrency\":\"-$19.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\",\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"Bank Account\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE4EWKNKRL\",\"EncryptedParentTxnID\":\"8M478604JC668442G\",\"EncryptedTransactionID\":\"6UN55952RW499772M\",\"EncryptTransIdWParent\":\"6UN55952RW499772M\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$18.00 USD\",\"pxInsName\":\"20114506999735161\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999735161\",\"SFTransAmount\":\"$18.00 USD\",\"Status\":\"Processing\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"From Bank Account\",\"TransactionDate\":\"20200202T161306.000 GMT\",\"TransactionID\":\"20114506999735161\",\"TransactionNetAmount\":\"18.00\",\"TransactionType\":\"Inst. Tran. Add Funds from a Bank Account\",\"TransAmountRange\":\"$18.00 USD\",\"TransLogBalance\":\"20.00\",\"TransLogBalanceCurrency\":\"$20.00 USD\",\"TransLogNetAmount\":\"18.00\",\"TransLogNetBalance\":\"$18.00 USD\",\"TypeOfTransaction\":\"H\",\"wTransactionStatus\":\"R\",\"Balance\":{\"Amount\":\"20.00\",\"AmountCurrency\":\"20.0 USD\",\"FormattedAmount\":\"$20.00 USD\",\"LocalizedCurrency\":\"$20.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"18.00\",\"AmountCurrency\":\"18.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$18.00 USD\",\"LocalizedCurrency\":\"$18.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"18.00\",\"AmountCurrency\":\"18.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$18.00 USD\",\"LocalizedCurrency\":\"$18.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"BackupFundingSource\":\"Visa Credit Card XXXX-XXXX-XXXX-3382\",\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterPartyAccountNumber\":\"1799949951300477773\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1513916611197873@paypal.com\",\"CounterpartyName\":\"Concepcion Web Design\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114506999735158\",\"EmailAddress\":\"dottool-seller-1513916611197873@paypal.com\",\"EncodedTransactionID\":\"A35RE4EWKNKRC\",\"EncryptedCounterpartyTxnID\":\"8F060829H08100836\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"8M478604JC668442G\",\"EncryptTransIdWParent\":\"8M478604JC668442G (Parent)\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"Instant Transfer BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$18.00 USD\",\"pxInsName\":\"20114506999735157\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999735157\",\"SFTransAmount\":\"-$18.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"To Concepcion Web Design\",\"TransactionDate\":\"20200202T161306.000 GMT\",\"TransactionID\":\"20114506999735157\",\"TransactionNetAmount\":\"-18.00\",\"TransactionType\":\"Instant Transfer Sent\",\"TransAmountRange\":\"-$18.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-18.00\",\"TransLogNetBalance\":\"-$18.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-18.00\",\"AmountCurrency\":\"-18.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$18.00 USD\",\"LocalizedCurrency\":\"-$18.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-18.00\",\"AmountCurrency\":\"-18.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$18.00 USD\",\"LocalizedCurrency\":\"-$18.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\",\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"Bank Account\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE4EWKNEEL\",\"EncryptedParentTxnID\":\"16U96966GD949210Y\",\"EncryptedTransactionID\":\"68L828662E600262D\",\"EncryptTransIdWParent\":\"68L828662E600262D\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$17.00 USD\",\"pxInsName\":\"20114506999732425\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999732425\",\"SFTransAmount\":\"$17.00 USD\",\"Status\":\"Processing\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"From Bank Account\",\"TransactionDate\":\"20200202T161232.000 GMT\",\"TransactionID\":\"20114506999732425\",\"TransactionNetAmount\":\"17.00\",\"TransactionType\":\"Inst. Tran. Add Funds from a Bank Account\",\"TransAmountRange\":\"$17.00 USD\",\"TransLogBalance\":\"19.00\",\"TransLogBalanceCurrency\":\"$19.00 USD\",\"TransLogNetAmount\":\"17.00\",\"TransLogNetBalance\":\"$17.00 USD\",\"TypeOfTransaction\":\"H\",\"wTransactionStatus\":\"R\",\"Balance\":{\"Amount\":\"19.00\",\"AmountCurrency\":\"19.0 USD\",\"FormattedAmount\":\"$19.00 USD\",\"LocalizedCurrency\":\"$19.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"17.00\",\"AmountCurrency\":\"17.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$17.00 USD\",\"LocalizedCurrency\":\"$17.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"17.00\",\"AmountCurrency\":\"17.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$17.00 USD\",\"LocalizedCurrency\":\"$17.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"BackupFundingSource\":\"Visa Credit Card XXXX-XXXX-XXXX-3382\",\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterPartyAccountNumber\":\"1799949951300477773\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1513916611197873@paypal.com\",\"CounterpartyName\":\"Concepcion Web Design\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114506999732422\",\"EmailAddress\":\"dottool-seller-1513916611197873@paypal.com\",\"EncodedTransactionID\":\"A35RE4EWKNEEC\",\"EncryptedCounterpartyTxnID\":\"15E58560CB620692G\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"16U96966GD949210Y\",\"EncryptTransIdWParent\":\"16U96966GD949210Y (Parent)\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"Instant Transfer BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$17.00 USD\",\"pxInsName\":\"20114506999732421\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999732421\",\"SFTransAmount\":\"-$17.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"To Concepcion Web Design\",\"TransactionDate\":\"20200202T161232.000 GMT\",\"TransactionID\":\"20114506999732421\",\"TransactionNetAmount\":\"-17.00\",\"TransactionType\":\"Instant Transfer Sent\",\"TransAmountRange\":\"-$17.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-17.00\",\"TransLogNetBalance\":\"-$17.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-17.00\",\"AmountCurrency\":\"-17.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$17.00 USD\",\"LocalizedCurrency\":\"-$17.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-17.00\",\"AmountCurrency\":\"-17.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$17.00 USD\",\"LocalizedCurrency\":\"-$17.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\",\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"Bank Account\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE4NXNJ94U\",\"EncryptedParentTxnID\":\"1AU081378K3594003\",\"EncryptedTransactionID\":\"1JF699599N984944F\",\"EncryptTransIdWParent\":\"1JF699599N984944F\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$16.00 USD\",\"pxInsName\":\"20114511312981549\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114511312981549\",\"SFTransAmount\":\"$16.00 USD\",\"Status\":\"Processing\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"From Bank Account\",\"TransactionDate\":\"20200202T161149.000 GMT\",\"TransactionID\":\"20114511312981549\",\"TransactionNetAmount\":\"16.00\",\"TransactionType\":\"Inst. Tran. Add Funds from a Bank Account\",\"TransAmountRange\":\"$16.00 USD\",\"TransLogBalance\":\"18.00\",\"TransLogBalanceCurrency\":\"$18.00 USD\",\"TransLogNetAmount\":\"16.00\",\"TransLogNetBalance\":\"$16.00 USD\",\"TypeOfTransaction\":\"H\",\"wTransactionStatus\":\"R\",\"Balance\":{\"Amount\":\"18.00\",\"AmountCurrency\":\"18.0 USD\",\"FormattedAmount\":\"$18.00 USD\",\"LocalizedCurrency\":\"$18.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"16.00\",\"AmountCurrency\":\"16.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$16.00 USD\",\"LocalizedCurrency\":\"$16.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"16.00\",\"AmountCurrency\":\"16.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$16.00 USD\",\"LocalizedCurrency\":\"$16.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"BackupFundingSource\":\"Visa Credit Card XXXX-XXXX-XXXX-3382\",\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterPartyAccountNumber\":\"1799949951300477773\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1513916611197873@paypal.com\",\"CounterpartyName\":\"Concepcion Web Design\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114511312981546\",\"EmailAddress\":\"dottool-seller-1513916611197873@paypal.com\",\"EncodedTransactionID\":\"A35RE4NXNJ94L\",\"EncryptedCounterpartyTxnID\":\"51315773KJ9222714\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"1AU081378K3594003\",\"EncryptTransIdWParent\":\"1AU081378K3594003 (Parent)\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"Instant Transfer BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$16.00 USD\",\"pxInsName\":\"20114511312981545\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114511312981545\",\"SFTransAmount\":\"-$16.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"To Concepcion Web Design\",\"TransactionDate\":\"20200202T161149.000 GMT\",\"TransactionID\":\"20114511312981545\",\"TransactionNetAmount\":\"-16.00\",\"TransactionType\":\"Instant Transfer Sent\",\"TransAmountRange\":\"-$16.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-16.00\",\"TransLogNetBalance\":\"-$16.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-16.00\",\"AmountCurrency\":\"-16.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$16.00 USD\",\"LocalizedCurrency\":\"-$16.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-16.00\",\"AmountCurrency\":\"-16.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$16.00 USD\",\"LocalizedCurrency\":\"-$16.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\",\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"Bank Account\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE4EWKMYJW\",\"EncryptedParentTxnID\":\"6GR51372UV9238608\",\"EncryptedTransactionID\":\"2H710419B1629005W\",\"EncryptTransIdWParent\":\"2H710419B1629005W\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$15.00 USD\",\"pxInsName\":\"20114506999725326\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999725326\",\"SFTransAmount\":\"$15.00 USD\",\"Status\":\"Processing\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"From Bank Account\",\"TransactionDate\":\"20200202T161058.000 GMT\",\"TransactionID\":\"20114506999725326\",\"TransactionNetAmount\":\"15.00\",\"TransactionType\":\"Inst. Tran. Add Funds from a Bank Account\",\"TransAmountRange\":\"$15.00 USD\",\"TransLogBalance\":\"17.00\",\"TransLogBalanceCurrency\":\"$17.00 USD\",\"TransLogNetAmount\":\"15.00\",\"TransLogNetBalance\":\"$15.00 USD\",\"TypeOfTransaction\":\"H\",\"wTransactionStatus\":\"R\",\"Balance\":{\"Amount\":\"17.00\",\"AmountCurrency\":\"17.0 USD\",\"FormattedAmount\":\"$17.00 USD\",\"LocalizedCurrency\":\"$17.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"15.00\",\"AmountCurrency\":\"15.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$15.00 USD\",\"LocalizedCurrency\":\"$15.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"15.00\",\"AmountCurrency\":\"15.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$15.00 USD\",\"LocalizedCurrency\":\"$15.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"BackupFundingSource\":\"Visa Credit Card XXXX-XXXX-XXXX-3382\",\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterPartyAccountNumber\":\"1799949951300477773\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1513916611197873@paypal.com\",\"CounterpartyName\":\"Concepcion Web Design\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114506999725323\",\"EmailAddress\":\"dottool-seller-1513916611197873@paypal.com\",\"EncodedTransactionID\":\"A35RE4EWKMYJN\",\"EncryptedCounterpartyTxnID\":\"1R497745LG369770Y\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"6GR51372UV9238608\",\"EncryptTransIdWParent\":\"6GR51372UV9238608 (Parent)\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"Instant Transfer BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$15.00 USD\",\"pxInsName\":\"20114506999725322\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999725322\",\"SFTransAmount\":\"-$15.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"To Concepcion Web Design\",\"TransactionDate\":\"20200202T161058.000 GMT\",\"TransactionID\":\"20114506999725322\",\"TransactionNetAmount\":\"-15.00\",\"TransactionType\":\"Instant Transfer Sent\",\"TransAmountRange\":\"-$15.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-15.00\",\"TransLogNetBalance\":\"-$15.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-15.00\",\"AmountCurrency\":\"-15.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$15.00 USD\",\"LocalizedCurrency\":\"-$15.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-15.00\",\"AmountCurrency\":\"-15.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$15.00 USD\",\"LocalizedCurrency\":\"-$15.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\",\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"Bank Account\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE4NXNHWVY\",\"EncryptedParentTxnID\":\"32C85479D40479243\",\"EncryptedTransactionID\":\"8MA34485KC072594N\",\"EncryptTransIdWParent\":\"8MA34485KC072594N\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$14.00 USD\",\"pxInsName\":\"20114511312976319\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114511312976319\",\"SFTransAmount\":\"$14.00 USD\",\"Status\":\"Processing\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"From Bank Account\",\"TransactionDate\":\"20200202T161043.000 GMT\",\"TransactionID\":\"20114511312976319\",\"TransactionNetAmount\":\"14.00\",\"TransactionType\":\"Inst. Tran. Add Funds from a Bank Account\",\"TransAmountRange\":\"$14.00 USD\",\"TransLogBalance\":\"16.00\",\"TransLogBalanceCurrency\":\"$16.00 USD\",\"TransLogNetAmount\":\"14.00\",\"TransLogNetBalance\":\"$14.00 USD\",\"TypeOfTransaction\":\"H\",\"wTransactionStatus\":\"R\",\"Balance\":{\"Amount\":\"16.00\",\"AmountCurrency\":\"16.0 USD\",\"FormattedAmount\":\"$16.00 USD\",\"LocalizedCurrency\":\"$16.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"14.00\",\"AmountCurrency\":\"14.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$14.00 USD\",\"LocalizedCurrency\":\"$14.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"14.00\",\"AmountCurrency\":\"14.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$14.00 USD\",\"LocalizedCurrency\":\"$14.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"BackupFundingSource\":\"Visa Credit Card XXXX-XXXX-XXXX-3382\",\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterPartyAccountNumber\":\"1799949951300477773\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1513916611197873@paypal.com\",\"CounterpartyName\":\"Concepcion Web Design\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114511312976316\",\"EmailAddress\":\"dottool-seller-1513916611197873@paypal.com\",\"EncodedTransactionID\":\"A35RE4NXNHWVQ\",\"EncryptedCounterpartyTxnID\":\"39T91846YM211834S\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"32C85479D40479243\",\"EncryptTransIdWParent\":\"32C85479D40479243 (Parent)\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"Instant Transfer BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$14.00 USD\",\"pxInsName\":\"20114511312976315\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114511312976315\",\"SFTransAmount\":\"-$14.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"To Concepcion Web Design\",\"TransactionDate\":\"20200202T161043.000 GMT\",\"TransactionID\":\"20114511312976315\",\"TransactionNetAmount\":\"-14.00\",\"TransactionType\":\"Instant Transfer Sent\",\"TransAmountRange\":\"-$14.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-14.00\",\"TransLogNetBalance\":\"-$14.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-14.00\",\"AmountCurrency\":\"-14.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$14.00 USD\",\"LocalizedCurrency\":\"-$14.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-14.00\",\"AmountCurrency\":\"-14.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$14.00 USD\",\"LocalizedCurrency\":\"-$14.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\",\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"Bank Account\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE4EWKMSZE\",\"EncryptedParentTxnID\":\"07N4844291698022Y\",\"EncryptedTransactionID\":\"96486913AT101412S\",\"EncryptTransIdWParent\":\"96486913AT101412S\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$13.00 USD\",\"pxInsName\":\"20114506999722486\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999722486\",\"SFTransAmount\":\"$13.00 USD\",\"Status\":\"Processing\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"From Bank Account\",\"TransactionDate\":\"20200202T161025.000 GMT\",\"TransactionID\":\"20114506999722486\",\"TransactionNetAmount\":\"13.00\",\"TransactionType\":\"Inst. Tran. Add Funds from a Bank Account\",\"TransAmountRange\":\"$13.00 USD\",\"TransLogBalance\":\"15.00\",\"TransLogBalanceCurrency\":\"$15.00 USD\",\"TransLogNetAmount\":\"13.00\",\"TransLogNetBalance\":\"$13.00 USD\",\"TypeOfTransaction\":\"H\",\"wTransactionStatus\":\"R\",\"Balance\":{\"Amount\":\"15.00\",\"AmountCurrency\":\"15.0 USD\",\"FormattedAmount\":\"$15.00 USD\",\"LocalizedCurrency\":\"$15.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"13.00\",\"AmountCurrency\":\"13.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$13.00 USD\",\"LocalizedCurrency\":\"$13.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"13.00\",\"AmountCurrency\":\"13.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$13.00 USD\",\"LocalizedCurrency\":\"$13.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"BackupFundingSource\":\"Visa Credit Card XXXX-XXXX-XXXX-3382\",\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterPartyAccountNumber\":\"1799949951300477773\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1513916611197873@paypal.com\",\"CounterpartyName\":\"Concepcion Web Design\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114506999722483\",\"EmailAddress\":\"dottool-seller-1513916611197873@paypal.com\",\"EncodedTransactionID\":\"A35RE4EWKMSZ6\",\"EncryptedCounterpartyTxnID\":\"19A63560BS239194P\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"07N4844291698022Y\",\"EncryptTransIdWParent\":\"07N4844291698022Y (Parent)\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"Instant Transfer BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$13.00 USD\",\"pxInsName\":\"20114506999722482\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114506999722482\",\"SFTransAmount\":\"-$13.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"To Concepcion Web Design\",\"TransactionDate\":\"20200202T161025.000 GMT\",\"TransactionID\":\"20114506999722482\",\"TransactionNetAmount\":\"-13.00\",\"TransactionType\":\"Instant Transfer Sent\",\"TransAmountRange\":\"-$13.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-13.00\",\"TransLogNetBalance\":\"-$13.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-13.00\",\"AmountCurrency\":\"-13.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$13.00 USD\",\"LocalizedCurrency\":\"-$13.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-13.00\",\"AmountCurrency\":\"-13.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$13.00 USD\",\"LocalizedCurrency\":\"-$13.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\",\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterpartyEmail\":\"...\",\"CounterpartyName\":\"Bank Account\",\"EmailAddress\":\"...\",\"EncodedTransactionID\":\"A35RE4NXNHP6J\",\"EncryptedParentTxnID\":\"2RA33925UV754641H\",\"EncryptedTransactionID\":\"2W8150545X367231K\",\"EncryptTransIdWParent\":\"2W8150545X367231K\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"false\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"false\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114511312972360\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"From\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114511312972360\",\"SFTransAmount\":\"$12.00 USD\",\"Status\":\"Processing\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"From Bank Account\",\"TransactionDate\":\"20200202T161001.000 GMT\",\"TransactionID\":\"20114511312972360\",\"TransactionNetAmount\":\"12.00\",\"TransactionType\":\"Inst. Tran. Add Funds from a Bank Account\",\"TransAmountRange\":\"$12.00 USD\",\"TransLogBalance\":\"14.00\",\"TransLogBalanceCurrency\":\"$14.00 USD\",\"TransLogNetAmount\":\"12.00\",\"TransLogNetBalance\":\"$12.00 USD\",\"TypeOfTransaction\":\"H\",\"wTransactionStatus\":\"R\",\"Balance\":{\"Amount\":\"14.00\",\"AmountCurrency\":\"14.0 USD\",\"FormattedAmount\":\"$14.00 USD\",\"LocalizedCurrency\":\"$14.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"12.00\",\"AmountCurrency\":\"12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$12.00 USD\",\"LocalizedCurrency\":\"$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}},{\"BackupFundingSource\":\"Visa Credit Card XXXX-XXXX-XXXX-3382\",\"ButtonType\":\"reverse_button\",\"CardLast4\":\"1971\",\"CounterPartyAccountNumber\":\"1799949951300477773\",\"CounterpartyAccountType\":\"business\",\"CounterpartyEmail\":\"dottool-seller-1513916611197873@paypal.com\",\"CounterpartyName\":\"Concepcion Web Design\",\"CounterpartyStatus\":\"open\",\"CounterpartyTransactionID\":\"20114511312972357\",\"EmailAddress\":\"dottool-seller-1513916611197873@paypal.com\",\"EncodedTransactionID\":\"A35RE4NXNHP6A\",\"EncryptedCounterpartyTxnID\":\"70C427201U735145S\",\"EncryptedParentTxnID\":\"...\",\"EncryptedTransactionID\":\"2RA33925UV754641H\",\"EncryptTransIdWParent\":\"2RA33925UV754641H (Parent)\",\"FinancialInstrument\":\"Bank\",\"FundingSource\":\"Instant Transfer BANK OF AMERICA Checking (Confirmed) x-1971\",\"HistorySubType\":\"0\",\"HistoryType\":\"1\",\"IPAddress\":\"...\",\"IPRFlag\":\"false\",\"IsAccountLevelHold\":\"false\",\"IsAdaptivePayment\":\"false\",\"IsBuyerCreditFunded\":\"false\",\"IsCoupledTransaction\":\"false\",\"IsDCC\":\"false\",\"IsDebitCard\":\"false\",\"IsDisputed\":\"false\",\"IsEbayItemHold\":\"false\",\"IsFPMMInvoked\":\"true\",\"IsNewSellerHold\":\"false\",\"IsParentTransaction\":\"true\",\"IsPayUponInvoice\":\"false\",\"IsReversible\":\"true\",\"IsS2FHold\":\"false\",\"IsSinglePartyTransaction\":\"false\",\"IsThirdPartyFulfilled\":\"false\",\"IsTokenizedTransaction\":\"false\",\"Memo\":\"This transaction is created from DoT-Tool\",\"PACMANFlag\":\"false\",\"PositiveTransAmount\":\"$12.00 USD\",\"pxInsName\":\"20114511312972356\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Trans-Details\",\"pyCaption\":\"To\",\"pyRowSelected\":\"false\",\"pzInsKey\":\"PP-FW-CPMFW-DATA-TRANS-DETAILS 20114511312972356\",\"SFTransAmount\":\"-$12.00 USD\",\"Status\":\"Completed\",\"StoreCheckOut\":\"false\",\"SubID\":\"0\",\"Subject\":\"~@~CLD:1580889600~@~\",\"ToFrom\":\"To Concepcion Web Design\",\"TransactionDate\":\"20200202T161001.000 GMT\",\"TransactionID\":\"20114511312972356\",\"TransactionNetAmount\":\"-12.00\",\"TransactionType\":\"Instant Transfer Sent\",\"TransAmountRange\":\"-$12.00 USD\",\"TransLogBalance\":\"2.00\",\"TransLogBalanceCurrency\":\"$2.00 USD\",\"TransLogNetAmount\":\"-12.00\",\"TransLogNetBalance\":\"-$12.00 USD\",\"TransSubtype\":\"G\",\"TypeOfTransaction\":\"U\",\"wTransactionStatus\":\"S\",\"Balance\":{\"Amount\":\"2.00\",\"AmountCurrency\":\"2.0 USD\",\"FormattedAmount\":\"$2.00 USD\",\"LocalizedCurrency\":\"$2.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"Fee\":{\"Amount\":\"0.00\",\"AmountCurrency\":\"0.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"$0.00 USD\",\"LocalizedCurrency\":\"$0.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"GrossAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"NetAmount\":{\"Amount\":\"-12.00\",\"AmountCurrency\":\"-12.0 USD\",\"Currency\":\"USD\",\"FormattedAmount\":\"-$12.00 USD\",\"LocalizedCurrency\":\"-$12.00 USD\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Currency\"},\"TransactionFlagList\":[\"17\",\"18\",\"24\"],\"UsdEquivalent\":{\"pxObjClass\":\"PP-FW-Data-Currency\"}}]}");
+
+/***/ }),
+
 /***/ "./mockdata/financials.json":
 /*!**********************************!*\
   !*** ./mockdata/financials.json ***!
@@ -1825,8 +8177,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_useHooks_CCTransactionLog__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/useHooks/CCTransactionLog */ "./components/useHooks/CCTransactionLog.js");
 /* harmony import */ var _components_useHooks_InteractionsFC__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/useHooks/InteractionsFC */ "./components/useHooks/InteractionsFC.js");
 /* harmony import */ var _components_useHooks_AccountDetails__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/useHooks/AccountDetails */ "./components/useHooks/AccountDetails.js");
-/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./css/index.scss */ "./css/index.scss");
-/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_css_index_scss__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _components_useHooks_TransactionsTab__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/useHooks/TransactionsTab */ "./components/useHooks/TransactionsTab.js");
+/* harmony import */ var _components_UILibrary_Tabs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/UILibrary/Tabs */ "./components/UILibrary/Tabs.js");
+/* harmony import */ var _components_UILibrary_Tab__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/UILibrary/Tab */ "./components/UILibrary/Tab.js");
+/* harmony import */ var _components_UILibrary_TabLinks__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/UILibrary/TabLinks */ "./components/UILibrary/TabLinks.js");
+/* harmony import */ var _components_UILibrary_TabLink__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/UILibrary/TabLink */ "./components/UILibrary/TabLink.js");
+/* harmony import */ var _mockdata_CCtransactions_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./mockdata/CCtransactions.json */ "./mockdata/CCtransactions.json");
+/* harmony import */ var _mockdata_Interactions_json__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./mockdata/Interactions.json */ "./mockdata/Interactions.json");
+/* harmony import */ var _mockdata_transactions_json__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./mockdata/transactions.json */ "./mockdata/transactions.json");
+/* harmony import */ var _mockdata_financials_json__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./mockdata/financials.json */ "./mockdata/financials.json");
+/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./css/index.scss */ "./css/index.scss");
+/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_css_index_scss__WEBPACK_IMPORTED_MODULE_15__);
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1838,9 +8208,19 @@ __webpack_require__.r(__webpack_exports__);
 var App = function App() {
   return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_AccountDetails__WEBPACK_IMPORTED_MODULE_5__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_AccountDetails__WEBPACK_IMPORTED_MODULE_5__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_Tabs__WEBPACK_IMPORTED_MODULE_7__.default, null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_TabLinks__WEBPACK_IMPORTED_MODULE_9__.default, null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_TabLink__WEBPACK_IMPORTED_MODULE_10__.default, {
+    id: "0"
+  }, "Dashboard"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_TabLink__WEBPACK_IMPORTED_MODULE_10__.default, {
+    id: "1"
+  }, "Transaction Log")), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_Tab__WEBPACK_IMPORTED_MODULE_8__.default, {
+    id: "0",
+    name: "Dashboard"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "widgets"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_FinancialCard__WEBPACK_IMPORTED_MODULE_1__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_TransactionLogCard__WEBPACK_IMPORTED_MODULE_2__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_CCTransactionLog__WEBPACK_IMPORTED_MODULE_3__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_InteractionsFC__WEBPACK_IMPORTED_MODULE_4__.default, null)));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_FinancialCard__WEBPACK_IMPORTED_MODULE_1__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_TransactionLogCard__WEBPACK_IMPORTED_MODULE_2__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_CCTransactionLog__WEBPACK_IMPORTED_MODULE_3__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_InteractionsFC__WEBPACK_IMPORTED_MODULE_4__.default, null))), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_Tab__WEBPACK_IMPORTED_MODULE_8__.default, {
+    id: "1",
+    name: "Transaction Log"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_TransactionsTab__WEBPACK_IMPORTED_MODULE_6__.default, null))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (App);
@@ -2021,6 +8401,414 @@ function TransactionLogRow(_ref) {
 
 /***/ }),
 
+/***/ "./components/UILibrary/Tab.js":
+/*!*************************************!*\
+  !*** ./components/UILibrary/Tab.js ***!
+  \*************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Tab = function Tab(props) {
+  var activeId = props.activeId,
+      id = props.id,
+      handleClick = props.handleClick;
+  var children = react__WEBPACK_IMPORTED_MODULE_0___default().Children.map(props.children, function (child) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default().cloneElement(child, {
+      activeId: activeId,
+      handleClick: handleClick
+    });
+  });
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "tab-body"
+  }, activeId === id && children);
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Tab);
+
+/***/ }),
+
+/***/ "./components/UILibrary/TabLink.js":
+/*!*****************************************!*\
+  !*** ./components/UILibrary/TabLink.js ***!
+  \*****************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var TabLink = function TabLink(props) {
+  var id = props.id,
+      handleClick = props.handleClick,
+      children = props.children;
+
+  function selectTab() {
+    handleClick(id);
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    onClick: selectTab,
+    className: "tab-link"
+  }, children);
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TabLink);
+
+/***/ }),
+
+/***/ "./components/UILibrary/TabLinks.js":
+/*!******************************************!*\
+  !*** ./components/UILibrary/TabLinks.js ***!
+  \******************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var TabLinks = function TabLinks(props) {
+  var activeId = props.activeId,
+      handleClick = props.handleClick,
+      children = props.children;
+  var links = react__WEBPACK_IMPORTED_MODULE_0___default().Children.map(children, function (child) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default().cloneElement(child, {
+      activeId: activeId,
+      handleClick: handleClick
+    });
+  });
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "tab-links"
+  }, links);
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TabLinks);
+
+/***/ }),
+
+/***/ "./components/UILibrary/Table.js":
+/*!***************************************!*\
+  !*** ./components/UILibrary/Table.js ***!
+  \***************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var Table =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Table, _React$Component);
+
+  function Table() {
+    _classCallCheck(this, Table);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Table).apply(this, arguments));
+  }
+
+  _createClass(Table, [{
+    key: "render",
+    value: function render() {
+      var children = react__WEBPACK_IMPORTED_MODULE_0___default().Children.map(this.props.children, function (child) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default().cloneElement(child, {});
+      });
+      return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("table", {
+        className: "table-container"
+      }, children);
+    }
+  }]);
+
+  return Table;
+}((react__WEBPACK_IMPORTED_MODULE_0___default().Component));
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Table);
+
+/***/ }),
+
+/***/ "./components/UILibrary/TableColumn.js":
+/*!*********************************************!*\
+  !*** ./components/UILibrary/TableColumn.js ***!
+  \*********************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var TableColumn = function TableColumn(props) {
+  var id = props.id,
+      handleClick = props.handleClick,
+      children = props.children;
+
+  function selectTab() {
+    handleClick(id);
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("th", {
+    onClick: selectTab,
+    className: "table-col"
+  }, children);
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TableColumn);
+
+/***/ }),
+
+/***/ "./components/UILibrary/TableColumns.js":
+/*!**********************************************!*\
+  !*** ./components/UILibrary/TableColumns.js ***!
+  \**********************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var TableColumns = function TableColumns(props) {
+  var activeId = props.activeId,
+      handleClick = props.handleClick,
+      children = props.children;
+  var links = react__WEBPACK_IMPORTED_MODULE_0___default().Children.map(children, function (child) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default().cloneElement(child, {
+      activeId: activeId,
+      handleClick: handleClick
+    });
+  });
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("thead", null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, links));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TableColumns);
+
+/***/ }),
+
+/***/ "./components/UILibrary/TableRow.js":
+/*!******************************************!*\
+  !*** ./components/UILibrary/TableRow.js ***!
+  \******************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var TableRow = function TableRow(props) {
+  var children = props.children;
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("td", {
+    className: "table-details"
+  }, children);
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TableRow);
+
+/***/ }),
+
+/***/ "./components/UILibrary/TableRows.js":
+/*!*******************************************!*\
+  !*** ./components/UILibrary/TableRows.js ***!
+  \*******************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var TableRows = function TableRows(props) {
+  var activeId = props.activeId,
+      handleClick = props.handleClick,
+      children = props.children;
+  var links = react__WEBPACK_IMPORTED_MODULE_0___default().Children.map(children, function (child) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default().cloneElement(child, {
+      activeId: activeId,
+      handleClick: handleClick
+    });
+  });
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tr", null, links);
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TableRows);
+
+/***/ }),
+
+/***/ "./components/UILibrary/Tabs.js":
+/*!**************************************!*\
+  !*** ./components/UILibrary/Tabs.js ***!
+  \**************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var Tabs =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Tabs, _React$Component);
+
+  function Tabs(props) {
+    var _this;
+
+    _classCallCheck(this, Tabs);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Tabs).call(this, props));
+    _this.state = {
+      activeId: "0"
+    };
+    _this.handleClick = _this.handleClick.bind(_assertThisInitialized(_this));
+    return _this;
+  }
+
+  _createClass(Tabs, [{
+    key: "handleClick",
+    value: function handleClick(id) {
+      this.setState({
+        activeId: id
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var activeId = this.state.activeId;
+      var children = react__WEBPACK_IMPORTED_MODULE_0___default().Children.map(this.props.children, function (child) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default().cloneElement(child, {
+          activeId: activeId,
+          handleClick: _this2.handleClick
+        });
+      });
+      return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+        className: "tab-container"
+      }, children);
+    }
+  }]);
+
+  return Tabs;
+}((react__WEBPACK_IMPORTED_MODULE_0___default().Component));
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Tabs);
+
+/***/ }),
+
 /***/ "./components/useHooks/AccountDetails.js":
 /*!***********************************************!*\
   !*** ./components/useHooks/AccountDetails.js ***!
@@ -2073,10 +8861,10 @@ var AccountDetails = function AccountDetails() {
 
     if (eles.length > 0) {
       eles.forEach(function (ele) {
-        return addEventListener("click", copyToClipboard, false);
+        return ele.addEventListener("click", copyToClipboard, false);
       });
     }
-  });
+  }, [loading]);
 
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({}),
       _useState2 = _slicedToArray(_useState, 2),
@@ -2091,7 +8879,7 @@ var AccountDetails = function AccountDetails() {
   setTimeout(function () {
     setAccountData(_mockdata_AccountDetailsPage_json__WEBPACK_IMPORTED_MODULE_2__/* .default.Account */ .Account);
     setLoading(false);
-  }, 3000);
+  }, 500);
   var results = accountData;
   var body = "No results found";
 
@@ -2208,7 +8996,7 @@ var CCTransactionLogCard = function CCTransactionLogCard() {
   setTimeout(function () {
     setTxns(_mockdata_CCtransactions_json__WEBPACK_IMPORTED_MODULE_3__/* .default.pxResults */ .pxResults);
     setLoading(false);
-  }, 3000);
+  }, 500);
   var body = "No results found";
 
   if (loading) {
@@ -2226,7 +9014,7 @@ var CCTransactionLogCard = function CCTransactionLogCard() {
     className: "cc-transaction-card widget-card"
   }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "cc-transaction-card-header widget-header"
-  }, "CC Transaction"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "CC Transactions"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "cc-transaction-card-body widget-body"
   }, body));
 };
@@ -2268,7 +9056,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-var FinancialCard = function FinancialCard() {
+var FinancialCard = function FinancialCard(props) {
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
       _useState2 = _slicedToArray(_useState, 2),
       fis = _useState2[0],
@@ -2282,7 +9070,7 @@ var FinancialCard = function FinancialCard() {
   setTimeout(function () {
     setFIs(_mockdata_financials_json__WEBPACK_IMPORTED_MODULE_3__/* .default.pxResults */ .pxResults);
     setLoading(false);
-  }, 3000);
+  }, 500);
   var body = "No results found";
 
   if (loading) {
@@ -2300,7 +9088,7 @@ var FinancialCard = function FinancialCard() {
     className: "financial-card widget-card"
   }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "financial-card-header widget-header"
-  }, "Financial Cards"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Financials"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "financial-card-body widget-body"
   }, body));
 };
@@ -2356,7 +9144,7 @@ var InteractionsCard = function InteractionsCard() {
   setTimeout(function () {
     setInteractions(_mockdata_Interactions_json__WEBPACK_IMPORTED_MODULE_3__/* .default.pxResults */ .pxResults);
     setLoading(false);
-  }, 1000);
+  }, 500);
   var body = "No results found";
 
   if (loading) {
@@ -2430,7 +9218,7 @@ var TransactionLogCard = function TransactionLogCard() {
   setTimeout(function () {
     setTxns(_mockdata_transactions_json__WEBPACK_IMPORTED_MODULE_3__/* .default.pxResults */ .pxResults);
     setLoading(false);
-  }, 3000);
+  }, 1000);
   var body = "No results found";
 
   if (loading) {
@@ -2448,12 +9236,196 @@ var TransactionLogCard = function TransactionLogCard() {
     className: "transaction-card widget-card"
   }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "transaction-card-header widget-header"
-  }, "Transaction Cards"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Transactions"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "transaction-card-body widget-body"
   }, body));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TransactionLogCard);
+
+/***/ }),
+
+/***/ "./components/useHooks/TransactionTable.js":
+/*!*************************************************!*\
+  !*** ./components/useHooks/TransactionTable.js ***!
+  \*************************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _UILibrary_Table__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../UILibrary/Table */ "./components/UILibrary/Table.js");
+/* harmony import */ var _UILibrary_TableColumns__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../UILibrary/TableColumns */ "./components/UILibrary/TableColumns.js");
+/* harmony import */ var _UILibrary_TableColumn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../UILibrary/TableColumn */ "./components/UILibrary/TableColumn.js");
+/* harmony import */ var _UILibrary_TableRows__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../UILibrary/TableRows */ "./components/UILibrary/TableRows.js");
+/* harmony import */ var _UILibrary_TableRow__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../UILibrary/TableRow */ "./components/UILibrary/TableRow.js");
+/* harmony import */ var _mockdata_TxnsLog_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../mockdata/TxnsLog.json */ "./mockdata/TxnsLog.json");
+/* harmony import */ var _PureComponents_Loading__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../PureComponents/Loading */ "./components/PureComponents/Loading.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+
+
+
+
+var TransactionTable = function TransactionTable() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      txns = _useState2[0],
+      setTxns = _useState2[1];
+
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true),
+      _useState4 = _slicedToArray(_useState3, 2),
+      loading = _useState4[0],
+      setLoading = _useState4[1];
+
+  setTimeout(function () {
+    setTxns(_mockdata_TxnsLog_json__WEBPACK_IMPORTED_MODULE_6__/* .default.pxResults */ .pxResults);
+    setLoading(false);
+  }, 1000);
+  var body = "No results found";
+
+  if (loading) {
+    body = react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PureComponents_Loading__WEBPACK_IMPORTED_MODULE_7__.default, null);
+  } else if (txns.length > 0) {
+    var childBody = txns.map(function (result, index) {
+      return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableRows__WEBPACK_IMPORTED_MODULE_4__.default, {
+        key: index
+      }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableRow__WEBPACK_IMPORTED_MODULE_5__.default, null, result.EncryptedTransactionID), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableRow__WEBPACK_IMPORTED_MODULE_5__.default, null, result.TransactionDate), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableRow__WEBPACK_IMPORTED_MODULE_5__.default, null, result.TransactionType), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableRow__WEBPACK_IMPORTED_MODULE_5__.default, null, result.CounterpartyEmail), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableRow__WEBPACK_IMPORTED_MODULE_5__.default, null, result.NetAmount.AmountCurrency), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableRow__WEBPACK_IMPORTED_MODULE_5__.default, null, result.TransLogBalanceCurrency));
+    });
+    body = react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_Table__WEBPACK_IMPORTED_MODULE_1__.default, null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableColumns__WEBPACK_IMPORTED_MODULE_2__.default, null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableColumn__WEBPACK_IMPORTED_MODULE_3__.default, null, "Transaction ID"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableColumn__WEBPACK_IMPORTED_MODULE_3__.default, null, "Transaction Date"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableColumn__WEBPACK_IMPORTED_MODULE_3__.default, null, "Transaction Type"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableColumn__WEBPACK_IMPORTED_MODULE_3__.default, null, "Counter Party Email"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableColumn__WEBPACK_IMPORTED_MODULE_3__.default, null, "Net Amount"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_UILibrary_TableColumn__WEBPACK_IMPORTED_MODULE_3__.default, null, "Net Balance")), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("tbody", null, childBody));
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, body);
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TransactionTable);
+
+/***/ }),
+
+/***/ "./components/useHooks/TransactionsTab.js":
+/*!************************************************!*\
+  !*** ./components/useHooks/TransactionsTab.js ***!
+  \************************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _TxnSearchForm__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TxnSearchForm */ "./components/useHooks/TxnSearchForm.js");
+/* harmony import */ var _TransactionTable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TransactionTable */ "./components/useHooks/TransactionTable.js");
+
+
+
+
+var TransactionTab = function TransactionTab() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_TxnSearchForm__WEBPACK_IMPORTED_MODULE_1__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_TransactionTable__WEBPACK_IMPORTED_MODULE_2__.default, null));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TransactionTab);
+
+/***/ }),
+
+/***/ "./components/useHooks/TxnSearchForm.js":
+/*!**********************************************!*\
+  !*** ./components/useHooks/TxnSearchForm.js ***!
+  \**********************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+var useInput = function useInput(initialValue) {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(initialValue),
+      _useState2 = _slicedToArray(_useState, 2),
+      value = _useState2[0],
+      setValue = _useState2[1];
+
+  return [{
+    value: value,
+    onChange: function onChange(e) {
+      return setValue(e.target.value);
+    }
+  }, function () {
+    return setValue("");
+  }];
+};
+
+var TxnSearchForm = function TxnSearchForm() {
+  var _useInput = useInput(""),
+      _useInput2 = _slicedToArray(_useInput, 2),
+      txnid = _useInput2[0],
+      resetTxnid = _useInput2[1];
+
+  var _useInput3 = useInput(""),
+      _useInput4 = _slicedToArray(_useInput3, 2),
+      party = _useInput4[0],
+      resetParty = _useInput4[1];
+
+  var onReset = function onReset(e) {
+    e.preventDefault();
+    resetTxnid();
+    resetParty();
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("fieldset", null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("legend", null, " Search Transactions"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", null, "Transaction ID"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", _extends({
+    type: "text",
+    placeholder: "input transaction id"
+  }, txnid)), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", null, "Party Name"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", _extends({
+    type: "text",
+    placeholder: "input seller"
+  }, party)), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "Search"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    onClick: onReset
+  }, "Reset"))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TxnSearchForm);
 
 /***/ }),
 
@@ -2480,16 +9452,130 @@ react_dom__WEBPACK_IMPORTED_MODULE_0___default().render(react__WEBPACK_IMPORTED_
 
 /***/ }),
 
-/***/ "./css/index.scss":
-/*!************************!*\
-  !*** ./css/index.scss ***!
-  \************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./css/index.scss":
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./css/index.scss ***!
+  \*****************************************************************************************************/
 /*! unknown exports (runtime-defined) */
 /*! exports [maybe provided (runtime-defined)] [no usage info] */
-/*! runtime requirements:  */
-/***/ (() => {
+/*! runtime requirements: __webpack_exports__, module, __webpack_require__, module.id */
+/***/ ((module, exports, __webpack_require__) => {
 
-// extracted by mini-css-extract-plugin
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.id, ".financial-row {\n  display: flex;\n  flex-direction: row;\n  padding: 0.5em; }\n  .financial-row > div {\n    width: 25%; }\n    .financial-row > div:last-child {\n      text-align: right; }\n\n.txn-row {\n  display: flex;\n  flex-direction: row;\n  padding: 0.5em; }\n  .txn-row > div {\n    width: 25%; }\n    .txn-row > div:last-child {\n      text-align: right; }\n\n.txn-red {\n  color: red; }\n\n.txn-green {\n  color: green; }\n\ndiv.tab-container {\n  margin: 0.5em; }\n\nul.tab-links {\n  list-style-type: none;\n  display: flex;\n  margin: 0;\n  border-bottom: 1px solid #000000;\n  padding-left: 0.5em; }\n  ul.tab-links > li.tab-link {\n    padding: 0.5em;\n    border-top: 1px solid #000000;\n    border-bottom: 0;\n    border-left: 1px solid #000000;\n    border-right: 1px solid #000000; }\n    ul.tab-links > li.tab-link:hover {\n      cursor: pointer; }\n\ndiv.tab-body {\n  margin-top: 0.5em; }\n\n.table-container {\n  width: 100%; }\n  .table-container > thead > tr {\n    border-bottom: 1px solid #000000; }\n\n.table-container th {\n  text-align: left; }\n\n.table-container tr:nth-child(even) {\n  background-color: #8080801c; }\n\n.widgets {\n  display: flex;\n  flex-flow: row wrap; }\n\n.widget-card {\n  width: calc(50% - 50.0px);\n  margin: 10px;\n  border: 1px solid #0c0c0c; }\n\n.widget-body {\n  border-top: 1px solid #0c0c0c; }\n\n.widget-header {\n  margin: 5px;\n  padding-left: 25px; }\n\n.data-row {\n  display: flex;\n  flex-direction: row;\n  padding: 0.5em;\n  border-bottom: 1px solid #8080803d; }\n  .data-row > div {\n    width: 25%; }\n    .data-row > div:last-child {\n      text-align: right; }\n  .data-row:last-child {\n    border-bottom: none; }\n  .data-row:nth-child(even) {\n    background-color: #8080801c; }\n\n.col-3 {\n  display: flex;\n  flex-flow: row wrap;\n  width: 100%; }\n  .col-3 > .col:nth-of-type(1) {\n    flex-grow: 3; }\n  .col-3 > .col:nth-of-type(2) {\n    flex-grow: 1; }\n  .col-3 > .col:nth-of-type(3) {\n    flex-grow: 2; }\n\n.phone-wrapper {\n  display: flex; }\n  .phone-wrapper > .phone-label {\n    flex-basis: 110px; }\n  .phone-wrapper > div {\n    display: flex;\n    flex-direction: column; }\n    .phone-wrapper > div > div {\n      display: none; }\n      .phone-wrapper > div > div:first-child {\n        display: initial; }\n  .phone-wrapper > div.show-all {\n    display: flex;\n    flex-direction: column; }\n    .phone-wrapper > div.show-all > div {\n      display: initial; }\n\n.account-header {\n  font-size: 1.2em;\n  font-weight: 700; }\n\na {\n  text-decoration: underline;\n  color: #0000ff;\n  padding-left: 25px; }\n  a:hover {\n    cursor: pointer; }\n\ni {\n  padding-left: 0.3em; }\n  i:hover {\n    cursor: pointer; }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/*! unknown exports (runtime-defined) */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (useSourceMap) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item, useSourceMap);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], " {").concat(content, "}");
+      }
+
+      return content;
+    }).join('');
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery, dedupe) {
+    if (typeof modules === 'string') {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, '']];
+    }
+
+    var alreadyImportedModules = {};
+
+    if (dedupe) {
+      for (var i = 0; i < this.length; i++) {
+        // eslint-disable-next-line prefer-destructuring
+        var id = this[i][0];
+
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = [].concat(modules[_i]);
+
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        // eslint-disable-next-line no-continue
+        continue;
+      }
+
+      if (mediaQuery) {
+        if (!item[2]) {
+          item[2] = mediaQuery;
+        } else {
+          item[2] = "".concat(mediaQuery, " and ").concat(item[2]);
+        }
+      }
+
+      list.push(item);
+    }
+  };
+
+  return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
+
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (useSourceMap && typeof btoa === 'function') {
+    var sourceMapping = toComment(cssMapping);
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot || '').concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+  }
+
+  return [content].join('\n');
+} // Adapted from convert-source-map (MIT)
+
+
+function toComment(sourceMap) {
+  // eslint-disable-next-line no-undef
+  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+  return "/*# ".concat(data, " */");
+}
 
 /***/ }),
 
@@ -43709,6 +50795,321 @@ if (false) {} else {
 }
 
 
+/***/ }),
+
+/***/ "./css/index.scss":
+/*!************************!*\
+  !*** ./css/index.scss ***!
+  \************************/
+/*! unknown exports (runtime-defined) */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module, __webpack_require__, module.id */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var api = __webpack_require__(/*! !../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !!../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./index.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./css/index.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.id, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+var exported = content.locals ? content.locals : {};
+
+
+
+module.exports = exported;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module, __webpack_require__.nc, __webpack_require__.* */
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+var stylesInDom = [];
+
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+
+  for (var i = 0; i < stylesInDom.length; i++) {
+    if (stylesInDom[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
+}
+
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var index = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3]
+    };
+
+    if (index !== -1) {
+      stylesInDom[index].references++;
+      stylesInDom[index].updater(obj);
+    } else {
+      stylesInDom.push({
+        identifier: identifier,
+        updater: addStyle(obj, options),
+        references: 1
+      });
+    }
+
+    identifiers.push(identifier);
+  }
+
+  return identifiers;
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+  var attributes = options.attributes || {};
+
+  if (typeof attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : undefined;
+
+    if (nonce) {
+      attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(attributes).forEach(function (key) {
+    style.setAttribute(key, attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.media ? "@media ".concat(obj.media, " {").concat(obj.css, "}") : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  } else {
+    style.removeAttribute('media');
+  }
+
+  if (sourceMap && btoa) {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (list, options) {
+  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    if (Object.prototype.toString.call(newList) !== '[object Array]') {
+      return;
+    }
+
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDom[index].references--;
+    }
+
+    var newLastIdentifiers = modulesToDom(newList, options);
+
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+
+      var _index = getIndexByIdentifier(_identifier);
+
+      if (stylesInDom[_index].references === 0) {
+        stylesInDom[_index].updater();
+
+        stylesInDom.splice(_index, 1);
+      }
+    }
+
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
 /***/ })
 
 /******/ 	});
@@ -43724,7 +51125,7 @@ if (false) {} else {
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
+/******/ 			id: moduleId,
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
