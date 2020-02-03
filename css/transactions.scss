@@ -1,0 +1,13 @@
+@import "./_cardmixin.scss";
+
+.txn-row{
+    @include col-4-card-row-mixin;
+}
+
+.txn-red{
+    color:red;
+}
+
+.txn-green{
+    color:green;
+}

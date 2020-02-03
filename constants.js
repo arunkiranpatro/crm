@@ -1,0 +1,9 @@
+export const TRANSACTIONS = "D_TransactionLogs";
+export const CCTRANSACTIONS = "D_CCTransLog";
+export const RECENTCASES = "D_RecentCases";
+export const INTERACTIONS = "D_InteractionLog";
+export const ACCOUNTNOTES = "D_AccountLevelNotes";
+export const FIDETAILS = "D_FIDetails";
+export const ACCOUNTDETAILS = "D_AccountDetailsPage";
+export const DISPUTES = "D_DisputeCases";
+export const BASEURL = "https://stage2cpp091.qa.paypal.com:7102/prweb/api/v1/data/";

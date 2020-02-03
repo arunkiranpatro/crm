@@ -1,0 +1,95 @@
+.financial-row {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em; }
+  .financial-row > div {
+    width: 25%; }
+    .financial-row > div:last-child {
+      text-align: right; }
+
+.txn-row {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em; }
+  .txn-row > div {
+    width: 25%; }
+    .txn-row > div:last-child {
+      text-align: right; }
+
+.txn-red {
+  color: red; }
+
+.txn-green {
+  color: green; }
+
+.widgets {
+  display: flex;
+  flex-flow: row wrap; }
+
+.widget-card {
+  width: calc(50% - 50.0px);
+  margin: 10px;
+  border: 1px solid #0c0c0c; }
+
+.widget-body {
+  border-top: 1px solid #0c0c0c; }
+
+.widget-header {
+  margin: 5px;
+  padding-left: 25px; }
+
+.data-row {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em;
+  border-bottom: 1px solid #8080803d; }
+  .data-row > div {
+    width: 25%; }
+    .data-row > div:last-child {
+      text-align: right; }
+  .data-row:last-child {
+    border-bottom: none; }
+  .data-row:nth-child(even) {
+    background-color: #8080801c; }
+
+.col-3 {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%; }
+  .col-3 > .col:nth-of-type(1) {
+    flex-grow: 3; }
+  .col-3 > .col:nth-of-type(2) {
+    flex-grow: 1; }
+  .col-3 > .col:nth-of-type(3) {
+    flex-grow: 2; }
+
+.phone-wrapper {
+  display: flex; }
+  .phone-wrapper > .phone-label {
+    flex-basis: 110px; }
+  .phone-wrapper > div {
+    display: flex;
+    flex-direction: column; }
+    .phone-wrapper > div > div {
+      display: none; }
+      .phone-wrapper > div > div:first-child {
+        display: initial; }
+  .phone-wrapper > div.show-all {
+    display: flex;
+    flex-direction: column; }
+    .phone-wrapper > div.show-all > div {
+      display: initial; }
+
+.account-header {
+  font-size: 1.2em;
+  font-weight: 700; }
+
+a {
+  text-decoration: underline;
+  color: #0000ff;
+  padding-left: 25px; }
+  a:hover {
+    cursor: pointer; }
+
+
+/*# sourceMappingURL=styles.css.map*/

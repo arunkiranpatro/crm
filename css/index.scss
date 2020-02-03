@@ -1,0 +1,87 @@
+@import "./financials.scss";
+@import "./transactions.scss";
+@import "./_cardmixin.scss";
+
+.widgets{
+    display:flex;
+    flex-flow: row wrap;
+}
+.widget-card{
+    width: calc(50% - 50.0px);
+    margin:10px;
+    @include card-body-mixin;
+}
+.widget-body{
+    border-top:1px solid #0c0c0c;
+}
+.widget-header{
+    margin:5px;
+    padding-left: 25px;
+}
+.data-row{
+    @include col-4-card-row-mixin;
+    border-bottom: 1px solid #8080803d;
+    &:last-child{
+        border-bottom: none;
+    }
+    &:nth-child(even){
+        background-color:#8080801c ;
+    }
+}
+
+.col-3 {
+    display: flex;
+    flex-flow: row wrap;
+    width:100%;
+    > .col{
+        &:nth-of-type(1){
+            flex-grow: 3;
+        }
+        &:nth-of-type(2){
+            flex-grow: 1;
+        }
+        &:nth-of-type(3){
+            flex-grow: 2;
+        }
+    }
+}
+
+.phone-wrapper{
+     display: flex;
+     > .phone-label{
+         flex-basis: 110px;
+     }
+     > div{
+         display: flex;
+         flex-direction: column;
+         > div{
+            display: none;
+            &:first-child{
+               display: initial;
+            }
+         }
+         
+     }
+     > div.show-all{
+         display: flex;
+         flex-direction: column;
+          > div{
+              display: initial;
+          }
+     }   
+}
+
+.account-header{
+    font-size: 1.2em;
+    font-weight: 700;
+  
+}
+
+a{
+    text-decoration: underline;
+    color:#0000ff;
+    padding-left: 25px;
+        &:hover{
+            cursor: pointer;
+        }
+}

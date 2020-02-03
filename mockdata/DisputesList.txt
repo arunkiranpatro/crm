@@ -1,0 +1,187 @@
+﻿{
+    "AttackCaseID": "",
+    "CaseID": "",
+    "pxObjClass": "Code-Pega-List",
+    "pyObjClass": "PP-FW-Data-Dispute",
+    "pyObjClassOriginal": "",
+    "pyTemplateInputBox": "",
+    "pzPageNameBase": "D_DisputeCases",
+    "pzPageNameHash": "_pa51329506481720793pz",
+    "DisputeCases": [
+        {
+            "CaseID": "PP-D-183081",
+            "CaseStatus": "Pending-Representment",
+            "CounterpartyAccountNumber": "2062763970225309879",
+            "Date": "Feb 3, 2020 03:18:00 PM",
+            "DetailedCaseStatus": "PENDING_REPRESENTMENT",
+            "DisputeAmount": "10.00 USD",
+            "DisputeReasonExpansion": "Non-Receipt",
+            "DisputeReasonText": "INR",
+            "DisputeSystem": "CHARGEBACK",
+            "EncryptedTransactionID": "3JV04495RN5660342",
+            "IsAttackDispute": "false",
+            "Party": "Buyer",
+            "PartyCaseStatus": "Case in Review",
+            "pxObjClass": "PP-FW-Data-Dispute",
+            "Status": "PENDING_COUNTERPARTY_RESPONSE",
+            "TypeOfClaim": "Internal",
+            "WorkflowID": "General Dispute",
+            "AmountData": {
+                "Amount": "10.00",
+                "Currency": "USD",
+                "pxObjClass": "PP-FW-Data-Amount"
+            },
+            "CaseUserAssociations": [
+                {
+                    "AccountNumber": "1484801092820019308",
+                    "AssociationName": "BUYER",
+                    "pxObjClass": "PP-FW-Data-Dispute-CaseAssociations"
+                },
+                {
+                    "AccountNumber": "2062763970225309879",
+                    "AssociationName": "SELLER",
+                    "pxObjClass": "PP-FW-Data-Dispute-CaseAssociations"
+                }
+            ],
+            "RelatedCases": [],
+            "TransactionList": [
+                {
+                    "EncryptedTransactionID": "3JV04495RN5660342",
+                    "pxObjClass": "PP-FW-Data-Trans-"
+                }
+            ]
+        },
+        {
+            "CaseID": "PP-D-183080",
+            "CaseStatus": "Pending-Representment",
+            "CounterpartyAccountNumber": "2062763970225309879",
+            "Date": "Feb 3, 2020 03:16:40 PM",
+            "DetailedCaseStatus": "PENDING_REPRESENTMENT",
+            "DisputeAmount": "10.00 USD",
+            "DisputeReasonExpansion": "Non-Receipt",
+            "DisputeReasonText": "INR",
+            "DisputeSystem": "CHARGEBACK",
+            "EncryptedTransactionID": "2VV4041517260171T",
+            "IsAttackDispute": "false",
+            "Party": "Buyer",
+            "PartyCaseStatus": "Case in Review",
+            "pxObjClass": "PP-FW-Data-Dispute",
+            "Status": "PENDING_COUNTERPARTY_RESPONSE",
+            "TypeOfClaim": "Internal",
+            "WorkflowID": "General Dispute",
+            "AmountData": {
+                "Amount": "10.00",
+                "Currency": "USD",
+                "pxObjClass": "PP-FW-Data-Amount"
+            },
+            "CaseUserAssociations": [
+                {
+                    "AccountNumber": "1484801092820019308",
+                    "AssociationName": "BUYER",
+                    "pxObjClass": "PP-FW-Data-Dispute-CaseAssociations"
+                },
+                {
+                    "AccountNumber": "2062763970225309879",
+                    "AssociationName": "SELLER",
+                    "pxObjClass": "PP-FW-Data-Dispute-CaseAssociations"
+                }
+            ],
+            "RelatedCases": [],
+            "TransactionList": [
+                {
+                    "EncryptedTransactionID": "2VV4041517260171T",
+                    "pxObjClass": "PP-FW-Data-Trans-"
+                }
+            ]
+        }
+    ],
+    "IssueCases": [],
+    "pxDPParameters": {
+        "AccountNumber": "1484801092820019308",
+        "CaseID": "(null/empty)",
+        "DisputeStatus": "(null/empty)",
+        "DisputeType": "(null/empty)",
+        "FromDate": "(null/empty)",
+        "Location": "CompositeView",
+        "ToDate": "(null/empty)"
+    },
+    "pxResults": [
+        {
+            "CaseID": "PP-D-183081",
+            "Date": "2020-02-03T07:18:00Z",
+            "DetailedCaseStatus": "PENDING_REPRESENTMENT",
+            "DisputeReasonText": "INR",
+            "DisputeSystem": "CHARGEBACK",
+            "pxObjClass": "PP-FW-Data-Dispute",
+            "Status": "PENDING_COUNTERPARTY_RESPONSE",
+            "TypeOfClaim": "INTERNAL",
+            "WorkflowID": "GENERAL_DISPUTE",
+            "AmountData": {
+                "Amount": "10.00",
+                "Currency": "USD",
+                "pxObjClass": "PP-FW-Data-Amount"
+            },
+            "CaseUserAssociations": [
+                {
+                    "AccountNumber": "1484801092820019308",
+                    "AssociationName": "BUYER",
+                    "pxObjClass": "PP-FW-Data-Dispute-CaseAssociations"
+                },
+                {
+                    "AccountNumber": "2062763970225309879",
+                    "AssociationName": "SELLER",
+                    "pxObjClass": "PP-FW-Data-Dispute-CaseAssociations"
+                }
+            ],
+            "RelatedCases": [],
+            "TransactionList": [
+                {
+                    "EncryptedTransactionID": "3JV04495RN5660342",
+                    "pxObjClass": "PP-FW-Data-Trans-"
+                }
+            ]
+        },
+        {
+            "CaseID": "PP-D-183080",
+            "Date": "2020-02-03T07:16:40Z",
+            "DetailedCaseStatus": "PENDING_REPRESENTMENT",
+            "DisputeReasonText": "INR",
+            "DisputeSystem": "CHARGEBACK",
+            "pxObjClass": "PP-FW-Data-Dispute",
+            "Status": "PENDING_COUNTERPARTY_RESPONSE",
+            "TypeOfClaim": "INTERNAL",
+            "WorkflowID": "GENERAL_DISPUTE",
+            "AmountData": {
+                "Amount": "10.00",
+                "Currency": "USD",
+                "pxObjClass": "PP-FW-Data-Amount"
+            },
+            "CaseUserAssociations": [
+                {
+                    "AccountNumber": "1484801092820019308",
+                    "AssociationName": "BUYER",
+                    "pxObjClass": "PP-FW-Data-Dispute-CaseAssociations"
+                },
+                {
+                    "AccountNumber": "2062763970225309879",
+                    "AssociationName": "SELLER",
+                    "pxObjClass": "PP-FW-Data-Dispute-CaseAssociations"
+                }
+            ],
+            "RelatedCases": [],
+            "TransactionList": [
+                {
+                    "EncryptedTransactionID": "2VV4041517260171T",
+                    "pxObjClass": "PP-FW-Data-Trans-"
+                }
+            ]
+        }
+    ],
+    "pySourcePage": {
+        "pxObjClass": "Embed-DataSource",
+        "pySourceClass": "Code-Pega-List",
+        "pySourceIdentifier": "MapGetDisputeCases",
+        "pySourceNumber": "1",
+        "pySourceType": "Activity"
+    }
+}

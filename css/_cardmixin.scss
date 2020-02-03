@@ -1,0 +1,20 @@
+$display-content:flex;
+$flex-direction:row;
+$row-child-width:25%;
+$default-border:1px solid #0c0c0c;
+
+@mixin col-4-card-row-mixin {
+    display: $display-content;
+    flex-direction: $flex-direction;
+    padding:0.5em;
+    > div {
+        width: $row-child-width;
+        &:last-child{
+            text-align: right;  
+        }
+    }   
+}
+
+@mixin card-body-mixin {
+    border: $default-border;
+}
