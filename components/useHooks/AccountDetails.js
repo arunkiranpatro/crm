@@ -1,23 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Loading from "../PureComponents/Loading";
 import AccountDetailsJSON from "../../mockdata/AccountDetailsPage.json";
-import { FaCopy } from "react-icons/fa";
-
-const Details = function({ label, value, ccicon = "false" }) {
-  return (
-    <div>
-      <label>
-        {label}:{"   "}
-      </label>
-      <span className="field-value">{value}</span>
-      {ccicon === "true" && (
-        <i className="cc-icon">
-          <FaCopy />
-        </i>
-      )}
-    </div>
-  );
-};
+import Details from "../PureComponents/ReadOnlyData";
 
 const togglePhone = e => {
   let targetVal = e.target.textContent;
@@ -68,7 +52,9 @@ const AccountDetails = () => {
             <div className="phone-values">
               {results.ActivePhones.map((phone, index) => {
                 let phoneNumber = parseInt(phone.PhoneNumber);
-                return <div key={index}>{phoneNumber}</div>;
+                return (
+                  <Details key={index} value={phoneNumber} ccicon="true" />
+                );
               })}
             </div>
             <a onClick={togglePhone}>Show All</a>
@@ -82,7 +68,7 @@ const AccountDetails = () => {
         <div className="col">
           <Details label="Available Balance" value={results.AvailBalance} />
           <Details label="Primary Balance" value={results.TotalBalInPrimary} />
-          <Details label="Merchant Category" value={results.MerchantCategory} />
+          <Details label="Customer Segment" value={results.MerchantCategory} />
         </div>
       </>
     );

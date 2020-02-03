@@ -11,12 +11,11 @@
         "FormattedDOB": "January 01, 1990",
         "MaskedSSN": "Not Available",
         "MaskedTIN": "Not Available",
-        "MerchantCategory": "0A",
+        "MerchantCategory": "High Engaged Customer",
         "PrimaryEmail": "apatro-7616339645346128@paypal.com",
         "pxObjClass": "PP-FW-CPMFW-Data-Account-Details",
-        "TotalBalInPrimary": "2.00 USD*",
-        "ActivePhones": [
-            {
+        "TotalBalInPrimary": "2.00 USD",
+        "ActivePhones": [{
                 "CountryCode": "1",
                 "IsTouchStoneEnabled": "false",
                 "PhoneDetails": "Mobile Phone",
