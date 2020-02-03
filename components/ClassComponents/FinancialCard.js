@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import FinancialRow from "./PureComponents/FinancialRow";
+import FinancialRow from "../PureComponents/FinancialRow";
 import axios from "axios";
-import Loading from "./PureComponents/Loading";
-import { BASEURL, FIDETAILS } from "../constants";
+import Loading from "../PureComponents/Loading";
+import { BASEURL, FIDETAILS } from "../../constants";
 import financials from "../mockdata/financials.json";
 
 export default class FinancialCard extends Component {

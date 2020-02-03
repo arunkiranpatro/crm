@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import TransactionLogRow from "./PureComponents/TransactionLogRow";
+import TransactionLogRow from "../PureComponents/TransactionLogRow";
 import axios from "axios";
-import Loading from "./PureComponents/Loading";
-import { BASEURL, TRANSACTIONS } from "../constants";
+import Loading from "../PureComponents/Loading";
+import { BASEURL, TRANSACTIONS } from "../../constants";
 import transactions from "../mockdata/transactions.json";
 
 export default class TransactionLogCard extends Component {

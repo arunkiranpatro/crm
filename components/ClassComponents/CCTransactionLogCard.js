@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import CCTransactionLogRow from "./PureComponents/CCTransactionLogRow";
+import CCTransactionLogRow from "../PureComponents/CCTransactionLogRow";
 import axios from "axios";
-import Loading from "./PureComponents/Loading";
-import { BASEURL, CCTRANSACTIONS } from "../constants";
+import Loading from "../PureComponents/Loading";
+import { BASEURL, CCTRANSACTIONS } from "../../constants";
 import CCTransactions from "../mockdata/CCtransactions.json";
 
 export default class CCTransactionLogCard extends Component {
