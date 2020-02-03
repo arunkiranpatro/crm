@@ -10,7 +10,7 @@ const CCTransactionLogCard = () => {
   setTimeout(() => {
     setTxns(CCTransactionsJSON.pxResults);
     setLoading(false);
-  }, 3000);
+  }, 500);
 
   let body = "No results found";
 
@@ -24,7 +24,7 @@ const CCTransactionLogCard = () => {
   return (
     <div className="cc-transaction-card widget-card">
       <h2 className="cc-transaction-card-header widget-header">
-        CC Transaction
+        CC Transactions
       </h2>
       <div className="cc-transaction-card-body widget-body">{body}</div>
     </div>

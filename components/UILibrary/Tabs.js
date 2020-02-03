@@ -21,7 +21,7 @@ class Tabs extends React.Component {
       });
     });
 
-    return <div>{children}</div>;
+    return <div className="tab-container">{children}</div>;
   }
 }
 export default Tabs;

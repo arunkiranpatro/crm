@@ -29,7 +29,7 @@ const AccountDetails = () => {
   setTimeout(() => {
     setAccountData(AccountDetailsJSON.Account);
     setLoading(false);
-  }, 3000);
+  }, 500);
 
   let results = accountData;
   let body = "No results found";

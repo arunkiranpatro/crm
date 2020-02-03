@@ -10,7 +10,7 @@ const TransactionLogCard = () => {
   setTimeout(() => {
     setTxns(TransactionsJSON.pxResults);
     setLoading(false);
-  }, 3000);
+  }, 1000);
 
   let body = "No results found";
 
@@ -23,9 +23,7 @@ const TransactionLogCard = () => {
   }
   return (
     <div className="transaction-card widget-card">
-      <h2 className="transaction-card-header widget-header">
-        Transaction Cards
-      </h2>
+      <h2 className="transaction-card-header widget-header">Transactions</h2>
       <div className="transaction-card-body widget-body">{body}</div>
     </div>
   );

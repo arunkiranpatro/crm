@@ -8,7 +8,7 @@ const InteractionsCard = () => {
   setTimeout(() => {
     setInteractions(InteractionsJSON.pxResults);
     setLoading(false);
-  }, 1000);
+  }, 500);
   let body = "No results found";
   if (loading) {
     body = <Loading />;
