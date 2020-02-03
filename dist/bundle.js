@@ -109,7 +109,7 @@
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse("{\"pxObjClass\":\"Code-Pega-List\",\"pxResultCount\":\"\",\"pyObjClass\":\"PP-FW-CPMFW-Work\",\"pyObjClassOriginal\":\"\",\"pzPageNameHash\":\"_pa51284939875983766pz\",\"Account\":{\"AccountNumber\":\"1484801092820019308\",\"AvailBalance\":\"2.00USD\",\"BirthYear\":\"XX-XX-1990\",\"FormattedDOB\":\"January 01, 1990\",\"MaskedSSN\":\"Not Available\",\"MaskedTIN\":\"Not Available\",\"MerchantCategory\":\"0A\",\"PrimaryEmail\":\"apatro-7616339645346128@paypal.com\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Account-Details\",\"TotalBalInPrimary\":\"2.00 USD*\",\"ActivePhones\":[{\"CountryCode\":\"1\",\"IsTouchStoneEnabled\":\"false\",\"PhoneDetails\":\"Mobile Phone\",\"PhoneNumber\":\"2027641560Valid\",\"PhoneTypeLabel\":\"Mobile\",\"pxObjClass\":\"PP-FW-Data-Phone\",\"Status\":\"Primary\"},{\"CountryCode\":\"1\",\"IsTouchStoneEnabled\":\"false\",\"PhoneDetails\":\"Work Phone\",\"PhoneNumber\":\"2028105913Valid\",\"PhoneTypeLabel\":\"Work\",\"pxObjClass\":\"PP-FW-Data-Phone\",\"Status\":\"Primary\"},{\"CountryCode\":\"1\",\"IsTouchStoneEnabled\":\"false\",\"PhoneDetails\":\"Home Phone\",\"PhoneNumber\":\"2029871054Valid\",\"PhoneTypeLabel\":\"Home\",\"pxObjClass\":\"PP-FW-Data-Phone\",\"Status\":\"Primary\"}]},\"pxResults\":[]}");
+module.exports = JSON.parse("{\"pxObjClass\":\"Code-Pega-List\",\"pxResultCount\":\"\",\"pyObjClass\":\"PP-FW-CPMFW-Work\",\"pyObjClassOriginal\":\"\",\"pzPageNameHash\":\"_pa51284939875983766pz\",\"Account\":{\"AccountNumber\":\"1484801092820019308\",\"AvailBalance\":\"2.00USD\",\"BirthYear\":\"XX-XX-1990\",\"FormattedDOB\":\"January 01, 1990\",\"MaskedSSN\":\"Not Available\",\"MaskedTIN\":\"Not Available\",\"MerchantCategory\":\"High Engaged Customer\",\"PrimaryEmail\":\"apatro-7616339645346128@paypal.com\",\"pxObjClass\":\"PP-FW-CPMFW-Data-Account-Details\",\"TotalBalInPrimary\":\"2.00 USD\",\"ActivePhones\":[{\"CountryCode\":\"1\",\"IsTouchStoneEnabled\":\"false\",\"PhoneDetails\":\"Mobile Phone\",\"PhoneNumber\":\"2027641560Valid\",\"PhoneTypeLabel\":\"Mobile\",\"pxObjClass\":\"PP-FW-Data-Phone\",\"Status\":\"Primary\"},{\"CountryCode\":\"1\",\"IsTouchStoneEnabled\":\"false\",\"PhoneDetails\":\"Work Phone\",\"PhoneNumber\":\"2028105913Valid\",\"PhoneTypeLabel\":\"Work\",\"pxObjClass\":\"PP-FW-Data-Phone\",\"Status\":\"Primary\"},{\"CountryCode\":\"1\",\"IsTouchStoneEnabled\":\"false\",\"PhoneDetails\":\"Home Phone\",\"PhoneNumber\":\"2029871054Valid\",\"PhoneTypeLabel\":\"Home\",\"pxObjClass\":\"PP-FW-Data-Phone\",\"Status\":\"Primary\"}]},\"pxResults\":[]}");
 
 /***/ }),
 
@@ -1954,6 +1954,43 @@ function Loading() {
 
 /***/ }),
 
+/***/ "./components/PureComponents/ReadOnlyData.js":
+/*!***************************************************!*\
+  !*** ./components/PureComponents/ReadOnlyData.js ***!
+  \***************************************************/
+/*! namespace exports */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_require__, __webpack_require__.n, __webpack_exports__, __webpack_require__.r, __webpack_require__.d, __webpack_require__.* */
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => __WEBPACK_DEFAULT_EXPORT__
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-icons/fa */ "./node_modules/react-icons/fa/index.esm.js");
+
+
+
+var Details = function Details(_ref) {
+  var label = _ref.label,
+      value = _ref.value,
+      _ref$ccicon = _ref.ccicon,
+      ccicon = _ref$ccicon === void 0 ? "false" : _ref$ccicon;
+  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, label && label !== "" && react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", null, label, ":", "   "), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "field-value"
+  }, value), ccicon === "true" && react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
+    className: "cc-icon"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_1__.FaCopy, null)));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Details);
+
+/***/ }),
+
 /***/ "./components/PureComponents/TransactionLogRow.js":
 /*!********************************************************!*\
   !*** ./components/PureComponents/TransactionLogRow.js ***!
@@ -2003,7 +2040,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _PureComponents_Loading__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../PureComponents/Loading */ "./components/PureComponents/Loading.js");
 /* harmony import */ var _mockdata_AccountDetailsPage_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../mockdata/AccountDetailsPage.json */ "./mockdata/AccountDetailsPage.json");
-/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fa */ "./node_modules/react-icons/fa/index.esm.js");
+/* harmony import */ var _PureComponents_ReadOnlyData__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../PureComponents/ReadOnlyData */ "./components/PureComponents/ReadOnlyData.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -2016,18 +2053,6 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-
-var Details = function Details(_ref) {
-  var label = _ref.label,
-      value = _ref.value,
-      _ref$ccicon = _ref.ccicon,
-      ccicon = _ref$ccicon === void 0 ? "false" : _ref$ccicon;
-  return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", null, label, ":", "   "), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: "field-value"
-  }, value), ccicon === "true" && react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
-    className: "cc-icon"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaCopy, null)));
-};
 
 var togglePhone = function togglePhone(e) {
   var targetVal = e.target.textContent;
@@ -2075,11 +2100,11 @@ var AccountDetails = function AccountDetails() {
   } else {
     body = react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
       className: "col"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Details, {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PureComponents_ReadOnlyData__WEBPACK_IMPORTED_MODULE_3__.default, {
       label: "Account Number",
       value: results.AccountNumber,
       ccicon: "true"
-    }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Details, {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PureComponents_ReadOnlyData__WEBPACK_IMPORTED_MODULE_3__.default, {
       label: "Primary Email",
       value: results.PrimaryEmail,
       ccicon: "true"
@@ -2091,32 +2116,34 @@ var AccountDetails = function AccountDetails() {
       className: "phone-values"
     }, results.ActivePhones.map(function (phone, index) {
       var phoneNumber = parseInt(phone.PhoneNumber);
-      return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-        key: index
-      }, phoneNumber);
+      return react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PureComponents_ReadOnlyData__WEBPACK_IMPORTED_MODULE_3__.default, {
+        key: index,
+        value: phoneNumber,
+        ccicon: "true"
+      });
     })), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
       onClick: togglePhone
     }, "Show All"))), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
       className: "col"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Details, {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PureComponents_ReadOnlyData__WEBPACK_IMPORTED_MODULE_3__.default, {
       label: "DOB",
       value: results.BirthYear
-    }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Details, {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PureComponents_ReadOnlyData__WEBPACK_IMPORTED_MODULE_3__.default, {
       label: "SSN",
       value: results.MaskedSSN
-    }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Details, {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PureComponents_ReadOnlyData__WEBPACK_IMPORTED_MODULE_3__.default, {
       label: "TIN",
       value: results.MaskedTIN
     })), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
       className: "col"
-    }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Details, {
+    }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PureComponents_ReadOnlyData__WEBPACK_IMPORTED_MODULE_3__.default, {
       label: "Available Balance",
       value: results.AvailBalance
-    }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Details, {
+    }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PureComponents_ReadOnlyData__WEBPACK_IMPORTED_MODULE_3__.default, {
       label: "Primary Balance",
       value: results.TotalBalInPrimary
-    }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Details, {
-      label: "Merchant Category",
+    }), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_PureComponents_ReadOnlyData__WEBPACK_IMPORTED_MODULE_3__.default, {
+      label: "Customer Segment",
       value: results.MerchantCategory
     })));
   }
