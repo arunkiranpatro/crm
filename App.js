@@ -4,6 +4,7 @@ import TransactionLogCard from "./components/useHooks/TransactionLogCard";
 import CCTransactionLogCard from "./components/useHooks/CCTransactionLog";
 import InteractionsCard from "./components/useHooks/InteractionsFC";
 import AccountDetails from "./components/useHooks/AccountDetails";
+import TxnSearchForm from "./components/useHooks/TxnSearchForm";
 import "./css/index.scss";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <CCTransactionLogCard />
         <InteractionsCard />
       </div>
+      <TxnSearchForm />
     </div>
   );
 };

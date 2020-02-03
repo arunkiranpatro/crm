@@ -18,7 +18,9 @@ const AccountDetails = () => {
   useEffect(() => {
     var eles = document.querySelectorAll(".cc-icon");
     if (eles.length > 0) {
-      eles.forEach(ele => addEventListener("click", copyToClipboard, false));
+      eles.forEach(ele =>
+        ele.addEventListener("click", copyToClipboard, false)
+      );
     }
   });
   const [accountData, setAccountData] = useState({});
