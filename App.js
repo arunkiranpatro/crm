@@ -4,7 +4,7 @@ import TransactionLogCard from "./components/useHooks/TransactionLogCard";
 import CCTransactionLogCard from "./components/useHooks/CCTransactionLog";
 import InteractionsCard from "./components/useHooks/InteractionsFC";
 import AccountDetails from "./components/useHooks/AccountDetails";
-import TxnSearchForm from "./components/useHooks/TxnSearchForm";
+import TransactionsTab from "./components/useHooks/TransactionsTab";
 import Tabs from "./components/UILibrary/Tabs";
 import Tab from "./components/UILibrary/Tab";
 import TabLinks from "./components/UILibrary/TabLinks";
@@ -35,7 +35,7 @@ const App = () => {
           </div>
         </Tab>
         <Tab id="1" name="Transaction Log">
-          <TxnSearchForm />
+          <TransactionsTab />
         </Tab>
       </Tabs>
     </div>
