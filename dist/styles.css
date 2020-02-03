@@ -91,5 +91,10 @@ a {
   a:hover {
     cursor: pointer; }
 
+i {
+  padding-left: 0.3em; }
+  i:hover {
+    cursor: pointer; }
+
 
 /*# sourceMappingURL=styles.css.map*/
