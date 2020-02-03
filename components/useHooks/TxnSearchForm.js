@@ -17,14 +17,17 @@ const TxnSearchForm = () => {
     resetParty();
   };
   return (
-    <form>
-      <label>Transaction ID</label>
-      <input type="text" placeholder="input transaction id" {...txnid} />
-      <label>Party Name</label>
-      <input type="text" placeholder="input seller" {...party} />
-      <button>Search</button>
-      <button onClick={onReset}>Reset</button>
-    </form>
+    <fieldset>
+      <legend> Search Transactions</legend>
+      <div>
+        <label>Transaction ID</label>
+        <input type="text" placeholder="input transaction id" {...txnid} />
+        <label>Party Name</label>
+        <input type="text" placeholder="input seller" {...party} />
+        <button>Search</button>
+        <button onClick={onReset}>Reset</button>
+      </div>
+    </fieldset>
   );
 };
 export default TxnSearchForm;
