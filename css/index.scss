@@ -3,38 +3,18 @@
 @import "./tabs.scss";
 @import "./tables.scss";
 @import "./_cardmixin.scss";
+@import "./_widget.scss";
 
-.widgets {
-    display: flex;
-    flex-flow: row wrap;
+:root {
+    box-sizing: border-box;
+
 }
 
-.widget-card {
-    width: calc(50% - 50.0px);
-    margin: 10px;
-    @include card-body-mixin;
-}
+*,
+::before,
+::after {
+    box-sizing: inherit;
 
-.widget-body {
-    border-top: 1px solid #0c0c0c;
-}
-
-.widget-header {
-    margin: 5px;
-    padding-left: 25px;
-}
-
-.data-row {
-    @include col-4-card-row-mixin;
-    border-bottom: 1px solid #8080803d;
-
-    &:last-child {
-        border-bottom: none;
-    }
-
-    &:nth-child(even) {
-        background-color: #8080801c;
-    }
 }
 
 .col-3 {
