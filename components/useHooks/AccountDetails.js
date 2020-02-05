@@ -22,7 +22,7 @@ const AccountDetails = () => {
         ele.addEventListener("click", copyToClipboard, false)
       );
     }
-  }, [loading]);
+  }, []);
   const [accountData, setAccountData] = useState({});
   const [loading, setLoading] = useState(true);
 

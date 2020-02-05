@@ -1,13 +1,11 @@
 .widgets {
-    display: flex;
-    flex-flow: row wrap;
+    margin-top: 1.0em;
 }
 
 .widget-card {
-    width: calc(50% - 20px);
-    margin: 10px;
     @include card-body-mixin;
 }
+
 
 .widget-body {
     border-top: 1px solid #0c0c0c;

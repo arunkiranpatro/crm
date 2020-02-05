@@ -8208,14 +8208,14 @@ __webpack_require__.r(__webpack_exports__);
 var App = function App() {
   return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_AccountDetails__WEBPACK_IMPORTED_MODULE_5__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_Tabs__WEBPACK_IMPORTED_MODULE_7__.default, null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_TabLinks__WEBPACK_IMPORTED_MODULE_9__.default, null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_TabLink__WEBPACK_IMPORTED_MODULE_10__.default, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_Tabs__WEBPACK_IMPORTED_MODULE_7__.default, null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_TabLinks__WEBPACK_IMPORTED_MODULE_9__.default, null, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_TabLink__WEBPACK_IMPORTED_MODULE_10__.default, {
     id: "0"
   }, "Dashboard"), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_TabLink__WEBPACK_IMPORTED_MODULE_10__.default, {
     id: "1"
   }, "Transaction Log")), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_Tab__WEBPACK_IMPORTED_MODULE_8__.default, {
     id: "0",
     name: "Dashboard"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_AccountDetails__WEBPACK_IMPORTED_MODULE_5__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "widgets"
   }, react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_FinancialCard__WEBPACK_IMPORTED_MODULE_1__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_TransactionLogCard__WEBPACK_IMPORTED_MODULE_2__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_CCTransactionLog__WEBPACK_IMPORTED_MODULE_3__.default, null), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_useHooks_InteractionsFC__WEBPACK_IMPORTED_MODULE_4__.default, null))), react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_UILibrary_Tab__WEBPACK_IMPORTED_MODULE_8__.default, {
     id: "1",
@@ -8422,13 +8422,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var Tab = function Tab(props) {
   var activeId = props.activeId,
-      id = props.id,
-      handleClick = props.handleClick;
+      id = props.id;
   var children = react__WEBPACK_IMPORTED_MODULE_0___default().Children.map(props.children, function (child) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default().cloneElement(child, {
-      activeId: activeId,
-      handleClick: handleClick
-    });
+    return react__WEBPACK_IMPORTED_MODULE_0___default().cloneElement(child, {});
   });
   return react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "tab-body"
@@ -8864,7 +8860,7 @@ var AccountDetails = function AccountDetails() {
         return ele.addEventListener("click", copyToClipboard, false);
       });
     }
-  }, [loading]);
+  }, []);
 
   var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({}),
       _useState2 = _slicedToArray(_useState, 2),
@@ -9465,7 +9461,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_0___default().render(react__WEBPACK_IMPORTED_
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.id, ".financial-row {\n  display: flex;\n  flex-direction: row;\n  padding: 0.5em; }\n  .financial-row > div {\n    width: 25%; }\n    .financial-row > div:last-child {\n      text-align: right; }\n\n.txn-row {\n  display: flex;\n  flex-direction: row;\n  padding: 0.5em; }\n  .txn-row > div {\n    width: 25%; }\n    .txn-row > div:last-child {\n      text-align: right; }\n\n.txn-red {\n  color: red; }\n\n.txn-green {\n  color: green; }\n\ndiv.tab-container {\n  margin: 0.5em; }\n\nul.tab-links {\n  list-style-type: none;\n  display: flex;\n  margin: 0;\n  border-bottom: 1px solid #000000;\n  padding-left: 0.5em; }\n  ul.tab-links > li.tab-link {\n    padding: 0.5em;\n    border-top: 1px solid #000000;\n    border-bottom: 0;\n    border-left: 1px solid #000000;\n    border-right: 1px solid #000000; }\n    ul.tab-links > li.tab-link:hover {\n      cursor: pointer; }\n\ndiv.tab-body {\n  margin-top: 0.5em; }\n\n.table-container {\n  width: 100%; }\n  .table-container > thead > tr {\n    border-bottom: 1px solid #000000; }\n\n.table-container th {\n  text-align: left; }\n\n.table-container tr:nth-child(even) {\n  background-color: #8080801c; }\n\n.widgets {\n  display: flex;\n  flex-flow: row wrap; }\n\n.widget-card {\n  width: calc(50% - 50.0px);\n  margin: 10px;\n  border: 1px solid #0c0c0c; }\n\n.widget-body {\n  border-top: 1px solid #0c0c0c; }\n\n.widget-header {\n  margin: 5px;\n  padding-left: 25px; }\n\n.data-row {\n  display: flex;\n  flex-direction: row;\n  padding: 0.5em;\n  border-bottom: 1px solid #8080803d; }\n  .data-row > div {\n    width: 25%; }\n    .data-row > div:last-child {\n      text-align: right; }\n  .data-row:last-child {\n    border-bottom: none; }\n  .data-row:nth-child(even) {\n    background-color: #8080801c; }\n\n.col-3 {\n  display: flex;\n  flex-flow: row wrap;\n  width: 100%; }\n  .col-3 > .col:nth-of-type(1) {\n    flex-grow: 3; }\n  .col-3 > .col:nth-of-type(2) {\n    flex-grow: 1; }\n  .col-3 > .col:nth-of-type(3) {\n    flex-grow: 2; }\n\n.phone-wrapper {\n  display: flex; }\n  .phone-wrapper > .phone-label {\n    flex-basis: 110px; }\n  .phone-wrapper > div {\n    display: flex;\n    flex-direction: column; }\n    .phone-wrapper > div > div {\n      display: none; }\n      .phone-wrapper > div > div:first-child {\n        display: initial; }\n  .phone-wrapper > div.show-all {\n    display: flex;\n    flex-direction: column; }\n    .phone-wrapper > div.show-all > div {\n      display: initial; }\n\n.account-header {\n  font-size: 1.2em;\n  font-weight: 700; }\n\na {\n  text-decoration: underline;\n  color: #0000ff;\n  padding-left: 25px; }\n  a:hover {\n    cursor: pointer; }\n\ni {\n  padding-left: 0.3em; }\n  i:hover {\n    cursor: pointer; }\n", ""]);
+exports.push([module.id, ".financial-row {\n  display: flex;\n  flex-direction: row;\n  padding: 0.5em; }\n  .financial-row > div {\n    width: 25%; }\n    .financial-row > div:last-child {\n      text-align: right; }\n\n.txn-row {\n  display: flex;\n  flex-direction: row;\n  padding: 0.5em; }\n  .txn-row > div {\n    width: 25%; }\n    .txn-row > div:last-child {\n      text-align: right; }\n\n.txn-red {\n  color: red; }\n\n.txn-green {\n  color: green; }\n\ndiv.tab-container {\n  margin: 0.5em; }\n\nul.tab-links {\n  list-style-type: none;\n  display: flex;\n  margin: 0;\n  border-bottom: 1px solid #000000;\n  padding-left: 0.5em; }\n  ul.tab-links > li.tab-link {\n    padding: 0.5em;\n    border-top: 1px solid #000000;\n    border-bottom: 0;\n    border-left: 1px solid #000000;\n    border-right: 1px solid #000000; }\n    ul.tab-links > li.tab-link:hover {\n      cursor: pointer; }\n\ndiv.tab-body {\n  margin-top: 0.5em; }\n\n.table-container {\n  width: 100%; }\n  .table-container > thead > tr {\n    border-bottom: 1px solid #000000; }\n\n.table-container th {\n  text-align: left; }\n\n.table-container tr:nth-child(even) {\n  background-color: #8080801c; }\n\n.widgets {\n  display: flex;\n  flex-flow: row wrap;\n  margin-top: 1.5em; }\n\n.widget-card {\n  width: 50%;\n  border: 1px solid #0c0c0c; }\n\n.widget-body {\n  border-top: 1px solid #0c0c0c; }\n\n.widget-header {\n  margin: 5px;\n  padding-left: 25px; }\n\n.data-row {\n  display: flex;\n  flex-direction: row;\n  padding: 0.5em;\n  border-bottom: 1px solid #8080803d; }\n  .data-row > div {\n    width: 25%; }\n    .data-row > div:last-child {\n      text-align: right; }\n  .data-row:last-child {\n    border-bottom: none; }\n  .data-row:nth-child(even) {\n    background-color: #8080801c; }\n\n:root {\n  box-sizing: border-box; }\n\n*,\n::before,\n::after {\n  box-sizing: inherit; }\n\n.col-3 {\n  display: flex;\n  flex-flow: row wrap;\n  width: 100%; }\n  .col-3 > .col:nth-of-type(1) {\n    flex-grow: 3; }\n  .col-3 > .col:nth-of-type(2) {\n    flex-grow: 1; }\n  .col-3 > .col:nth-of-type(3) {\n    flex-grow: 2; }\n\n.phone-wrapper {\n  display: flex; }\n  .phone-wrapper > .phone-label {\n    flex-basis: 110px; }\n  .phone-wrapper > div {\n    display: flex;\n    flex-direction: column; }\n    .phone-wrapper > div > div {\n      display: none; }\n      .phone-wrapper > div > div:first-child {\n        display: initial; }\n  .phone-wrapper > div.show-all {\n    display: flex;\n    flex-direction: column; }\n    .phone-wrapper > div.show-all > div {\n      display: initial; }\n\n.account-header {\n  font-size: 1.2em;\n  font-weight: 700; }\n\na {\n  text-decoration: underline;\n  color: #0000ff;\n  padding-left: 25px; }\n  a:hover {\n    cursor: pointer; }\n\ni {\n  padding-left: 0.3em; }\n  i:hover {\n    cursor: pointer; }\n", ""]);
 // Exports
 module.exports = exports;
 

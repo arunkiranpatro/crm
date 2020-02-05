@@ -1,8 +1,5 @@
 import React, { createContext } from "react";
-import FinancialCard from "./components/useHooks/FinancialCard";
-import TransactionLogCard from "./components/useHooks/TransactionLogCard";
-import CCTransactionLogCard from "./components/useHooks/CCTransactionLog";
-import InteractionsCard from "./components/useHooks/InteractionsFC";
+import Widgets from "./components/MainPage/Widgets";
 import AccountDetails from "./components/useHooks/AccountDetails";
 import TransactionsTab from "./components/useHooks/TransactionsTab";
 import Tabs from "./components/UILibrary/Tabs";
@@ -20,19 +17,14 @@ import "./css/index.scss";
 const App = () => {
   return (
     <div className="container">
-      <AccountDetails />
       <Tabs>
         <TabLinks>
           <TabLink id="0">Dashboard</TabLink>
           <TabLink id="1">Transaction Log</TabLink>
         </TabLinks>
         <Tab id="0" name="Dashboard">
-          <div className="widgets">
-            <FinancialCard />
-            <TransactionLogCard />
-            <CCTransactionLogCard />
-            <InteractionsCard />
-          </div>
+          <AccountDetails />
+          <Widgets />
         </Tab>
         <Tab id="1" name="Transaction Log">
           <TransactionsTab />
