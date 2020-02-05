@@ -1,3 +1,5 @@
+@import "./_variables";
+
 .table-container {
     width: 100%;
 
@@ -14,5 +16,5 @@
 }
 
 .table-container tr:nth-child(even) {
-    background-color: #8080801c;
+    background-color: $grey-color;
 }

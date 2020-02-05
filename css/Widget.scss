@@ -1,38 +1,44 @@
-@import "./variables";
+@import "./_variables";
 
 .widget-card {
     border: $default-border;
 }
 
-.widget-body {
-    border-top: $default-border;
-}
-
 .widget-header {
-    margin: 5px;
-    padding-left: 25px;
+    padding: 0.5em;
+    margin: 0;
+    border-bottom: $default-border;
 }
 
-
-.widget-row{
+.widget-row {
     margin-top: 0;
-    border-bottom: 1px solid #8080803d;
+    border-bottom: $grey-border;
 
     &:last-child {
         border-bottom: none;
     }
 
     &:nth-child(even) {
-        background-color: #8080801c;
+        background-color: $grey-color;
     }
 
-    >.row{
-        margin: 0 ;
-        >div{
+    >.row {
+        margin: 0;
+
+        >div {
             padding: 0.5em;
-            &:last-child{
-                text-align: right;  
+
+            &:last-child {
+                text-align: right;
             }
         }
     }
+}
+
+.txn-red {
+    color: $red;
+}
+
+.txn-green {
+    color: $green;
 }
