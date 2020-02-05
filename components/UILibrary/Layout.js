@@ -2,7 +2,7 @@ import React from "react";
 
 const Layout = function(props) {
   const { className, columns } = props;
-  const containerClassName = "container " + className;
+  const containerClassName = "row-col-container " + className;
   let cols = Number.parseInt(columns);
   const myChildren = React.Children.toArray(props.children);
   if (myChildren.length <= 0) {

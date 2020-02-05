@@ -33,7 +33,6 @@ const App = () => {
             <TransactionLogCard />
             <CCTransactionLogCard />
             <InteractionsCard />
-            <Layout></Layout>
           </Layout>
         </Tab>
         <Tab id="1" name="Transaction Log">
