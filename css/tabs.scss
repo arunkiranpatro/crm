@@ -1,3 +1,4 @@
+@import "./variables";
 div.tab-container {
     margin: 0.5em;
 }
@@ -6,15 +7,15 @@ ul.tab-links {
     list-style-type: none;
     display: flex;
     margin: 0;
-    border-bottom: 1px solid #000000;
+    border-bottom: $default-border;
     padding-left: 0.5em;
 
     >li.tab-link {
         padding: 0.5em;
-        border-top: 1px solid #000000;
+        border-top: $default-border;
         border-bottom: 0;
-        border-left: 1px solid #000000;
-        border-right: 1px solid #000000;
+        border-left:$default-border;
+        border-right: $default-border;
 
         &:hover {
             cursor: pointer;

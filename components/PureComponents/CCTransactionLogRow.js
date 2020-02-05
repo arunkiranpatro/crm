@@ -1,12 +1,13 @@
 import React from "react";
+import Layout from "../UILibrary/Layout";
 
 export default function CCTransactionLogRow({ data }) {
   return (
-    <div className="data-row">
-      <div>{data.TransAuthDate}</div>
-      <div>{data.FIDetails.IssueNumber}</div>
-      <div>{data.ActionDetails}</div>
-      <div>{data.FIDetails.Currency}</div>
-    </div>
+    <Layout className="widget-row" columns="4">
+      <>{data.TransAuthDate}</>
+      <>{data.FIDetails.IssueNumber}</>
+      <>{data.ActionDetails}</>
+      <>{data.FIDetails.Currency}</>
+    </Layout>
   );
 }

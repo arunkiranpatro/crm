@@ -1,79 +1,10 @@
-@import "./financials.scss";
-@import "./transactions.scss";
-@import "./tabs.scss";
-@import "./tables.scss";
-@import "./_cardmixin.scss";
-@import "./_widget.scss";
-@import "./layouts";
-
-:root {
-    box-sizing: border-box;
-
-}
-
-*,
-::before,
-::after {
-    box-sizing: inherit;
-
-}
-
-.phone-values {
-    >div{
-        display: none;
-        &:first-child {
-            display: inline-block;
-        }
-
-    }
-}
-.phone-values.show-all >div{
-    display: block;
-}
-
-.phone-values{
-    display: inline-block;
-}
-
-.phone-wrapper > label{
-    vertical-align: top;
-}
-.phone-wrapper > a{
-    vertical-align: top;
-}
-
-.account-body{
-    margin-top: 0;
-}
+@import "./Defaults.scss";
+@import "./Tabs.scss";
+@import "./Tables.scss";
+@import "./Layouts";
+@import "./Widget.scss";
+@import "./Transactions.scss";
+@import "./AccountWidget.scss";
 
 
 
-    
-            
-
-
-    
-
-.account-header {
-    font-size: 1.2em;
-    font-weight: 700;
-
-}
-
-a {
-    text-decoration: underline;
-    color: #0000ff;
-    padding-left: 25px;
-
-    &:hover {
-        cursor: pointer;
-    }
-}
-
-i {
-    padding-left: 0.3em;
-
-    &:hover {
-        cursor: pointer;
-    }
-}

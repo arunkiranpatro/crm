@@ -1,0 +1,38 @@
+@import "./variables";
+
+.widget-card {
+    border: $default-border;
+}
+
+.widget-body {
+    border-top: $default-border;
+}
+
+.widget-header {
+    margin: 5px;
+    padding-left: 25px;
+}
+
+
+.widget-row{
+    margin-top: 0;
+    border-bottom: 1px solid #8080803d;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    &:nth-child(even) {
+        background-color: #8080801c;
+    }
+
+    >.row{
+        margin: 0 ;
+        >div{
+            padding: 0.5em;
+            &:last-child{
+                text-align: right;  
+            }
+        }
+    }
+}

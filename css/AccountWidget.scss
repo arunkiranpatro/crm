@@ -1,0 +1,33 @@
+.phone-values {
+    >div{
+        display: none;
+        &:first-child {
+            display: inline-block;
+        }
+
+    }
+}
+.phone-values.show-all >div{
+    display: block;
+}
+
+.phone-values{
+    display: inline-block;
+}
+
+.phone-wrapper > label{
+    vertical-align: top;
+}
+.phone-wrapper > a{
+    vertical-align: top;
+}
+
+.account-body{
+    margin-top: 0;
+}
+            
+.account-header {
+    font-size: 1.2em;
+    font-weight: 700;
+
+}

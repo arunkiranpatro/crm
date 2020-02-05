@@ -1,0 +1,30 @@
+:root {
+    box-sizing: border-box;
+
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+
+}
+
+
+a {
+    text-decoration: underline;
+    color: #0000ff;
+    padding-left: 25px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+i {
+    padding-left: 0.3em;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

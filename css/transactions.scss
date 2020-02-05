@@ -1,8 +1,5 @@
-@import "./_cardmixin.scss";
+@import "./variables";
 
-.txn-row{
-    @include col-4-card-row-mixin;
-}
 
 .txn-red{
     color:red;

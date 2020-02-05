@@ -23,12 +23,8 @@ const Layout = function(props) {
         {myChildren[i - 1]}
       </div>
     );
-    /** suppose children =3 and columns=3 */
-    if( columns === myChildren.length){
-    mainBody=<>{rows}</>;
-    }
     /** suppose children =5 and columns=2  */
-    else if (i % columns === 0 || i === myChildren.length) {
+    if (i % columns === 0 || i === myChildren.length) {
       rowClassName=rowClassName+rowNum;
       mainBody.push(
         <div className={rowClassName} key={"row" + i}>
