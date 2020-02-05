@@ -1,5 +1,9 @@
 import React, { createContext } from "react";
-import Widgets from "./components/MainPage/Widgets";
+import FinancialCard from "./components/useHooks/FinancialCard";
+import TransactionLogCard from "./components/useHooks/TransactionLogCard";
+import CCTransactionLogCard from "./components/useHooks/CCTransactionLog";
+import InteractionsCard from "./components/useHooks/InteractionsFC";
+import Layout from "./components/UILibrary/Layout";
 import AccountDetails from "./components/useHooks/AccountDetails";
 import TransactionsTab from "./components/useHooks/TransactionsTab";
 import Tabs from "./components/UILibrary/Tabs";
@@ -24,7 +28,13 @@ const App = () => {
         </TabLinks>
         <Tab id="0" name="Dashboard">
           <AccountDetails />
-          <Widgets />
+          <Layout columns="2" className="widgets">
+            <FinancialCard />
+            <TransactionLogCard />
+            <CCTransactionLogCard />
+            <InteractionsCard />
+            <Layout></Layout>
+          </Layout>
         </Tab>
         <Tab id="1" name="Transaction Log">
           <TransactionsTab />
