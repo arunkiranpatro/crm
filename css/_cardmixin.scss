@@ -1,7 +1,4 @@
-$display-content:flex;
-$flex-direction:row;
-$row-child-width:25%;
-$default-border:1px solid #0c0c0c;
+@import "./variables";
 
 @mixin col-4-card-row-mixin {
     display: $display-content;

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import Loading from "../PureComponents/Loading";
 import AccountDetailsJSON from "../../mockdata/AccountDetailsPage.json";
 import Details from "../PureComponents/ReadOnlyData";
+import PhoneList from "../PureComponents/PhoneList";
+import Layout from "../UILibrary/Layout";
 
 const togglePhone = e => {
   let targetVal = e.target.textContent;
@@ -37,8 +39,8 @@ const AccountDetails = () => {
     body = <Loading />;
   } else {
     body = (
-      <>
-        <div className="col">
+      <Layout columns="3" className="account-body">
+        <div>
           <Details
             label="Account Number"
             value={results.AccountNumber}
@@ -49,36 +51,25 @@ const AccountDetails = () => {
             value={results.PrimaryEmail}
             ccicon="true"
           />
-          <div className="phone-wrapper">
-            <div className="phone-label">Phone Number: </div>
-            <div className="phone-values">
-              {results.ActivePhones.map((phone, index) => {
-                let phoneNumber = parseInt(phone.PhoneNumber);
-                return (
-                  <Details key={index} value={phoneNumber} ccicon="true" />
-                );
-              })}
-            </div>
-            <a onClick={togglePhone}>Show All</a>
-          </div>
+          <PhoneList ActivePhones={results.ActivePhones} togglePhone={togglePhone}/>
         </div>
-        <div className="col">
+        <div >
           <Details label="DOB" value={results.BirthYear} />
           <Details label="SSN" value={results.MaskedSSN} />
           <Details label="TIN" value={results.MaskedTIN} />
         </div>
-        <div className="col">
+        <div >
           <Details label="Available Balance" value={results.AvailBalance} />
           <Details label="Primary Balance" value={results.TotalBalInPrimary} />
           <Details label="Customer Segment" value={results.MerchantCategory} />
         </div>
-      </>
+      </Layout>
     );
   }
   return (
     <fieldset className="account-details-card">
       <legend className="account-header ">Account Details</legend>
-      <div className="account-body col-3">{body}</div>
+      {body}
     </fieldset>
   );
 };

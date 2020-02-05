@@ -18,56 +18,41 @@
 
 }
 
-.col-3 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100%;
-
-    >.col {
-        &:nth-of-type(1) {
-            flex-grow: 3;
+.phone-values {
+    >div{
+        display: none;
+        &:first-child {
+            display: inline-block;
         }
 
-        &:nth-of-type(2) {
-            flex-grow: 1;
-        }
-
-        &:nth-of-type(3) {
-            flex-grow: 2;
-        }
     }
 }
-
-.phone-wrapper {
-    display: flex;
-
-    >.phone-label {
-        flex-basis: 110px;
-    }
-
-    >div {
-        display: flex;
-        flex-direction: column;
-
-        >div {
-            display: none;
-
-            &:first-child {
-                display: initial;
-            }
-        }
-
-    }
-
-    >div.show-all {
-        display: flex;
-        flex-direction: column;
-
-        >div {
-            display: initial;
-        }
-    }
+.phone-values.show-all >div{
+    display: block;
 }
+
+.phone-values{
+    display: inline-block;
+}
+
+.phone-wrapper > label{
+    vertical-align: top;
+}
+.phone-wrapper > a{
+    vertical-align: top;
+}
+
+.account-body{
+    margin-top: 0;
+}
+
+
+
+    
+            
+
+
+    
 
 .account-header {
     font-size: 1.2em;

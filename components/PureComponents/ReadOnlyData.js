@@ -1,15 +1,25 @@
 import React from "react";
 import { FaCopy } from "react-icons/fa";
 
-const Details = function({ label, value, ccicon = "false" }) {
+const Details = function(props) {
+  const { label, value, ccicon = "false" ,children,className} = props;
+  let body;
+  if(value && value!==""){
+    body=<span className="field-value">{value}</span>;
+  }
+  else if(children){
+    body=children;
+  }
   return (
-    <div>
+    <div className={className}>
       {label && label !== "" && (
         <label>
           {label}:{"   "}
         </label>
       )}
-      <span className="field-value">{value}</span>
+     {
+       body
+     }
       {ccicon === "true" && (
         <i className="cc-icon">
           <FaCopy />
