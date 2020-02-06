@@ -1,13 +1,16 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
 import TransactionLogRow from "../PureComponents/TransactionLogRow";
 import Loading from "../PureComponents/Loading";
-import { connect } from "react-redux";
+
 import { getTransactions } from "../../store/actions/txnCardActions";
 
 class TransactionLogCard extends Component {
   componentDidMount() {
     this.props.getTransactions();
   }
+
   render() {
     let { txns, isLoading } = this.props.txncard;
     console.log("is loading:" + isLoading);
@@ -28,6 +31,13 @@ class TransactionLogCard extends Component {
     );
   }
 }
+TransactionLogCard.propTypes = {
+  txncard: PropTypes.shape({
+    txns: PropTypes.array,
+    isLoading: PropTypes.bool
+  }),
+  getTransactions: PropTypes.func
+};
 
 const mapStateToProps = state => {
   return {

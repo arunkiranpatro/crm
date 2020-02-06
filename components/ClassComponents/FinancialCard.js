@@ -1,15 +1,17 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
 import FinancialRow from "../PureComponents/FinancialRow";
 import Loading from "../PureComponents/Loading";
-import { connect } from "react-redux";
 import { getFinancials } from "../../store/actions/financialCardActions";
 
 class FinancialCard extends Component {
   componentDidMount() {
     this.props.getFinancials();
   }
+
   render() {
-    let { financials, isLoading, errors } = this.props.financeCard;
+    let { financials, isLoading } = this.props.financeCard;
     let body = "No results found";
     if (isLoading) {
       body = <Loading />;
@@ -26,6 +28,13 @@ class FinancialCard extends Component {
     );
   }
 }
+FinancialCard.propTypes = {
+  financeCard: PropTypes.shape({
+    financials: PropTypes.array,
+    isLoading: PropTypes.bool
+  }),
+  getFinancials: PropTypes.func
+};
 
 const mapStateToProps = state => {
   return {

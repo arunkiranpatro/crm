@@ -1,9 +1,10 @@
 import React from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
 import Loading from "../PureComponents/Loading";
 import Details from "../PureComponents/ReadOnlyData";
 import PhoneList from "../PureComponents/PhoneList";
 import Layout from "../UILibrary/Layout";
-import { connect } from "react-redux";
 import { getAccountDetails } from "../../store/actions/accountActions";
 
 const togglePhone = e => {
@@ -21,8 +22,9 @@ class AccountDetails extends React.Component {
   componentDidMount() {
     this.props.getAccountDetails();
   }
+
   render() {
-    let { account, isLoading, errors } = this.props.accountCard;
+    let { account, isLoading } = this.props.accountCard;
     let body = "No results found";
     if (isLoading) {
       body = <Loading />;
@@ -74,6 +76,14 @@ class AccountDetails extends React.Component {
     );
   }
 }
+
+AccountDetails.propTypes = {
+  accountCard: PropTypes.shape({
+    account: PropTypes.any,
+    isLoading: PropTypes.bool
+  }),
+  getAccountDetails: PropTypes.func
+};
 
 const mapStateToProps = state => {
   return {
