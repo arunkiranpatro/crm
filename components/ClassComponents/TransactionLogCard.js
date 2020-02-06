@@ -7,10 +7,8 @@ import { getTransactions } from "../../store/actions/txnCardActions";
 class TransactionLogCard extends Component {
   componentDidMount() {
     this.props.getTransactions();
-    console.log("calling get txns");
   }
   render() {
-    console.log("txn card rendering");
     let { txns, isLoading } = this.props.txncard;
     console.log("is loading:" + isLoading);
     let body = "No results found";
