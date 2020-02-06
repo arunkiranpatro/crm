@@ -1,58 +1,35 @@
 {
-    "pxObjClass":"Code-Pega-List"
-    ,"pxResultCount":""
-    ,"pyObjClass":"Index-PegaCA-ContactInteractions"
-    ,"pyObjClassOriginal":""
-    ,"pzPageNameHash":"_pa51281790302341926pz"
-    ,"pxResults":[ 
-    {
-    "AccountNumber":"1484801092820019308"
-    ,"ContactChannel":"VOICE"
-    ,"CreateDateTime":"2020-02-02T17:48:41.832Z"
-    ,"InteractionType":"phone"
-    ,"ItemID":"I-99650"
-    ,"OwnerID":"Arun Kiran Patro"
-    ,"pxInsHandle":"INDEX-PEGACA-CONTACTINTERACTIONS PP-GOPS-CS-WORK-INTERACTION I-99650!0!CAINTERACTIONSBYCONTACT"
-    ,"pxInsIndexedKey":"PP-GOPS-CS-WORK-INTERACTION I-99650"
-    ,"pxObjClass":"Index-PegaCA-ContactInteractions"
-    ,"WorkStatus":"Pending-AgentAction"
-    }
-    ,{
-    "AccountNumber":"1484801092820019308"
-    ,"ContactChannel":"VOICE"
-    ,"CreateDateTime":"2020-01-29T00:35:11.816Z"
-    ,"InteractionType":"phone"
-    ,"ItemID":"I-99278"
-    ,"OwnerID":"Arun Kiran Patro"
-    ,"pxInsHandle":"INDEX-PEGACA-CONTACTINTERACTIONS PP-GOPS-CS-WORK-INTERACTION I-99278!0!CAINTERACTIONSBYCONTACT"
-    ,"pxInsIndexedKey":"PP-GOPS-CS-WORK-INTERACTION I-99278"
-    ,"pxObjClass":"Index-PegaCA-ContactInteractions"
-    ,"WorkStatus":"Pending-AgentAction"
-    }
-    ,{
-    "AccountNumber":"1484801092820019308"
-    ,"ContactChannel":"VOICE"
-    ,"CreateDateTime":"2020-01-21T05:27:41.202Z"
-    ,"InteractionType":"phone"
-    ,"ItemID":"I-97133"
-    ,"OwnerID":"Arun Kiran Patro"
-    ,"pxInsHandle":"INDEX-PEGACA-CONTACTINTERACTIONS PP-GOPS-CS-WORK-INTERACTION I-97133!0!CAINTERACTIONSBYCONTACT"
-    ,"pxInsIndexedKey":"PP-GOPS-CS-WORK-INTERACTION I-97133"
-    ,"pxObjClass":"Index-PegaCA-ContactInteractions"
-    ,"WorkStatus":"Pending-AgentAction"
-    }
-    ,{
-    "AccountNumber":"1484801092820019308"
-    ,"ContactChannel":"VOICE"
-    ,"CreateDateTime":"2020-01-21T05:24:09.377Z"
-    ,"InteractionType":"phone"
-    ,"ItemID":"I-97301"
-    ,"OwnerID":"Arun Kiran Patro"
-    ,"pxInsHandle":"INDEX-PEGACA-CONTACTINTERACTIONS PP-GOPS-CS-WORK-INTERACTION I-97301!0!CAINTERACTIONSBYCONTACT"
-    ,"pxInsIndexedKey":"PP-GOPS-CS-WORK-INTERACTION I-97301"
-    ,"pxObjClass":"Index-PegaCA-ContactInteractions"
-    ,"WorkStatus":"Pending-AgentAction"
-    }
-    ] 
-    }
-    
+    "pxResults": [{
+        "AccountNumber": "1484801092820019308",
+        "ContactChannel": "VOICE",
+        "CreateDateTime": "2020-02-02T17:48:41.832Z",
+        "InteractionType": "phone",
+        "ItemID": "I-99650",
+        "OwnerID": "Arun Kiran Patro",
+        "WorkStatus": "Pending-AgentAction"
+    }, {
+        "AccountNumber": "1484801092820019308",
+        "ContactChannel": "VOICE",
+        "CreateDateTime": "2020-01-29T00:35:11.816Z",
+        "InteractionType": "phone",
+        "ItemID": "I-99278",
+        "OwnerID": "Arun Kiran Patro",
+        "WorkStatus": "Pending-AgentAction"
+    }, {
+        "AccountNumber": "1484801092820019308",
+        "ContactChannel": "VOICE",
+        "CreateDateTime": "2020-01-21T05:27:41.202Z",
+        "InteractionType": "phone",
+        "ItemID": "I-97133",
+        "OwnerID": "Arun Kiran Patro",
+        "WorkStatus": "Pending-AgentAction"
+    }, {
+        "AccountNumber": "1484801092820019308",
+        "ContactChannel": "VOICE",
+        "CreateDateTime": "2020-01-21T05:24:09.377Z",
+        "InteractionType": "phone",
+        "ItemID": "I-97301",
+        "OwnerID": "Arun Kiran Patro",
+        "WorkStatus": "Pending-AgentAction"
+    }]
+}

@@ -1,9 +1,4 @@
 {
-    "pxObjClass": "Code-Pega-List",
-    "pxResultCount": "",
-    "pyObjClass": "PP-FW-CPMFW-Work",
-    "pyObjClassOriginal": "",
-    "pzPageNameHash": "_pa51284939875983766pz",
     "Account": {
         "AccountNumber": "1484801092820019308",
         "AvailBalance": "2.00USD",
@@ -12,8 +7,8 @@
         "MaskedSSN": "Not Available",
         "MaskedTIN": "Not Available",
         "MerchantCategory": "High Engaged Customer",
-        "PrimaryEmail": "apatro-7616339645346128@paypal.com",
-        "pxObjClass": "PP-FW-CPMFW-Data-Account-Details",
+        "PrimaryEmail": "apatro-7616339645346128@fintech.com",
+
         "TotalBalInPrimary": "2.00 USD",
         "ActivePhones": [{
                 "CountryCode": "1",
@@ -21,7 +16,7 @@
                 "PhoneDetails": "Mobile Phone",
                 "PhoneNumber": "2027641560Valid",
                 "PhoneTypeLabel": "Mobile",
-                "pxObjClass": "PP-FW-Data-Phone",
+
                 "Status": "Primary"
             },
             {
@@ -30,7 +25,7 @@
                 "PhoneDetails": "Work Phone",
                 "PhoneNumber": "2028105913Valid",
                 "PhoneTypeLabel": "Work",
-                "pxObjClass": "PP-FW-Data-Phone",
+
                 "Status": "Primary"
             },
             {
@@ -39,10 +34,9 @@
                 "PhoneDetails": "Home Phone",
                 "PhoneNumber": "2029871054Valid",
                 "PhoneTypeLabel": "Home",
-                "pxObjClass": "PP-FW-Data-Phone",
+
                 "Status": "Primary"
             }
         ]
-    },
-    "pxResults": []
+    }
 }
