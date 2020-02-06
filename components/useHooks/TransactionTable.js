@@ -5,7 +5,7 @@ import TableColumn from "../UILibrary/TableColumn";
 import TableRows from "../UILibrary/TableRows";
 import TableRow from "../UILibrary/TableRow";
 import TxnsLogs from "../../mockdata/TxnsLog.json";
-import Loading from "../PureComponents/Loading";
+import Loading from "../UILibrary/Loading";
 
 const TransactionTable = () => {
   const [txns, setTxns] = useState([]);
