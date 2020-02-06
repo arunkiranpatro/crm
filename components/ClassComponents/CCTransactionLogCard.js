@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import CCTransactionLogRow from "../PureComponents/CCTransactionLogRow";
-import Loading from "../PureComponents/Loading";
+import Loading from "../UILibrary/Loading";
+import moment from "moment";
 
 import { getCCTransactions } from "../../store/actions/ccTxnCardActions";
 

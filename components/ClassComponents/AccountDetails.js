@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import Loading from "../PureComponents/Loading";
-import Details from "../PureComponents/ReadOnlyData";
+import Loading from "../UILibrary/Loading";
+import Details from "../UILibrary/ReadOnlyData";
 import PhoneList from "../PureComponents/PhoneList";
 import Layout from "../UILibrary/Layout";
 import { getAccountDetails } from "../../store/actions/accountActions";

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import TransactionLogRow from "../PureComponents/TransactionLogRow";
-import Loading from "../PureComponents/Loading";
+import Loading from "../UILibrary/Loading";
 
 import { getTransactions } from "../../store/actions/txnCardActions";
 
@@ -13,7 +13,6 @@ class TransactionLogCard extends Component {
 
   render() {
     let { txns, isLoading } = this.props.txncard;
-    console.log("is loading:" + isLoading);
     let body = "No results found";
 
     if (isLoading) {

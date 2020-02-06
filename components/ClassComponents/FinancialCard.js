@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import FinancialRow from "../PureComponents/FinancialRow";
-import Loading from "../PureComponents/Loading";
+import Loading from "../UILibrary/Loading";
 import { getFinancials } from "../../store/actions/financialCardActions";
 
 class FinancialCard extends Component {

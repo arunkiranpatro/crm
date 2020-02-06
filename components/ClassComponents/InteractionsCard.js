@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import InteractionRow from "../PureComponents/InteractionRow";
-import Loading from "../PureComponents/Loading";
+import Loading from "../UILibrary/Loading";
 import { getInteractions } from "../../store/actions/interactionsActions";
 
 class InteractionsCard extends Component {

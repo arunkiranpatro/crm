@@ -1,5 +1,5 @@
 import React from "react";
-import Details from "./ReadOnlyData";
+import Details from "../UILibrary/ReadOnlyData";
 
 const PhoneList = function(props) {
   let { ActivePhones, togglePhone } = props;
