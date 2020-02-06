@@ -6,6 +6,7 @@ import TableRows from "../UILibrary/TableRows";
 import TableRow from "../UILibrary/TableRow";
 import TxnsLogs from "../../mockdata/TxnsLog.json";
 import Loading from "../UILibrary/Loading";
+import Moment from "react-moment";
 
 const TransactionTable = () => {
   const [txns, setTxns] = useState([]);
@@ -25,7 +26,12 @@ const TransactionTable = () => {
       return (
         <TableRows key={index}>
           <TableRow>{result.TransactionID}</TableRow>
-          <TableRow>{result.TransactionDate}</TableRow>
+          <TableRow>
+            {" "}
+            <Moment format="DD-MM-YYYY hh:mm a">
+              {result.TransactionDate}
+            </Moment>
+          </TableRow>
           <TableRow>{result.TransactionType}</TableRow>
           <TableRow>{result.CounterpartyEmail}</TableRow>
           <TableRow>{result.NetAmount.AmountCurrency}</TableRow>

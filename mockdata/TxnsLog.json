@@ -20,7 +20,7 @@
       "Status": "Placed",
 
       "ToFrom": "From The Artisan",
-      "TransactionDate": "20200203T071858.000 GMT",
+      "TransactionDate": "2020-02-02T16:14:28.000Z",
       "TransactionID": "20114507003642015",
       "TransactionNetAmount": "11.35",
       "TransactionType": "Temporary Hold",
@@ -78,7 +78,7 @@
       "Status": "Placed",
 
       "ToFrom": "From The Artisan",
-      "TransactionDate": "20200203T071747.000 GMT",
+      "TransactionDate": "2020-01-02T16:14:28.000Z",
       "TransactionID": "20114507003635753",
       "TransactionNetAmount": "11.35",
       "TransactionType": "Temporary Hold",
@@ -134,7 +134,7 @@
       "Status": "Completed",
 
       "ToFrom": "From ...",
-      "TransactionDate": "20200202T175028.000 GMT",
+      "TransactionDate": "2020-01-02T16:14:28.000Z",
       "TransactionID": "20114574200289376",
       "TransactionNetAmount": "12.00",
       "TransactionType": "Charge From Credit Card",
@@ -196,7 +196,7 @@
       "Status": "Held",
 
       "ToFrom": "To The Artisan",
-      "TransactionDate": "20200202T175028.000 GMT",
+      "TransactionDate": "2020-01-02T16:14:28.000Z",
       "TransactionID": "20114507000019273",
       "TransactionNetAmount": "-12.00",
       "TransactionType": "Credit Card Payment Sent",
@@ -252,7 +252,7 @@
       "Status": "Completed",
 
       "ToFrom": "From ...",
-      "TransactionDate": "20200202T174949.000 GMT",
+      "TransactionDate": "2020-01-02T16:14:28.000Z",
       "TransactionID": "20114574200288815",
       "TransactionNetAmount": "12.00",
       "TransactionType": "Charge From Credit Card",
@@ -314,7 +314,7 @@
       "Status": "Held",
 
       "ToFrom": "To The Artisan",
-      "TransactionDate": "20200202T174949.000 GMT",
+      "TransactionDate": "2020-01-02T16:14:28.000Z",
       "TransactionID": "20114511313268041",
       "TransactionNetAmount": "-12.00",
       "TransactionType": "Credit Card Payment Sent",
@@ -370,7 +370,7 @@
       "Status": "Completed",
 
       "ToFrom": "From ...",
-      "TransactionDate": "20200202T174926.000 GMT",
+      "TransactionDate": "2019-12-02T16:14:28.000Z",
       "TransactionID": "20114574200288347",
       "TransactionNetAmount": "12.00",
       "TransactionType": "Charge From Credit Card",
@@ -431,7 +431,7 @@
       "Status": "Completed",
 
       "ToFrom": "To The Artisan",
-      "TransactionDate": "20200202T174926.000 GMT",
+      "TransactionDate": "2019-12-02T16:14:28.000Z",
       "TransactionID": "20114511313267685",
       "TransactionNetAmount": "-12.00",
       "TransactionType": "Credit Card Payment Sent",
@@ -487,7 +487,7 @@
       "Status": "Completed",
 
       "ToFrom": "From ...",
-      "TransactionDate": "20200202T174853.000 GMT",
+      "TransactionDate": "2019-12-02T16:14:28.000Z",
       "TransactionID": "20114574200287597",
       "TransactionNetAmount": "12.00",
       "TransactionType": "Charge From Credit Card",
@@ -548,7 +548,7 @@
       "Status": "Completed",
 
       "ToFrom": "To The Artisan",
-      "TransactionDate": "20200202T174853.000 GMT",
+      "TransactionDate": "2019-08-02T16:14:28.000Z",
       "TransactionID": "20114511313266766",
       "TransactionNetAmount": "-12.00",
       "TransactionType": "Credit Card Payment Sent",
@@ -604,7 +604,7 @@
       "Status": "Completed",
 
       "ToFrom": "From ...",
-      "TransactionDate": "20200202T174805.000 GMT",
+      "TransactionDate": "2019-08-02T16:14:28.000Z",
       "TransactionID": "20114574200287041",
       "TransactionNetAmount": "12.00",
       "TransactionType": "Charge From Credit Card",
@@ -665,7 +665,7 @@
       "Status": "Completed",
 
       "ToFrom": "To The Artisan",
-      "TransactionDate": "20200202T174805.000 GMT",
+      "TransactionDate": "2019-08-02T16:14:28.000Z",
       "TransactionID": "20114511313265777",
       "TransactionNetAmount": "-12.00",
       "TransactionType": "Credit Card Payment Sent",
@@ -723,7 +723,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "From Bank Account",
-      "TransactionDate": "20200202T161428.000 GMT",
+      "TransactionDate": "2019-09-02T16:14:28.000Z",
       "TransactionID": "20114506999743649",
       "TransactionNetAmount": "21.00",
       "TransactionType": "Inst. Tran. Add Funds from a Bank Account",
@@ -786,7 +786,7 @@
       "Status": "Completed",
 
       "ToFrom": "To Concepcion Web Design",
-      "TransactionDate": "20200202T161428.000 GMT",
+      "TransactionDate": "2019-09-02T16:14:28.000Z",
       "TransactionID": "20114506999743645",
       "TransactionNetAmount": "-21.00",
       "TransactionType": "Instant Transfer Sent",
@@ -844,7 +844,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "From Bank Account",
-      "TransactionDate": "20200202T161402.000 GMT",
+      "TransactionDate": "2019-10-02T16:14:28.000Z",
       "TransactionID": "20114506999741336",
       "TransactionNetAmount": "20.00",
       "TransactionType": "Inst. Tran. Add Funds from a Bank Account",
@@ -908,7 +908,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "To Concepcion Web Design",
-      "TransactionDate": "20200202T161402.000 GMT",
+      "TransactionDate": "2019-10-02T16:14:28.000Z",
       "TransactionID": "20114506999741332",
       "TransactionNetAmount": "-20.00",
       "TransactionType": "Instant Transfer Sent",
@@ -966,7 +966,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "From Bank Account",
-      "TransactionDate": "20200202T161340.000 GMT",
+      "TransactionDate": "2019-10-02T16:14:28.000Z",
       "TransactionID": "20114506999739667",
       "TransactionNetAmount": "19.00",
       "TransactionType": "Inst. Tran. Add Funds from a Bank Account",
@@ -1030,7 +1030,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "To Concepcion Web Design",
-      "TransactionDate": "20200202T161340.000 GMT",
+      "TransactionDate": "2019-11-02T16:14:28.000Z",
       "TransactionID": "20114506999739663",
       "TransactionNetAmount": "-19.00",
       "TransactionType": "Instant Transfer Sent",
@@ -1088,7 +1088,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "From Bank Account",
-      "TransactionDate": "20200202T161306.000 GMT",
+      "TransactionDate": "2019-11-02T16:14:28.000Z",
       "TransactionID": "20114506999735161",
       "TransactionNetAmount": "18.00",
       "TransactionType": "Inst. Tran. Add Funds from a Bank Account",
@@ -1152,7 +1152,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "To Concepcion Web Design",
-      "TransactionDate": "20200202T161306.000 GMT",
+      "TransactionDate": "2019-01-02T16:14:28.000Z",
       "TransactionID": "20114506999735157",
       "TransactionNetAmount": "-18.00",
       "TransactionType": "Instant Transfer Sent",
@@ -1210,7 +1210,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "From Bank Account",
-      "TransactionDate": "20200202T161232.000 GMT",
+      "TransactionDate": "2019-02-02T16:14:28.000Z",
       "TransactionID": "20114506999732425",
       "TransactionNetAmount": "17.00",
       "TransactionType": "Inst. Tran. Add Funds from a Bank Account",
@@ -1274,7 +1274,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "To Concepcion Web Design",
-      "TransactionDate": "20200202T161232.000 GMT",
+      "TransactionDate": "2019-03-02T16:14:28.000Z",
       "TransactionID": "20114506999732421",
       "TransactionNetAmount": "-17.00",
       "TransactionType": "Instant Transfer Sent",
@@ -1332,7 +1332,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "From Bank Account",
-      "TransactionDate": "20200202T161149.000 GMT",
+      "TransactionDate": "2019-04-02T16:14:28.000Z",
       "TransactionID": "20114511312981549",
       "TransactionNetAmount": "16.00",
       "TransactionType": "Inst. Tran. Add Funds from a Bank Account",
@@ -1396,7 +1396,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "To Concepcion Web Design",
-      "TransactionDate": "20200202T161149.000 GMT",
+      "TransactionDate": "2019-05-02T16:14:28.000Z",
       "TransactionID": "20114511312981545",
       "TransactionNetAmount": "-16.00",
       "TransactionType": "Instant Transfer Sent",
@@ -1454,7 +1454,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "From Bank Account",
-      "TransactionDate": "20200202T161058.000 GMT",
+      "TransactionDate": "2019-06-02T16:14:28.000Z",
       "TransactionID": "20114506999725326",
       "TransactionNetAmount": "15.00",
       "TransactionType": "Inst. Tran. Add Funds from a Bank Account",
@@ -1518,7 +1518,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "To Concepcion Web Design",
-      "TransactionDate": "20200202T161058.000 GMT",
+      "TransactionDate": "2019-07-02T16:14:28.000Z",
       "TransactionID": "20114506999725322",
       "TransactionNetAmount": "-15.00",
       "TransactionType": "Instant Transfer Sent",
@@ -1576,7 +1576,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "From Bank Account",
-      "TransactionDate": "20200202T161043.000 GMT",
+      "TransactionDate": "2019-08-02T16:14:28.000Z",
       "TransactionID": "20114511312976319",
       "TransactionNetAmount": "14.00",
       "TransactionType": "Inst. Tran. Add Funds from a Bank Account",
@@ -1640,7 +1640,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "To Concepcion Web Design",
-      "TransactionDate": "20200202T161043.000 GMT",
+      "TransactionDate": "2020-02-02T16:14:28.000Z",
       "TransactionID": "20114511312976315",
       "TransactionNetAmount": "-14.00",
       "TransactionType": "Instant Transfer Sent",
@@ -1698,7 +1698,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "From Bank Account",
-      "TransactionDate": "20200202T161025.000 GMT",
+      "TransactionDate": "2020-02-02T16:14:28.000Z",
       "TransactionID": "20114506999722486",
       "TransactionNetAmount": "13.00",
       "TransactionType": "Inst. Tran. Add Funds from a Bank Account",
@@ -1762,7 +1762,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "To Concepcion Web Design",
-      "TransactionDate": "20200202T161025.000 GMT",
+      "TransactionDate": "2020-02-02T16:14:28.000Z",
       "TransactionID": "20114506999722482",
       "TransactionNetAmount": "-13.00",
       "TransactionType": "Instant Transfer Sent",
@@ -1820,7 +1820,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "From Bank Account",
-      "TransactionDate": "20200202T161001.000 GMT",
+      "TransactionDate": "2020-02-02T16:14:28.000Z",
       "TransactionID": "20114511312972360",
       "TransactionNetAmount": "12.00",
       "TransactionType": "Inst. Tran. Add Funds from a Bank Account",
@@ -1884,7 +1884,7 @@
 
       "Subject": "~@~CLD:1580889600~@~",
       "ToFrom": "To Concepcion Web Design",
-      "TransactionDate": "20200202T161001.000 GMT",
+      "TransactionDate": "2020-02-02T16:14:28.000Z",
       "TransactionID": "20114511312972356",
       "TransactionNetAmount": "-12.00",
       "TransactionType": "Instant Transfer Sent",
