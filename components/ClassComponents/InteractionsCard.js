@@ -1,49 +1,22 @@
 import React, { Component } from "react";
 import InteractionRow from "../PureComponents/InteractionRow";
-import axios from "axios";
 import Loading from "../PureComponents/Loading";
-import { BASEURL, INTERACTIONS } from "../../constants";
-import interactions from "../mockdata/Interactions.json";
+import { connect } from "react-redux";
+import { getInteractions } from "../../store/actions/interactionsActions";
 
-export default class InteractionsCard extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      results: [],
-      loading: false,
-      errors: ""
-    };
-  }
-  componentWillMount() {
-    this.setState({ loading: true });
-    let AccountNumber = "1484801092820019308";
-    let fpti = fpti || null;
-    if (fpti) {
-      AccountNumber = fpti.account_number;
-    }
-    const url = BASEURL + INTERACTIONS + "?AccountNumber=" + AccountNumber;
-    axios
-      .get(url)
-      .then(response => {
-        this.setState({ results: response.data.pxResults });
-        this.setState({ loading: false });
-      })
-      .catch(err => {
-        this.setState({ results: interactions.pxResults });
-        this.setState({ loading: false });
-      });
+class InteractionsCard extends Component {
+  componentDidMount() {
+    this.props.getInteractions();
   }
   render() {
-    let results = this.state.results;
+    let { interactions, isLoading, errors } = this.props.icasesCard;
     let body = "No results found";
-    if (results.length > 0) {
-      body = results.map((result, index) => {
-        return <InteractionRow data={result} key={index} />;
-      });
-    } else if (this.state.errors !== "") {
-      body = <div>{this.state.errors}</div>;
-    } else if (this.state.loading) {
+    if (isLoading) {
       body = <Loading />;
+    } else if (interactions.length > 0) {
+      body = interactions.map((row, index) => {
+        return <InteractionRow data={row} key={index} />;
+      });
     }
     return (
       <div className="intercation-card widget-card">
@@ -53,3 +26,12 @@ export default class InteractionsCard extends Component {
     );
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    icasesCard: state.icasesCard,
+    errors: state.errors
+  };
+};
+
+export default connect(mapStateToProps, { getInteractions })(InteractionsCard);

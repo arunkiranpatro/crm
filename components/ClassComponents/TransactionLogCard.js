@@ -1,57 +1,43 @@
 import React, { Component } from "react";
 import TransactionLogRow from "../PureComponents/TransactionLogRow";
-import axios from "axios";
 import Loading from "../PureComponents/Loading";
-import { BASEURL, TRANSACTIONS } from "../../constants";
-import transactions from "../mockdata/transactions.json";
+import { connect } from "react-redux";
+import { getTransactions } from "../../store/actions/txnCardActions";
 
-export default class TransactionLogCard extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      txns: [],
-      loading: false,
-      errors: ""
-    };
-  }
-  componentWillMount() {
-    this.setState({ loading: true });
-    let AccountNumber = "1484801092820019308";
-    let fpti = fpti || null;
-    if (fpti) {
-      AccountNumber = fpti.account_number;
-    }
-    const url = BASEURL + TRANSACTIONS + "?AccountNumber=" + AccountNumber;
-    axios
-      .get(url)
-      .then(response => {
-        this.setState({ txns: response.data.pxResults });
-        this.setState({ loading: false });
-      })
-      .catch(err => {
-        this.setState({ txns: transactions.pxResults });
-        this.setState({ loading: false });
-      });
+class TransactionLogCard extends Component {
+  componentDidMount() {
+    this.props.getTransactions();
+    console.log("calling get txns");
   }
   render() {
-    let txns = this.state.txns;
-    let txnBody = "No results found";
-    if (txns.length > 0) {
-      txnBody = txns.map((txn, index) => {
+    console.log("txn card rendering");
+    let { txns, isLoading } = this.props.txncard;
+    console.log("is loading:" + isLoading);
+    let body = "No results found";
+
+    if (isLoading) {
+      body = <Loading />;
+    } else if (txns.length > 0) {
+      body = txns.map((txn, index) => {
         return <TransactionLogRow data={txn} key={index} />;
       });
-    } else if (this.state.errors !== "") {
-      txnBody = <div>{this.state.errors}</div>;
-    } else if (this.state.loading) {
-      txnBody = <Loading />;
     }
     return (
       <div className="transaction-card widget-card">
-        <h2 className="transaction-card-header widget-header">
-          Transaction Cards
-        </h2>
-        <div className="transaction-card-body widget-body">{txnBody}</div>
+        <h2 className="transaction-card-header widget-header">Transactions</h2>
+        <div className="transaction-card-body widget-body">{body}</div>
       </div>
     );
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    txncard: state.txncard,
+    errors: state.errors
+  };
+};
+
+export default connect(mapStateToProps, { getTransactions })(
+  TransactionLogCard
+);
