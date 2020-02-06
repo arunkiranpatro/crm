@@ -24,7 +24,7 @@ const TransactionTable = () => {
     let childBody = txns.map((result, index) => {
       return (
         <TableRows key={index}>
-          <TableRow>{result.EncryptedTransactionID}</TableRow>
+          <TableRow>{result.TransactionID}</TableRow>
           <TableRow>{result.TransactionDate}</TableRow>
           <TableRow>{result.TransactionType}</TableRow>
           <TableRow>{result.CounterpartyEmail}</TableRow>
