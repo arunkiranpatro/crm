@@ -4,14 +4,17 @@ import Details from "../UILibrary/ReadOnlyData";
 const PhoneList = function(props) {
   let { ActivePhones, togglePhone } = props;
   return (
-    <Details label="Phone Number" ccicon="false" className="phone-wrapper">
+    <Details label="Phone Number:" ccicon="false" className="phone-wrapper">
       <div className="phone-values">
         {ActivePhones.map((phone, index) => {
-          let phoneNumber = parseInt(phone.PhoneNumber);
-          return <Details key={index} value={phoneNumber} ccicon="true" />;
+          return (
+            <Details key={index} value={phone.PhoneNumber} ccicon="true" />
+          );
         })}
       </div>
-      <a onClick={togglePhone}>Show All</a>
+      <a onClick={togglePhone} className="phone-show-all">
+        Show All
+      </a>
     </Details>
   );
 };

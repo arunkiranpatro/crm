@@ -21,9 +21,14 @@ class FinancialCard extends Component {
       });
     }
     return (
-      <div className="intercation-card widget-card">
-        <h2 className="intercation-card-header widget-header">Interactions</h2>
-        <div className="intercation-card-body widget-body">{body}</div>
+      <div className="finance-card widget-card">
+        <h2
+          aria-label="funding instruments"
+          className="finance-card-header widget-header"
+        >
+          Funding Instruments
+        </h2>
+        <div className="finance-card-body widget-body">{body}</div>
       </div>
     );
   }

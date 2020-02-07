@@ -7,7 +7,7 @@ export default function TransactionLogRow({ data }) {
   return (
     <Layout className="widget-row" columns="4">
       <Moment format="DD-MM-YYYY hh:mm a">{data.TransactionDate}</Moment>
-      <>{data.TransactionType}</>
+      <>{data.CounterpartyName}</>
       <>{data.Status}</>
       <div className={txnAmtColorCls}>{data.GrossAmount.AmountCurrency}</div>
     </Layout>

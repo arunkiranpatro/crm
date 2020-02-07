@@ -24,7 +24,12 @@ class TransactionLogCard extends Component {
     }
     return (
       <div className="transaction-card widget-card">
-        <h2 className="transaction-card-header widget-header">Transactions</h2>
+        <h2
+          aria-label="transactions"
+          className="transaction-card-header widget-header"
+        >
+          Transactions
+        </h2>
         <div className="transaction-card-body widget-body">{body}</div>
       </div>
     );

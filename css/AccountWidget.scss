@@ -27,14 +27,34 @@
     vertical-align: top;
 }
 
-.account-body {
+.interaction-header {
     margin-top: 0;
     line-height: 1.5em;
+    background-color: $skyblue;
+    color: $white;
+    padding: 1em;
 }
 
 .account-header {
     font-size: 1.2em;
     font-weight: 700;
+}
 
+.phone-show-all {
+    color: $white;
+    font-size: 0.8em;
+}
 
+.interaction-header h2 {
+    margin-top: 0;
+    margin-bottom: 0.4em;
+}
+
+.validation-status svg {
+    color: #63de63;
+}
+
+.call-reason>.field-value {
+    color: $warning;
+    font-weight: 700;
 }

@@ -1,13 +1,17 @@
 @import "./_variables";
 
 .widget-card {
-    border: $default-border;
+    border: $grey-border;
+    box-shadow: $box-shadow;
+    background-color: $white;
+    border-radius: 5px;
 }
 
 .widget-header {
     padding: 0.5em;
     margin: 0;
-    border-bottom: $default-border;
+    border-bottom: $grey-border;
+    color: $slategrey;
 
 }
 
@@ -42,4 +46,23 @@
 
 .txn-green {
     color: $green;
+}
+
+.snapshot-card {
+    border: $grey-border;
+    box-shadow: $box-shadow;
+    background-color: $white;
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    line-height: 1.5em;
+
+}
+
+.snapshot-card>label {
+    font-size: 0.8em;
+}
+
+.snapshot-card>div {
+    font-size: 1.5em;
 }

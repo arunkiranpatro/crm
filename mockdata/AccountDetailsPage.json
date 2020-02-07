@@ -7,14 +7,15 @@
         "MaskedSSN": "Not Available",
         "MaskedTIN": "Not Available",
         "MerchantCategory": "High Engaged Customer",
-        "PrimaryEmail": "apatro-7616339645346128@fintech.com",
+        "PrimaryEmail": "arunkiranpatro@gmail.com",
+        "AccountName": "Arun Kiran Patro",
 
         "TotalBalInPrimary": "2.00 USD",
         "ActivePhones": [{
                 "CountryCode": "1",
                 "IsTouchStoneEnabled": "false",
                 "PhoneDetails": "Mobile Phone",
-                "PhoneNumber": "2027641560Valid",
+                "PhoneNumber": "+91 8106149359",
                 "PhoneTypeLabel": "Mobile",
 
                 "Status": "Primary"
@@ -23,7 +24,7 @@
                 "CountryCode": "1",
                 "IsTouchStoneEnabled": "false",
                 "PhoneDetails": "Work Phone",
-                "PhoneNumber": "2028105913Valid",
+                "PhoneNumber": "2028105913",
                 "PhoneTypeLabel": "Work",
 
                 "Status": "Primary"
@@ -32,7 +33,7 @@
                 "CountryCode": "1",
                 "IsTouchStoneEnabled": "false",
                 "PhoneDetails": "Home Phone",
-                "PhoneNumber": "2029871054Valid",
+                "PhoneNumber": "2029871054",
                 "PhoneTypeLabel": "Home",
 
                 "Status": "Primary"

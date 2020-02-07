@@ -23,8 +23,11 @@ class CCTransactionLogCard extends Component {
     }
     return (
       <div className="cc-transaction-card widget-card">
-        <h2 className="cc-transaction-card-header widget-header">
-          CC Transactions
+        <h2
+          aria-label="Credit Card Transactions"
+          className="cc-transaction-card-header widget-header"
+        >
+          Credit Card Transactions
         </h2>
         <div className="cc-transaction-card-body widget-body">{body}</div>
       </div>

@@ -22,7 +22,12 @@ class InteractionsCard extends Component {
     }
     return (
       <div className="intercation-card widget-card">
-        <h2 className="intercation-card-header widget-header">Interactions</h2>
+        <h2
+          aria-label="interactions"
+          className="intercation-card-header widget-header"
+        >
+          Interactions
+        </h2>
         <div className="intercation-card-body widget-body">{body}</div>
       </div>
     );

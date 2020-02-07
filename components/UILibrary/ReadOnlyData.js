@@ -12,8 +12,9 @@ const Details = function(props) {
   return (
     <div className={className}>
       {label && label !== "" && (
-        <label>
-          {label}:{"   "}
+        <label aria-label={label}>
+          {label}
+          {"   "}
         </label>
       )}
       {body}
