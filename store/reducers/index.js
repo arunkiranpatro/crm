@@ -5,6 +5,7 @@ import interactionsReducer from "./interactionsReducer";
 import ccTxnsReducer from "./ccTxnsReducer";
 import errorReducer from "./errorReducer";
 import txnCardReducer from "./txnCardReducer";
+import txnslistReducer from "./txnslistReducer";
 
 export default combineReducers({
   accountCard: accountReducer,
@@ -12,5 +13,6 @@ export default combineReducers({
   financeCard: financeReducer,
   icasesCard: interactionsReducer,
   cctxnsCard: ccTxnsReducer,
-  txncard: txnCardReducer
+  txncard: txnCardReducer,
+  txnslist: txnslistReducer
 });
