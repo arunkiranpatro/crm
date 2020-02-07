@@ -1,7 +1,7 @@
 {
     "Account": {
         "AccountNumber": "1484801092820019308",
-        "AvailBalance": "2.00USD",
+        "AvailBalance": "$ 2.00 USD",
         "BirthYear": "XX-XX-1990",
         "FormattedDOB": "January 01, 1990",
         "MaskedSSN": "Not Available",
@@ -9,8 +9,14 @@
         "MerchantCategory": "High Engaged Customer",
         "PrimaryEmail": "arunkiranpatro@gmail.com",
         "AccountName": "Arun Kiran Patro",
-
-        "TotalBalInPrimary": "2.00 USD",
+        "CLV": "$ 4000.00 USD",
+        "LastLogin": "2020-02-02T17:48:41.832Z",
+        "LastTransactionAmount": "$ 24.00 USD",
+        "LastInteraction": "2 days ago",
+        "StepUpStatus": "true",
+        "PCR": "Not able to login",
+        "Opportunity": "Personal Loan",
+        "TotalBalInPrimary": "$ 2.00 USD",
         "ActivePhones": [{
                 "CountryCode": "1",
                 "IsTouchStoneEnabled": "false",

@@ -6,7 +6,6 @@ import Details from "../UILibrary/ReadOnlyData";
 import PhoneList from "../PureComponents/PhoneList";
 import Layout from "../UILibrary/Layout";
 import { getAccountDetails } from "../../store/actions/accountActions";
-import { FaCheck } from "react-icons/fa";
 
 const togglePhone = e => {
   let targetVal = e.target.textContent;
@@ -80,14 +79,17 @@ class AccountDetails extends React.Component {
               label="Primary Balance:"
               value={account.TotalBalInPrimary}
             />
-            <Details label="Customer Lifetime Value: " value="$ 4000 USD" />
+            <Details label="Customer Lifetime Value: " value={account.CLV} />
           </div>
           <div>
             <h2 aria-label="interaction details">Interaction Details</h2>
             <Details label="Step Up: " className="validation-status">
-              Verfied <FaCheck />
+              {account.StepUpStatus ? "Verified" : "Not Verfied"}
             </Details>
-            <Details label="Last Interaction: " value="2 days ago" />
+            <Details
+              label="Last Interaction: "
+              value={account.LastInteraction}
+            />
             <Details
               label="Customer Segment: "
               value={account.MerchantCategory}
