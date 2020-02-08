@@ -1,6 +1,7 @@
-@import "./Defaults.scss";
-@import "./Tabs.scss";
-@import "./Tables.scss";
-@import "./Layouts";
-@import "./Widget.scss";
-@import "./AccountWidget.scss";
+@import "./_Base.scss";
+@import "./UIComponents/_Tabs.scss";
+@import "./UIComponents/_Tables.scss";
+@import "./UIComponents/_Layouts";
+@import "./UIComponents/_Widgets.scss";
+@import "./Application/_AccountWidget.scss";
+@import "./Application/_BusinessCards.scss";
