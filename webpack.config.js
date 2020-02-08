@@ -1,5 +1,6 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 
 module.exports = {
   entry: "./index.js",
@@ -34,6 +35,7 @@ module.exports = {
       // both options are optional
       filename: "styles.css",
       chunkFilename: "[id].css"
-    })
+    }),
+    new OptimizeCSSAssetsPlugin({})
   ]
 };
