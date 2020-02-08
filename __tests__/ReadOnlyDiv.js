@@ -11,7 +11,7 @@ describe("A read only div suite", function() {
     expect(markup.find("label")).toHaveLength(1);
     expect(markup.find("span")).toHaveLength(1);
     expect(markup.find("i")).toHaveLength(0);
-    expect(markup.find("label").text()).toContain("test label:");
+    expect(markup.find("label").text()).toContain("test label");
     expect(markup.find("span").text()).toContain("test");
     expect(markup.hasClass("test")).toBe(true);
     expect(markup.find("span.field-value")).toHaveLength(1);
@@ -22,7 +22,7 @@ describe("A read only div suite", function() {
     expect(markup.find("label")).toHaveLength(1);
     expect(markup.find("span")).toHaveLength(1);
     expect(markup.find("i.cc-icon")).toHaveLength(0);
-    expect(markup.find("label").text()).toContain("test label:");
+    expect(markup.find("label").text()).toContain("test label");
     expect(markup.find("span").text()).toContain("test");
     expect(markup.find("span.field-value")).toHaveLength(1);
   });
@@ -34,7 +34,7 @@ describe("A read only div suite", function() {
     expect(markup.find("label")).toHaveLength(1);
     expect(markup.find("span")).toHaveLength(1);
     expect(markup.find("i")).toHaveLength(1);
-    expect(markup.find("label").text()).toContain("test label:");
+    expect(markup.find("label").text()).toContain("test label");
     expect(markup.find("span").text()).toContain("test");
     expect(markup.find("span.field-value")).toHaveLength(1);
   });
@@ -48,7 +48,7 @@ describe("A read only div suite", function() {
     expect(markup.find("label")).toHaveLength(1);
     expect(markup.find("span")).toHaveLength(0);
     expect(markup.find("i")).toHaveLength(1);
-    expect(markup.find("label").text()).toContain("test label:");
+    expect(markup.find("label").text()).toContain("test label");
     expect(markup.find("span.field-value")).toHaveLength(0);
     expect(markup.text()).toContain("Test Children");
     expect(markup.find("div.test-field")).toHaveLength(1);
@@ -63,7 +63,7 @@ describe("A read only div suite", function() {
     expect(markup.find("label")).toHaveLength(1);
     expect(markup.find("span")).toHaveLength(0);
     expect(markup.find("i")).toHaveLength(1);
-    expect(markup.find("label").text()).toContain("test label:");
+    expect(markup.find("label").text()).toContain("test label");
     expect(markup.find("span.field-value")).toHaveLength(0);
     expect(markup.text()).toContain("Test Children");
     expect(markup.find("div.test-field")).toHaveLength(1);
