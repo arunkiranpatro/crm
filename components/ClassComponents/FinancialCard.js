@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import FinancialRow from "../PureComponents/FinancialRow";
-import Loading from "../UILibrary/Loading";
 import { getFinancials } from "../../store/actions/financialCardActions";
+import WidgetCard from "../UILibrary/WidgetCard";
 
 class FinancialCard extends Component {
   componentDidMount() {
@@ -12,24 +12,14 @@ class FinancialCard extends Component {
 
   render() {
     let { financials, isLoading } = this.props.financeCard;
-    let body = "No results found";
-    if (isLoading) {
-      body = <Loading />;
-    } else if (financials.length > 0) {
-      body = financials.map((row, index) => {
-        return <FinancialRow data={row} key={index} />;
-      });
-    }
     return (
-      <div className="finance-card widget-card">
-        <h2
-          aria-label="funding instruments"
-          className="finance-card-header widget-header"
-        >
-          Funding Instruments
-        </h2>
-        <div className="finance-card-body widget-body">{body}</div>
-      </div>
+      <WidgetCard
+        className="finance-card"
+        heading="Funding Instruments"
+        list={financials}
+        isLoading={isLoading}
+        component={FinancialRow}
+      />
     );
   }
 }

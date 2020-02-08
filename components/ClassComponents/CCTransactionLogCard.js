@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import CCTransactionLogRow from "../PureComponents/CCTransactionLogRow";
-import Loading from "../UILibrary/Loading";
-
 import { getCCTransactions } from "../../store/actions/ccTxnCardActions";
+import WidgetCard from "../UILibrary/WidgetCard";
 
 class CCTransactionLogCard extends Component {
   componentDidMount() {
@@ -13,24 +12,14 @@ class CCTransactionLogCard extends Component {
 
   render() {
     let { txns, isLoading } = this.props.cctxnsCard;
-    let body = "No results found";
-    if (isLoading) {
-      body = <Loading />;
-    } else if (txns.length > 0) {
-      body = txns.map((txn, index) => {
-        return <CCTransactionLogRow data={txn} key={index} />;
-      });
-    }
     return (
-      <div className="cc-transaction-card widget-card">
-        <h2
-          aria-label="Credit Card Transactions"
-          className="cc-transaction-card-header widget-header"
-        >
-          Credit Card Transactions
-        </h2>
-        <div className="cc-transaction-card-body widget-body">{body}</div>
-      </div>
+      <WidgetCard
+        className="cc-transactions-card"
+        heading="Funding Instruments"
+        list={txns}
+        isLoading={isLoading}
+        component={CCTransactionLogRow}
+      />
     );
   }
 }

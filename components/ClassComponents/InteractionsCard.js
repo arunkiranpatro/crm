@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import InteractionRow from "../PureComponents/InteractionRow";
-import Loading from "../UILibrary/Loading";
 import { getInteractions } from "../../store/actions/interactionsActions";
+import WidgetCard from "../UILibrary/WidgetCard";
 
 class InteractionsCard extends Component {
   componentDidMount() {
@@ -11,25 +11,15 @@ class InteractionsCard extends Component {
   }
 
   render() {
-    let { interactions, isLoading } = this.props.icasesCard;
-    let body = "No results found";
-    if (isLoading) {
-      body = <Loading />;
-    } else if (interactions.length > 0) {
-      body = interactions.map((row, index) => {
-        return <InteractionRow data={row} key={index} />;
-      });
-    }
+    const { interactions, isLoading } = this.props.icasesCard;
     return (
-      <div className="intercation-card widget-card">
-        <h2
-          aria-label="interactions"
-          className="intercation-card-header widget-header"
-        >
-          Interactions
-        </h2>
-        <div className="intercation-card-body widget-body">{body}</div>
-      </div>
+      <WidgetCard
+        className="interactions-card"
+        heading="Interactions"
+        list={interactions}
+        isLoading={isLoading}
+        component={InteractionRow}
+      />
     );
   }
 }
