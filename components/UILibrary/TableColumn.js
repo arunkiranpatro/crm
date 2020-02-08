@@ -1,10 +1,10 @@
 import React from "react";
 
 const TableColumn = props => {
-  const { children, id, onSort } = props;
+  const { children, id, onSort , sortable } = props;
   let className = "table-col",
     onClick;
-  if (onSort) {
+  if (sortable) {
     className = "table-col" + " sortable";
     onClick = sortColumn;
   }
@@ -17,7 +17,12 @@ const TableColumn = props => {
   };
   return (
     <th id={id} {...rest}>
-      {children}
+      {children}{" "}
+      {props.sortColumn === id
+                ? props.sortDirection
+                  ?"\u2193"
+                  : "\u2191"
+                : ""}
     </th>
   );
 };
