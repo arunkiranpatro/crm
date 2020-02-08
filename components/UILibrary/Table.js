@@ -1,4 +1,5 @@
 import React from "react";
+import ArraySort from "array-sort";
 
 class Table extends React.Component {
   render() {

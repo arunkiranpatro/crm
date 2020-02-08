@@ -24,6 +24,10 @@
     text-align: left;
 }
 
+.table-container th.sortable {
+    cursor: pointer;
+}
+
 .table-container tbody td {
     line-height: 2em;
     padding: 0.5em;

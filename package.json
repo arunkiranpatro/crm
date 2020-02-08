@@ -13,6 +13,7 @@
   "author": "Arun Kiran Patro",
   "license": "ISC",
   "dependencies": {
+    "array-sort": "^1.0.0",
     "axios": "^0.19.2",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
