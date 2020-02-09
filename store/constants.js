@@ -19,3 +19,4 @@ export const SET_CC_TXNS_LOADING = "SET_CC_TXNS_LOADING";
 
 export const GET_ERRORS = "GET_ERRORS";
 export const CLEAR_ERRORS = "CLEAR_ERRORS";
+export const SET_ERRORS = "SET_ERRORS";

@@ -19,7 +19,7 @@ const TableColumn = props => {
     <th id={id} {...rest}>
       {children}{" "}
       {props.sortColumn === id
-                ? props.sortDirection
+                ? props.sortDirection === "desc"
                   ?"\u2193"
                   : "\u2191"
                 : ""}

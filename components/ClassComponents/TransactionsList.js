@@ -69,7 +69,7 @@ class TransactionsList extends Component {
       body = (
         <Table data={txns} renderTableHeader={this.renderTableHeader.bind(this)}
          renderTableBody={this.renderTablebody.bind(this) } 
-         sortColumn="TransactionDate" sortDirection={true}/>
+         sortColumn="TransactionDate" sortDirection="desc"/>
       );
     }
     return <>{body}</>;

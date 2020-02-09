@@ -10,13 +10,17 @@ const Table =function(props) {
     function onSortDefault(column) {
       let { data } = props;
       if (column === sortColumn) {
-        data = ArraySort(data, column, { reverse : !sortDirection });
+        const direction = sortDirection ==="desc"?"asc":"desc";
+        const reverse = direction === "desc"? true:false;
+        data = ArraySort(data, column, { reverse :reverse });
         setSortColumn(column);
-        setSortDirection(!sortDirection);
+        setSortDirection(direction);
       } else {
-        data = ArraySort(data, column);
+        data = ArraySort(data,column,{reverse:true});
         setSortColumn(column);
+        setSortDirection("desc");
       }
+     
     }
   
   const config={
@@ -24,6 +28,7 @@ const Table =function(props) {
       sortColumn,
       sortDirection
   };
+  
   return (
   
   <table className="table-container">
@@ -37,6 +42,6 @@ const Table =function(props) {
 Table.propTypes={
 
   sortColumn:PropTypes.string.isRequired,
-  sortDirection:PropTypes.bool.isRequired
+  sortDirection:PropTypes.string.isRequired
 }
 export default Table;
