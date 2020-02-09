@@ -1,28 +1,30 @@
 import React from "react";
 
 const TableColumn = props => {
-  const { children, id, onSort , sortable } = props;
+  const { children, id, onSort , sortable , arialabel} = props;
   let className = "table-col",
-    onClick;
+    onClick,ariaSort,sortIcon;
   if (sortable) {
     className = "table-col" + " sortable";
     onClick = sortColumn;
+    props.sortColumn === id
+    ? props.sortDirection === "desc"
+      ?(sortIcon="\u2193",ariaSort="descending")
+      :(sortIcon="\u2191",ariaSort="ascending")
+    : (sortIcon="");
   }
   function sortColumn(e) {
     onSort(e.target.id);
   }
-  var rest = {
+  let rest = {
     className,
-    onClick
+    onClick,
+    "aria-sort":ariaSort
   };
   return (
-    <th id={id} {...rest}>
+    <th id={id} {...rest} >
       {children}{" "}
-      {props.sortColumn === id
-                ? props.sortDirection === "desc"
-                  ?"\u2193"
-                  : "\u2191"
-                : ""}
+      {sortIcon}
     </th>
   );
 };
