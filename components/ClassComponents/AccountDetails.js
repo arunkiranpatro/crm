@@ -8,22 +8,23 @@ import Layout from "../UILibrary/Layout";
 import { getAccountDetails } from "../../store/actions/accountActions";
 
 const togglePhone = e => {
-  let targetVal = e.target.textContent;
+  let targetVal = e.target.textContent,ele;
   if (targetVal === "Show All") {
     e.target.innerHTML = "Hide All";
   } else {
     e.target.innerHTML = "Show All";
   }
-  let ele = document.querySelector("div.phone-values");
+  ele = document.querySelector("div.phone-values");
   ele.classList.toggle("show-all");
 };
 
 function copyToClipboard(e) {
-  var myEle = e.target.parentElement.parentElement;
-  var parent = myEle.parentElement;
-  var textEle = parent.getElementsByClassName("field-value");
-  var textToCopy = textEle[0].textContent;
-  var inp = document.createElement("input");
+  let 
+   myEle = e.target.parentElement.parentElement,
+   parent = myEle.parentElement,
+   textEle = parent.getElementsByClassName("field-value"),
+   textToCopy = textEle[0].textContent,
+   inp = document.createElement("input");
   document.body.appendChild(inp);
   inp.value = textToCopy;
   inp.select();
