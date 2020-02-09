@@ -8,7 +8,6 @@ import TableColumn from "../UILibrary/TableColumn";
 import TableRows from "../UILibrary/TableRows";
 import TableRow from "../UILibrary/TableRow";
 
-
 import { getTxnslist, sortTxns } from "../../store/actions/txnsListActions";
 import TableColumns from "../UILibrary/TableColumns";
 
@@ -16,7 +15,7 @@ class TransactionsList extends Component {
   componentDidMount() {
     this.props.getTxnslist();
   }
-  renderTablebody(txns){
+  renderTablebody(txns) {
     let childBody = txns.map((result, index) => {
       return (
         <TableRows key={index}>
@@ -35,30 +34,25 @@ class TransactionsList extends Component {
     });
     return childBody;
   }
-  renderTableHeader(props){
-    return(<TableColumns {...props}>
-      <TableColumn id="TransactionDate" sortable={true}>
-    Transaction Date
-  </TableColumn>
-  <TableColumn id="TransactionID" sortable={true}>
-    Transaction ID
-  </TableColumn>
-  <TableColumn id="TransactionType"sortable={true}>
-    Transaction Type
-  </TableColumn>
-  <TableColumn id="CounterpartyEmail">
-    Counter Party Email
-  </TableColumn>
-  <TableColumn id="NetAmount.Amount" sortable={true}>
-    Net Amount
-  </TableColumn>
-  <TableColumn id="TransLogBalanceCurrency">
-    Net Balance
-  </TableColumn>
-  </TableColumns>
-      
-   );
-   
+  renderTableHeader(props) {
+    return (
+      <TableColumns {...props}>
+        <TableColumn id="TransactionDate" sortable={true}>
+          Transaction Date
+        </TableColumn>
+        <TableColumn id="TransactionID" sortable={true}>
+          Transaction ID
+        </TableColumn>
+        <TableColumn id="TransactionType" sortable={true}>
+          Transaction Type
+        </TableColumn>
+        <TableColumn id="CounterpartyEmail">Counter Party Email</TableColumn>
+        <TableColumn id="NetAmount.Amount" sortable={true}>
+          Net Amount
+        </TableColumn>
+        <TableColumn id="TransLogBalanceCurrency">Net Balance</TableColumn>
+      </TableColumns>
+    );
   }
   render() {
     let { txns, isLoading } = this.props.txnslist;
@@ -67,9 +61,13 @@ class TransactionsList extends Component {
       body = <Loading />;
     } else if (txns.length > 0) {
       body = (
-        <Table data={txns} renderTableHeader={this.renderTableHeader.bind(this)}
-         renderTableBody={this.renderTablebody.bind(this) } 
-         sortColumn="TransactionDate" sortDirection="desc"/>
+        <Table
+          data={txns}
+          renderTableHeader={this.renderTableHeader.bind(this)}
+          renderTableBody={this.renderTablebody.bind(this)}
+          sortColumn="TransactionDate"
+          sortDirection="desc"
+        />
       );
     }
     return <>{body}</>;
@@ -90,6 +88,4 @@ const mapStateToProps = state => {
   };
 };
 
-export default connect(mapStateToProps, { getTxnslist })(
-  TransactionsList
-);
+export default connect(mapStateToProps, { getTxnslist })(TransactionsList);
