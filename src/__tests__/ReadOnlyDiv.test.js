@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow, mount, render } from "enzyme";
+import { shallow } from "enzyme";
 import Details from "../components/UILibrary/ReadOnlyData";
 
 describe("A read only div suite", function() {
