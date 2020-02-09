@@ -20,7 +20,7 @@
       "Status": "Placed",
 
       "ToFrom": "From The Artisan",
-      "TransactionDate": "2020-02-02T16:14:28.000Z",
+      "TransactionDate": "2020-02-02T14:14:28.000Z",
       "TransactionID": "20114507003642015",
       "TransactionNetAmount": "11.35",
       "TransactionType": "Temporary Hold",
@@ -78,7 +78,7 @@
       "Status": "Placed",
 
       "ToFrom": "From The Artisan",
-      "TransactionDate": "2020-01-02T16:14:28.000Z",
+      "TransactionDate": "2020-01-25T13:14:28.000Z",
       "TransactionID": "20114507003635753",
       "TransactionNetAmount": "11.35",
       "TransactionType": "Temporary Hold",
@@ -134,7 +134,7 @@
       "Status": "Completed",
 
       "ToFrom": "From ...",
-      "TransactionDate": "2020-01-02T16:14:28.000Z",
+      "TransactionDate": "2020-01-15T16:25:28.000Z",
       "TransactionID": "20114574200289376",
       "TransactionNetAmount": "12.00",
       "TransactionType": "Charge From Credit Card",
@@ -196,7 +196,7 @@
       "Status": "Held",
 
       "ToFrom": "To The Artisan",
-      "TransactionDate": "2020-01-02T16:14:28.000Z",
+      "TransactionDate": "2020-01-02T16:35:28.000Z",
       "TransactionID": "20114507000019273",
       "TransactionNetAmount": "-12.00",
       "TransactionType": "Credit Card Payment Sent",
@@ -370,7 +370,7 @@
       "Status": "Completed",
 
       "ToFrom": "From ...",
-      "TransactionDate": "2019-12-02T16:14:28.000Z",
+      "TransactionDate": "2019-12-24T16:14:28.000Z",
       "TransactionID": "20114574200288347",
       "TransactionNetAmount": "12.00",
       "TransactionType": "Charge From Credit Card",
@@ -431,7 +431,7 @@
       "Status": "Completed",
 
       "ToFrom": "To The Artisan",
-      "TransactionDate": "2019-12-02T16:14:28.000Z",
+      "TransactionDate": "2019-12-02T16:45:28.000Z",
       "TransactionID": "20114511313267685",
       "TransactionNetAmount": "-12.00",
       "TransactionType": "Credit Card Payment Sent",

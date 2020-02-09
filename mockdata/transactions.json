@@ -22,7 +22,7 @@
       "SubID": "0",
 
       "ToFrom": "From Bank Account",
-      "TransactionDate": "2020-02-02T16:14:28.000Z",
+      "TransactionDate": "2020-02-12T14:14:28.000Z",
       "TransactionID": "20114506999743649",
       "TransactionNetAmount": "21.00",
 
@@ -87,7 +87,7 @@
       "StoreCheckOut": "false",
       "SubID": "0",
       "ToFrom": "To Amazon",
-      "TransactionDate": "2020-02-02T16:14:28.000Z",
+      "TransactionDate": "2020-02-06T15:14:28.000Z",
       "TransactionID": "20114506999743645",
       "TransactionNetAmount": "-21.00",
 
@@ -150,7 +150,7 @@
       "SubID": "0",
 
       "ToFrom": "From Bank Account",
-      "TransactionDate": "2020-02-02T16:14:02.000Z",
+      "TransactionDate": "2020-02-02T09:14:02.000Z",
       "TransactionID": "20114506999741336",
       "TransactionNetAmount": "20.00",
 
@@ -216,7 +216,7 @@
       "SubID": "0",
 
       "ToFrom": "To Amazon",
-      "TransactionDate": "2020-02-02T16:14:02.000Z",
+      "TransactionDate": "2020-01-02T16:14:02.000Z",
       "TransactionID": "20114506999741332",
       "TransactionNetAmount": "-20.00",
 
@@ -279,7 +279,7 @@
       "SubID": "0",
 
       "ToFrom": "From Bank Account",
-      "TransactionDate": "2020-02-02T16:13:40.000Z",
+      "TransactionDate": "2019-12-02T16:13:40.000Z",
       "TransactionID": "20114506999739667",
       "TransactionNetAmount": "19.00",
 

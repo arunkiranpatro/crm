@@ -15,7 +15,7 @@ class CCTransactionLogCard extends Component {
     return (
       <WidgetCard
         className="cc-transactions-card"
-        heading="Funding Instruments"
+        heading="Credit Card Transactions"
         list={txns}
         isLoading={isLoading}
         component={CCTransactionLogRow}
