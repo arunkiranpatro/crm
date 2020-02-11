@@ -26,7 +26,7 @@ const App = () => {
             <Tab id="0" name="Dashboard">
               <DashboardTab />
             </Tab>
-            <Tab id="1" name="Transactions Log">
+            <Tab id="1" name="Transactions Log" deferLoaded={true}>
               <TransactionsTab />
             </Tab>
           </Tabs>
