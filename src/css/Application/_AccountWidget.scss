@@ -43,6 +43,10 @@
 .phone-show-all {
     color: $white;
     font-size: 0.8em;
+    border: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .interaction-header h2 {

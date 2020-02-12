@@ -12,9 +12,13 @@ const PhoneList = function(props) {
           );
         })}
       </div>
-      <a onClick={togglePhone} className="phone-show-all">
+      <button
+        onClick={togglePhone}
+        className="phone-show-all"
+        aria-label="show all"
+      >
         Show All
-      </a>
+      </button>
     </Details>
   );
 };
