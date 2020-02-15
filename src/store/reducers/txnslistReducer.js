@@ -1,4 +1,5 @@
-import { GET_TXNSLIST, SET_TXNLIST_LOADING, SORT_TXNSLIST } from "../constants";
+import { GET_TXNSLIST, SET_TXNLIST_LOADING } from "../constants";
+
 const initialState = {
   isLoading: true,
   txns: []

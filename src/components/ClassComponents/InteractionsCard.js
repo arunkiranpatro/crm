@@ -32,11 +32,9 @@ InteractionsCard.propTypes = {
   getInteractions: PropTypes.func
 };
 
-const mapStateToProps = state => {
-  return {
-    icasesCard: state.icasesCard,
-    errors: state.errors
-  };
-};
+const mapStateToProps = state => ({
+  icasesCard: state.icasesCard,
+  errors: state.errors
+});
 
 export default connect(mapStateToProps, { getInteractions })(InteractionsCard);

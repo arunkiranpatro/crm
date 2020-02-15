@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../UILibrary/Layout";
 import Moment from "react-moment";
+import Layout from "../UILibrary/Layout";
 
 export default function InteractionRow({ data }) {
   return (

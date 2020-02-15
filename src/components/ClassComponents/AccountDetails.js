@@ -8,8 +8,8 @@ import Layout from "../UILibrary/Layout";
 import { getAccountDetails } from "../../store/actions/accountActions";
 
 const togglePhone = e => {
-  let targetVal = e.target.textContent,
-    ele;
+  const targetVal = e.target.textContent;
+  let ele;
   if (targetVal === "Show All") {
     e.target.innerHTML = "Hide All";
   } else {
@@ -20,11 +20,11 @@ const togglePhone = e => {
 };
 
 function copyToClipboard(e) {
-  let myEle = e.target.parentElement.parentElement,
-    parent = myEle.parentElement,
-    textEle = parent.getElementsByClassName("field-value"),
-    textToCopy = textEle[0].textContent,
-    inp = document.createElement("input");
+  const myEle = e.target.parentElement.parentElement;
+  const parent = myEle.parentElement;
+  const textEle = parent.getElementsByClassName("field-value");
+  const textToCopy = textEle[0].textContent;
+  const inp = document.createElement("input");
   document.body.appendChild(inp);
   inp.value = textToCopy;
   inp.select();
@@ -38,16 +38,15 @@ class AccountDetails extends React.Component {
   }
 
   componentDidUpdate() {
-    var eles = document.querySelectorAll(".cc-icon");
+    const eles = document.querySelectorAll(".cc-icon");
     if (eles.length > 0) {
-      eles.forEach(ele =>
-        ele.addEventListener("click", copyToClipboard, false)
+      eles.forEach(ele => ele.addEventListener("click", copyToClipboard, false)
       );
     }
   }
 
   render() {
-    let { account, isLoading } = this.props.accountCard;
+    const { account, isLoading } = this.props.accountCard;
     let body = "No results found";
     if (isLoading) {
       body = <Loading />;
@@ -63,7 +62,7 @@ class AccountDetails extends React.Component {
               value={account.AccountNumber}
               ccicon="true"
             />
-            <Details label="Primary Email: " ccicon={true}>
+            <Details label="Primary Email: " ccicon>
               {account.PrimaryEmail}
             </Details>
             <PhoneList
@@ -113,11 +112,9 @@ AccountDetails.propTypes = {
   getAccountDetails: PropTypes.func
 };
 
-const mapStateToProps = state => {
-  return {
-    accountCard: state.accountCard,
-    errors: state.errors
-  };
-};
+const mapStateToProps = state => ({
+  accountCard: state.accountCard,
+  errors: state.errors
+});
 
 export default connect(mapStateToProps, { getAccountDetails })(AccountDetails);

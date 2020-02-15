@@ -1,4 +1,5 @@
 import { GET_FINANCE, SET_FINANCE_LOADING } from "../constants";
+
 const initialState = {
   isLoading: true,
   financials: []

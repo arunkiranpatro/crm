@@ -1,4 +1,5 @@
 import { GET_ACCOUNT, SET_ACCOUNT_LOADING } from "../constants";
+
 const initialState = {
   isLoading: true,
   account: null

@@ -1,4 +1,5 @@
 import { GET_CC_TXNS, SET_CC_TXNS_LOADING } from "../constants";
+
 const initialState = {
   isLoading: true,
   txns: []

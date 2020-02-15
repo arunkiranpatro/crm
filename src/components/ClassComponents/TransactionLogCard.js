@@ -11,7 +11,7 @@ class TransactionLogCard extends Component {
   }
 
   render() {
-    let { txns, isLoading } = this.props.txncard;
+    const { txns, isLoading } = this.props.txncard;
     return (
       <WidgetCard
         className="transaction-card"
@@ -31,12 +31,10 @@ TransactionLogCard.propTypes = {
   getTransactions: PropTypes.func
 };
 
-const mapStateToProps = state => {
-  return {
-    txncard: state.txncard,
-    errors: state.errors
-  };
-};
+const mapStateToProps = state => ({
+  txncard: state.txncard,
+  errors: state.errors
+});
 
 export default connect(mapStateToProps, { getTransactions })(
   TransactionLogCard

@@ -2,15 +2,13 @@ import React from "react";
 import Details from "../UILibrary/ReadOnlyData";
 
 const PhoneList = function(props) {
-  let { ActivePhones, togglePhone } = props;
+  const { ActivePhones, togglePhone } = props;
   return (
     <Details label="Phone Number:" ccicon={false} className="phone-wrapper">
       <div className="phone-values">
-        {ActivePhones.map((phone, index) => {
-          return (
-            <Details key={index} value={phone.PhoneNumber} ccicon="true" />
-          );
-        })}
+        {ActivePhones.map((phone, index) => (
+          <Details key={index} value={phone.PhoneNumber} ccicon="true" />
+        ))}
       </div>
       <button
         onClick={togglePhone}

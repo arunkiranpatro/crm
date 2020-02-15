@@ -11,7 +11,7 @@ class FinancialCard extends Component {
   }
 
   render() {
-    let { financials, isLoading } = this.props.financeCard;
+    const { financials, isLoading } = this.props.financeCard;
     return (
       <WidgetCard
         className="finance-card"
@@ -31,11 +31,9 @@ FinancialCard.propTypes = {
   getFinancials: PropTypes.func
 };
 
-const mapStateToProps = state => {
-  return {
-    financeCard: state.financeCard,
-    errors: state.errors
-  };
-};
+const mapStateToProps = state => ({
+  financeCard: state.financeCard,
+  errors: state.errors
+});
 
 export default connect(mapStateToProps, { getFinancials })(FinancialCard);

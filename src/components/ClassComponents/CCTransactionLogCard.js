@@ -11,7 +11,7 @@ class CCTransactionLogCard extends Component {
   }
 
   render() {
-    let { txns, isLoading } = this.props.cctxnsCard;
+    const { txns, isLoading } = this.props.cctxnsCard;
     return (
       <WidgetCard
         className="cc-transactions-card"
@@ -32,12 +32,10 @@ CCTransactionLogCard.propTypes = {
   getCCTransactions: PropTypes.func
 };
 
-const mapStateToProps = state => {
-  return {
-    cctxnsCard: state.cctxnsCard,
-    errors: state.errors
-  };
-};
+const mapStateToProps = state => ({
+  cctxnsCard: state.cctxnsCard,
+  errors: state.errors
+});
 
 export default connect(mapStateToProps, { getCCTransactions })(
   CCTransactionLogCard

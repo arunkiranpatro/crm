@@ -1,4 +1,5 @@
 import { GET_INTERACTIONS, SET_INTERACTIONS_LOADING } from "../constants";
+
 const initialState = {
   isLoading: true,
   interactions: []

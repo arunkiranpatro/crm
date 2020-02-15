@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
+import Moment from "react-moment";
 import Details from "../UILibrary/ReadOnlyData";
 import Layout from "../UILibrary/Layout";
 import { getAccountDetails } from "../../store/actions/accountActions";
-import Moment from "react-moment";
 
 class LatestAccountSnapshot extends React.Component {
   componentDidMount() {
@@ -12,7 +12,7 @@ class LatestAccountSnapshot extends React.Component {
   }
 
   render() {
-    let { account } = this.props.accountCard;
+    const { account } = this.props.accountCard;
     let body = "No results found";
     if (account) {
       body = (
@@ -48,12 +48,10 @@ LatestAccountSnapshot.propTypes = {
   getAccountDetails: PropTypes.func
 };
 
-const mapStateToProps = state => {
-  return {
-    accountCard: state.accountCard,
-    errors: state.errors
-  };
-};
+const mapStateToProps = state => ({
+  accountCard: state.accountCard,
+  errors: state.errors
+});
 
 export default connect(mapStateToProps, { getAccountDetails })(
   LatestAccountSnapshot

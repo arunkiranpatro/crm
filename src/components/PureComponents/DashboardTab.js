@@ -6,18 +6,16 @@ import InteractionsCard from "../ClassComponents/InteractionsCard";
 import Layout from "../UILibrary/Layout";
 import LastAccountSnapshot from "../ClassComponents/LastAccountSnapshot";
 
-const DashboardTab = () => {
-  return (
-    <>
-      <LastAccountSnapshot />
-      <Layout columns={2} className="widgets">
-        <TransactionLogCard />
-        <CCTransactionLogCard />
-        <FinancialCard />
-        <InteractionsCard />
-      </Layout>
-    </>
-  );
-};
+const DashboardTab = () => (
+  <>
+    <LastAccountSnapshot />
+    <Layout columns={2} className="widgets">
+      <TransactionLogCard />
+      <CCTransactionLogCard />
+      <FinancialCard />
+      <InteractionsCard />
+    </Layout>
+  </>
+);
 
 export default DashboardTab;

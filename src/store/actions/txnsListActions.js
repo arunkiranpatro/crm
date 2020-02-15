@@ -10,4 +10,3 @@ export const getTxnslist = () => dispatch => {
     payload: txns.pxResults
   });
 };
-

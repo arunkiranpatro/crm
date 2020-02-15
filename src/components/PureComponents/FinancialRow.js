@@ -7,7 +7,10 @@ export default function FinancialRow({ data }) {
       <>{data.FIName}</>
       <>{data.FIType}</>
       <>{data.CVFIStatus}</>
-      <>xxxx-{data.Last4}</>
+      <>
+        xxxx-
+        {data.Last4}
+      </>
     </Layout>
   );
 }

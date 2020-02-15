@@ -1,4 +1,5 @@
 import { GET_TXNCARD, SET_TXNCARD_LOADING } from "../constants";
+
 const initialState = {
   isLoading: true,
   txns: []

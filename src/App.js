@@ -12,28 +12,26 @@ import DashboardTab from "./components/PureComponents/DashboardTab";
 
 import "./css/index.scss";
 
-const App = () => {
-  return (
-    <div className="container">
-      <Provider store={store}>
-        <ErrorBoundary>
-          <AccountDetails />
-          <Tabs>
-            <TabLinks>
-              <TabLink id="0">Dashboard</TabLink>
-              <TabLink id="1">Transaction Log</TabLink>
-            </TabLinks>
-            <Tab id="0" name="Dashboard">
-              <DashboardTab />
-            </Tab>
-            <Tab id="1" name="Transactions Log" deferLoaded={true}>
-              <TransactionsTab />
-            </Tab>
-          </Tabs>
-        </ErrorBoundary>
-      </Provider>
-    </div>
-  );
-};
+const App = () => (
+  <div className="container">
+    <Provider store={store}>
+      <ErrorBoundary>
+        <AccountDetails />
+        <Tabs>
+          <TabLinks>
+            <TabLink id="0">Dashboard</TabLink>
+            <TabLink id="1">Transaction Log</TabLink>
+          </TabLinks>
+          <Tab id="0" name="Dashboard">
+            <DashboardTab />
+          </Tab>
+          <Tab id="1" name="Transactions Log" deferLoaded>
+            <TransactionsTab />
+          </Tab>
+        </Tabs>
+      </ErrorBoundary>
+    </Provider>
+  </div>
+);
 
 export default App;
