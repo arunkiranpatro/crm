@@ -3,7 +3,7 @@ import Layout from "../UILibrary/Layout";
 
 export default function FinancialRow({ data }) {
   return (
-    <Layout className="widget-row" columns="4">
+    <Layout className="widget-row" columns={4}>
       <>{data.FIName}</>
       <>{data.FIType}</>
       <>{data.CVFIStatus}</>

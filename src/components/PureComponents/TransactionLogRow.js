@@ -5,7 +5,7 @@ import Moment from "react-moment";
 export default function TransactionLogRow({ data }) {
   let txnAmtColorCls = data.GrossAmount.Amount > 0 ? "txn-green" : "txn-red";
   return (
-    <Layout className="widget-row" columns="4">
+    <Layout className="widget-row" columns={4}>
       <Moment format="DD-MM-YYYY hh:mm a">{data.TransactionDate}</Moment>
       <>{data.CounterpartyName}</>
       <>{data.Status}</>

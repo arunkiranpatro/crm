@@ -10,7 +10,7 @@ const DashboardTab = () => {
   return (
     <>
       <LastAccountSnapshot />
-      <Layout columns="2" className="widgets">
+      <Layout columns={2} className="widgets">
         <TransactionLogCard />
         <CCTransactionLogCard />
         <FinancialCard />

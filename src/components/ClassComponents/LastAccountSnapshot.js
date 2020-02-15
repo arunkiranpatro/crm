@@ -16,7 +16,7 @@ class LatestAccountSnapshot extends React.Component {
     let body = "No results found";
     if (account) {
       body = (
-        <Layout columns="4" className="snapshot">
+        <Layout columns={4} className="snapshot">
           <Details label="Last Transaction" className="snapshot-card">
             <div>{account.LastTransactionAmount}</div>
           </Details>

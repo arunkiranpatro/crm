@@ -63,7 +63,7 @@ class AccountDetails extends React.Component {
               value={account.AccountNumber}
               ccicon="true"
             />
-            <Details label="Primary Email: " ccicon="true">
+            <Details label="Primary Email: " ccicon={true}>
               {account.PrimaryEmail}
             </Details>
             <PhoneList
