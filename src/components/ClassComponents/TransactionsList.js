@@ -1,17 +1,18 @@
-import React, { Component } from "react";
+import React, { Suspense } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
-import Moment from "react-moment";
 import Loading from "../UILibrary/Loading";
 import Table from "../UILibrary/Table";
 import TableColumn from "../UILibrary/TableColumn";
 import TableRows from "../UILibrary/TableRows";
 import TableRow from "../UILibrary/TableRow";
 
-import { getTxnslist, sortTxns } from "../../store/actions/txnsListActions";
+import { getTxnslist } from "../../store/actions/txnsListActions";
 import TableColumns from "../UILibrary/TableColumns";
 
-class TransactionsList extends Component {
+const Moment = React.lazy(() => import("react-moment"));
+
+class TransactionsList extends React.Component {
   componentDidMount() {
     this.props.getTxnslist();
   }
@@ -20,9 +21,11 @@ class TransactionsList extends Component {
     const childBody = txns.map((result, index) => (
       <TableRows key={index}>
         <TableRow>
-          <Moment format="DD-MM-YYYY hh:mm a">
-            {result.TransactionDate}
-          </Moment>
+          <Suspense fallback={<Loading />}>
+            <Moment format="DD-MM-YYYY hh:mm a">
+              {result.TransactionDate}
+            </Moment>
+          </Suspense>
         </TableRow>
         <TableRow>{result.TransactionID}</TableRow>
         <TableRow>{result.TransactionType}</TableRow>
