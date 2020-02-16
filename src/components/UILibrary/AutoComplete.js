@@ -1,26 +1,26 @@
-import React, { useReducer, useRef } from 'react';
-import PropTypes from 'prop-types';
-import Loading from './Loading';
-import debounce from '../utils/Debounce';
+import React, { useReducer, useRef } from "react";
+import PropTypes from "prop-types";
+import Loading from "./Loading";
+import debounce from "../utils/Debounce";
 
 const initalState = {
-  searchText: '',
+  searchText: "",
   isLoading: false,
-  results: [],
+  results: []
 };
 
 function reducer(state, action) {
   switch (action.type) {
-    case 'SET_LOADING':
+    case "SET_LOADING":
       return {
         ...state,
         isLoading: true,
         results: [],
-        searchText: action.payload,
+        searchText: action.payload
       };
-    case 'FETCH_COMPLETE':
+    case "FETCH_COMPLETE":
       return { ...state, isLoading: false, results: action.payload };
-    case 'SET_SEARCH_TEXT':
+    case "SET_SEARCH_TEXT":
       return { ...state, searchText: action.payload, results: [] };
     default:
       throw new Error();
@@ -31,40 +31,40 @@ function AutoComplete(props) {
   const [state, dispatch] = useReducer(reducer, initalState);
   const { delay = 500 } = props;
   const { isLoading, results, searchText } = state;
-  const searchField = useRef('');
+  const searchField = useRef("");
   const _search = useRef(debounce(search, delay)).current;
 
   function onChangeAC(e) {
-    dispatch({ type: 'SET_SEARCH_TEXT', payload: e.target.value });
+    dispatch({ type: "SET_SEARCH_TEXT", payload: e.target.value });
     _search();
   }
 
   function search() {
     const query = searchField.current.value;
-    if (query !== '') {
-      dispatch({ type: 'SET_LOADING', payload: query });
+    if (query !== "") {
+      dispatch({ type: "SET_LOADING", payload: query });
       const resultPromise = props.getResults(query);
       if (
-        resultPromise !== null
-                && (typeof resultPromise === 'object'
-                    || typeof resultPromise === 'function')
-                && typeof resultPromise.then === 'function'
+        resultPromise !== null &&
+        (typeof resultPromise === "object" ||
+          typeof resultPromise === "function") &&
+        typeof resultPromise.then === "function"
       ) {
         resultPromise.then(result => {
-          dispatch({ type: 'FETCH_COMPLETE', payload: result });
+          dispatch({ type: "FETCH_COMPLETE", payload: result });
         });
       } else {
-        dispatch({ type: 'FETCH_COMPLETE', payload: [] });
+        dispatch({ type: "FETCH_COMPLETE", payload: [] });
       }
     }
   }
 
   function onSelect(e) {
-    dispatch({ type: 'SET_SEARCH_TEXT', payload: e.target.innerHTML });
+    dispatch({ type: "SET_SEARCH_TEXT", payload: e.target.innerHTML });
   }
 
   function renderResults() {
-    let body = '';
+    let body = "";
     if (results.length > 0) {
       body = (
         <div className="autocomplete-results">
@@ -100,7 +100,7 @@ function AutoComplete(props) {
 
 AutoComplete.propTypes = {
   getResults: PropTypes.func.isRequired,
-  delay: PropTypes.number,
+  delay: PropTypes.number
 };
 
 export default AutoComplete;

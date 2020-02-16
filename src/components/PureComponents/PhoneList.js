@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import Details from "../UILibrary/ReadOnlyData";
 
 const PhoneList = function(props) {
@@ -20,5 +22,12 @@ const PhoneList = function(props) {
     </Details>
   );
 };
-
+PhoneList.propTypes = {
+  ActivePhones: PropTypes.arrayOf(
+    PropTypes.shape({
+      PhoneNumber: PropTypes.string
+    })
+  ),
+  togglePhone: PropTypes.func.isRequired
+};
 export default PhoneList;

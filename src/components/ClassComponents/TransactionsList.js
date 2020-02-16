@@ -13,6 +13,11 @@ import TableColumns from "../UILibrary/TableColumns";
 const Moment = React.lazy(() => import("react-moment"));
 
 class TransactionsList extends React.Component {
+  constructor(props) {
+    super(props);
+    this.renderTablebody = this.renderTablebody.bind(this);
+    this.renderTableHeader = this.renderTableHeader.bind(this);
+  }
   componentDidMount() {
     this.props.getTxnslist();
   }
@@ -67,8 +72,8 @@ class TransactionsList extends React.Component {
       body = (
         <Table
           data={txns}
-          renderTableHeader={this.renderTableHeader.bind(this)}
-          renderTableBody={this.renderTablebody.bind(this)}
+          renderTableHeader={this.renderTableHeader}
+          renderTableBody={this.renderTablebody}
           sortColumn="TransactionDate"
           sortDirection="desc"
         />

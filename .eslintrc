@@ -13,7 +13,8 @@
          "no-console": "off",
          "space-before-function-paren": "off",
          "react/jsx-filename-extension": "off",
-         "object-curly-newline": "off"
+         "object-curly-newline": "off",
+         "react/destructuring-assignment": "off"
      },
      "env": {
          "browser": true,

@@ -7,13 +7,15 @@ import TabLinks from "./components/UILibrary/TabLinks";
 import TabLink from "./components/UILibrary/TabLink";
 import ErrorBoundary from "./components/ClassComponents/ErrorBoundary";
 import AccountDetails from "./components/ClassComponents/AccountDetails";
-import DashboardTab from "./components/PureComponents/DashboardTab";
 import Loading from "./components/UILibrary/Loading";
 
 import "./css/index.scss";
 
 const TransactionsTab = React.lazy(() =>
   import("./components/PureComponents/TransactionsTab")
+);
+const DashboardTab = React.lazy(() =>
+  import("./components/PureComponents/DashboardTab")
 );
 
 const App = () => (
@@ -27,7 +29,9 @@ const App = () => (
             <TabLink id="1">Transaction Log</TabLink>
           </TabLinks>
           <Tab id="0" name="Dashboard">
-            <DashboardTab />
+            <Suspense fallback={<Loading />}>
+              <DashboardTab />
+            </Suspense>
           </Tab>
           <Tab id="1" name="Transactions Log" deferLoaded>
             <Suspense fallback={<Loading />}>

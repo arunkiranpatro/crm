@@ -1,15 +1,15 @@
-import React, { Suspense } from 'react';
-import PropTypes from 'prop-types';
-import Loading from './Loading';
+import React, { Suspense } from "react";
+import PropTypes from "prop-types";
+import Loading from "./Loading";
 
-export default class DynamicContainer extends React.Component {
+class DynamicContainer extends React.Component {
   constructor(props) {
     super(props);
     if (DynamicContainer.instance) {
       return DynamicContainer.instance;
     }
     this.state = {
-      Component: null,
+      Component: null
     };
     DynamicContainer.instance = this;
   }
@@ -26,10 +26,16 @@ export default class DynamicContainer extends React.Component {
 
   render() {
     const { Component } = this.state;
-    let body = '';
+    let body = "";
     if (Component && Object.keys(Component).length > 0) {
       body = Component;
     }
     return <div className="dynamic-container">{body}</div>;
   }
 }
+
+DynamicContainer.propTypes = {
+  initial: PropTypes.node
+};
+
+export default DynamicContainer;

@@ -1,8 +1,10 @@
 import React from "react";
 import Moment from "react-moment";
+import PropTypes from "prop-types";
+
 import Layout from "../UILibrary/Layout";
 
-export default function TransactionLogRow({ data }) {
+function TransactionLogRow({ data }) {
   const txnAmtColorCls = data.GrossAmount.Amount > 0 ? "txn-green" : "txn-red";
   return (
     <Layout className="widget-row" columns={4}>
@@ -13,3 +15,15 @@ export default function TransactionLogRow({ data }) {
     </Layout>
   );
 }
+TransactionLogRow.propTypes = {
+  data: PropTypes.shape({
+    TransactionDate: PropTypes.string,
+    CounterpartyName: PropTypes.string,
+    Status: PropTypes.string,
+    GrossAmount: PropTypes.shape({
+      AmountCurrency: PropTypes.string,
+      Amount: PropTypes.string
+    })
+  })
+};
+export default TransactionLogRow;
