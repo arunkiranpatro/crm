@@ -1,16 +1,16 @@
-const throttle = function(func, limit) {
-  let inThrottle;
-  return function() {
-    const args = arguments;
-    const context = this;
-    if (!inThrottle) {
-      func.apply(context, args);
-      inThrottle = true;
-      setTimeout(function() {
-        inThrottle = false;
-      }, limit);
-    }
-  };
-};
+function throttle(func, limit) {
+    let inThrottle;
+    return function innerThrottle() {
+        const args = arguments;
+        const context = this;
+        if (!inThrottle) {
+            func.apply(context, args);
+            inThrottle = true;
+            setTimeout(function makeThrottleFalse() {
+                inThrottle = false;
+            }, limit);
+        }
+    };
+}
 
 export default throttle;
