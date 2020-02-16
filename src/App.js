@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Provider } from "react-redux";
 import store from "./store/index";
 import Tabs from "./components/UILibrary/Tabs";
@@ -7,10 +7,14 @@ import TabLinks from "./components/UILibrary/TabLinks";
 import TabLink from "./components/UILibrary/TabLink";
 import ErrorBoundary from "./components/ClassComponents/ErrorBoundary";
 import AccountDetails from "./components/ClassComponents/AccountDetails";
-import TransactionsTab from "./components/PureComponents/TransactionsTab";
 import DashboardTab from "./components/PureComponents/DashboardTab";
+import Loading from "./components/UILibrary/Loading";
 
 import "./css/index.scss";
+
+const TransactionsTab = React.lazy(() =>
+  import("./components/PureComponents/TransactionsTab")
+);
 
 const App = () => (
   <div className="container">
@@ -26,7 +30,9 @@ const App = () => (
             <DashboardTab />
           </Tab>
           <Tab id="1" name="Transactions Log" deferLoaded>
-            <TransactionsTab />
+            <Suspense fallback={<Loading />}>
+              <TransactionsTab />
+            </Suspense>
           </Tab>
         </Tabs>
       </ErrorBoundary>

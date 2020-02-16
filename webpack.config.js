@@ -1,11 +1,18 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const MomentLocalesPlugin = require("moment-locales-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
-  output: { path: path.resolve(__dirname, "dist"), filename: "bundle.js" },
-  mode: "development",
+  output: {
+    // `filename` provides a template for naming your bundles (remember to use `[name]`)
+    filename: "[name].bundle.js",
+    // `chunkFilename` provides a template for naming code-split bundles (optional)
+    chunkFilename: "[name].bundle.js",
+    path: path.resolve(__dirname, "dist")
+  },
+  mode: "production",
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
@@ -36,6 +43,10 @@ module.exports = {
       filename: "styles.css",
       chunkFilename: "[id].css"
     }),
-    new OptimizeCSSAssetsPlugin({})
+    new OptimizeCSSAssetsPlugin({}),
+    // To strip all locales except “en”
+    new MomentLocalesPlugin({
+      localesToKeep: ["es-us"]
+    })
   ]
 };
