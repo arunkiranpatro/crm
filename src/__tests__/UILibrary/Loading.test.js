@@ -1,27 +1,27 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { render, screen } from '@testing-library/react';
 import Loading from '../../components/UILibrary/Loading';
 
 describe('A Loading Test Suite', () => {
   it('should render without children', () => {
-    const markup = shallow(<Loading />);
-    expect(markup.find('div')).toHaveLength(1);
-    expect(markup.find('div').text()).toContain('Loading..');
-    expect(markup.hasClass('loading-div')).toBe(true);
+    const { container } = render(<Loading />);
+    expect(container.querySelectorAll('div')).toHaveLength(1);
+    expect(screen.getByText(/Loading\.\./)).toBeTruthy();
+    expect(container.firstChild).toHaveClass('loading-div');
   });
   it('should render with string', () => {
-    const markup = shallow(<Loading>In Progress</Loading>);
-    expect(markup.find('div')).toHaveLength(1);
-    expect(markup.find('div').text()).toContain('In Progress');
-    expect(markup.hasClass('loading-div')).toBe(true);
+    const { container } = render(<Loading>In Progress</Loading>);
+    expect(container.querySelectorAll('div')).toHaveLength(1);
+    expect(screen.getByText(/In Progress/)).toBeTruthy();
+    expect(container.firstChild).toHaveClass('loading-div');
   });
   it('should render with children', () => {
-    const markup = shallow(
+    const { container } = render(
       <Loading>
         <div>test</div>
       </Loading>
     );
-    expect(markup.find('div')).toHaveLength(2);
-    expect(markup.hasClass('loading-div')).toBe(true);
+    expect(container.querySelectorAll('div')).toHaveLength(2);
+    expect(container.firstChild).toHaveClass('loading-div');
   });
 });
