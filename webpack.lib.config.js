@@ -1,9 +1,18 @@
 const path = require("path");
+const TerserPlugin = require("terser-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 const sharedOptimization = {
-  minimizer: [`...`, new CssMinimizerPlugin()]
+  minimizer: [
+    new TerserPlugin({
+      // Inline licenses as comments instead of emitting separate .LICENSE.txt files.
+      // This prevents Turbopack / bundlers from trying to process .txt files.
+      terserOptions: { format: { comments: false } },
+      extractComments: false
+    }),
+    new CssMinimizerPlugin()
+  ]
 };
 
 const sharedResolve = { extensions: [".js", ".jsx"] };
