@@ -1,6 +1,6 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const MomentLocalesPlugin = require("moment-locales-webpack-plugin");
 const CompressionPlugin = require("compression-webpack-plugin");
 
@@ -16,7 +16,11 @@ module.exports = {
   optimization: {
     splitChunks: {
       chunks: "all"
-    }
+    },
+    minimizer: [
+      `...`,
+      new CssMinimizerPlugin()
+    ]
   },
   mode: "production",
   module: {
@@ -37,8 +41,9 @@ module.exports = {
     ]
   },
   devServer: {
-    inline: true,
-    contentBase: "./dist",
+    static: {
+      directory: path.join(__dirname, "dist")
+    },
     port: 3000
   },
   devtool: "source-map",
@@ -49,8 +54,7 @@ module.exports = {
       filename: "styles.css",
       chunkFilename: "[id].css"
     }),
-    new OptimizeCSSAssetsPlugin({}),
-    // To strip all locales except “en”
+    // To strip all locales except "en"
     new MomentLocalesPlugin({
       localesToKeep: ["es-us"]
     }),
