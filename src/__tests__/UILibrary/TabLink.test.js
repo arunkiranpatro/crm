@@ -1,58 +1,61 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
+import { render, fireEvent } from '@testing-library/react';
 import TabLink from '../../components/UILibrary/TabLink';
 import Tabs from '../../components/UILibrary/Tabs';
 
 describe('A TabLink Test Suite', () => {
   it('should have active class', () => {
-    const markup = shallow(
-      <TabLink id="1" activeId="1">
+    const { container } = render(
+      <TabLink id="1" activeId="1" handleClick={() => {}}>
         s Tab-1
       </TabLink>
     );
-
-    expect(markup.find('li')).toHaveLength(1);
-    expect(markup.hasClass('tab-link')).toBe(true);
-    expect(markup.hasClass('active-tab')).toBe(true);
-    expect(markup.find('li[aria-selected="true"]')).toHaveLength(1);
-    expect(markup.find('li[role="tab"]')).toHaveLength(1);
+    const li = container.querySelector('li');
+    expect(container.querySelectorAll('li')).toHaveLength(1);
+    expect(li).toHaveClass('tab-link');
+    expect(li).toHaveClass('active-tab');
+    expect(li.getAttribute('aria-selected')).toBe('true');
+    expect(li.getAttribute('role')).toBe('tab');
   });
   it('should not have active class', () => {
-    const markup = shallow(
-      <TabLink id="1" activeId="2">
+    const { container } = render(
+      <TabLink id="1" activeId="2" handleClick={() => {}}>
         Tab-1
       </TabLink>
     );
-    expect(markup.find('li')).toHaveLength(1);
-    expect(markup.hasClass('tab-link')).toBe(true);
-    expect(markup.hasClass('active-tab')).toBe(false);
-    expect(markup.find('li[aria-selected="false"]')).toHaveLength(1);
-    expect(markup.find('li[role="tab"]')).toHaveLength(1);
+    const li = container.querySelector('li');
+    expect(container.querySelectorAll('li')).toHaveLength(1);
+    expect(li).toHaveClass('tab-link');
+    expect(li).not.toHaveClass('active-tab');
+    expect(li.getAttribute('aria-selected')).toBe('false');
+    expect(li.getAttribute('role')).toBe('tab');
   });
   it('should have active class after click', () => {
-    const markup = mount(
+    const { container } = render(
       <Tabs defaultActive="2">
         <TabLink id="1">Tab-1</TabLink>
       </Tabs>
     );
-    expect(markup.find('li')).toHaveLength(1);
-    expect(markup.find('li').hasClass('tab-link')).toBe(true);
-    expect(markup.find('li').hasClass('active-tab')).toBe(false);
-    markup.find('li').simulate('click');
-    expect(markup.find('li').hasClass('active-tab')).toBe(true);
+    const li = container.querySelector('li');
+    expect(container.querySelectorAll('li')).toHaveLength(1);
+    expect(li).toHaveClass('tab-link');
+    expect(li).not.toHaveClass('active-tab');
+    fireEvent.click(li);
+    expect(li).toHaveClass('active-tab');
   });
   it('should have aria labels', () => {
-    const markup = mount(
+    const { container } = render(
       <Tabs defaultActive="2">
         <TabLink id="1">Tab-1</TabLink>
       </Tabs>
     );
-    expect(markup.find('li')).toHaveLength(1);
-    expect(markup.find('li').hasClass('tab-link')).toBe(true);
-    expect(markup.find('li').hasClass('active-tab')).toBe(false);
-    markup.find('li').simulate('click');
-    expect(markup.find('li').hasClass('active-tab')).toBe(true);
-    expect(markup.find('li[aria-selected="true"]')).toHaveLength(1);
-    expect(markup.find('li[role="tab"]')).toHaveLength(1);
+    const li = container.querySelector('li');
+    expect(container.querySelectorAll('li')).toHaveLength(1);
+    expect(li).toHaveClass('tab-link');
+    expect(li).not.toHaveClass('active-tab');
+    fireEvent.click(li);
+    expect(li).toHaveClass('active-tab');
+    expect(li.getAttribute('aria-selected')).toBe('true');
+    expect(li.getAttribute('role')).toBe('tab');
   });
 });
